@@ -1,7 +1,7 @@
 {
   "description": "SHA-256 checksums of the public project files; excludes this manifest and Git internals.",
   "file_count": 5951,
-  "total_bytes": 976657449,
+  "total_bytes": 976657097,
   "files": [
     {
       "path": ".gitattributes",
@@ -27710,8 +27710,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8049,
-      "sha256": "b729d58bc1bd199a33b48ec62821b692d1ddf04eee1224be47481111a69f0b2e"
+      "bytes": 7697,
+      "sha256": "d622196f12a81de86a90070ec8f48d5f16540b04b988a5d4235e05d894b64b90"
     },
     {
       "path": "slides/html/deck-410e8a/5a2fd9f787af45b8047e80af63ea7bb8.png",

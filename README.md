@@ -55,8 +55,6 @@ The supplied workflow distinguishes `REFIT_MODELS=True` (fit and evaluate models
 ### Wallet-level PCA and outliers
 Read [the wallet-table README](team_materials/wallet_level_table/README.md). The paired folders retain the relative layout used by the R analysis. From `team_materials/alpha_shape_wallets/`, `run_13features_verified.R` is the entry point for the slide cohort. Its saved outputs are in `alpha_results_pca3d_13_verified/`. Other result folders are earlier or alternative analyses, not interchangeable versions of the reported cohort. R dependencies are declared in the corresponding scripts and package source.
 
-The outlier method is **alpha-shape-based detection in PCA space**. MST calculations are used internally for gap detection and sensitivity checks. The reported outlier flag is exclusion from the resulting alpha shape; the implementation records alpha-shape exclusion and MST-dropped flags separately (`point_status()` in `wallet_alpha_analysis.R`).
-
 ## Interpreting the saved results
 - The matched prediction comparison uses 39,659 initial training rows, 52,888 final refit rows, and 26,507 evaluation rows. Short-history features provide limited incremental prediction in this sample.
 - The original **eight-test** Holm family gives the joint week-to-date history test adjusted p = **0.847379**. The later exploratory **twelve-test** family gives that joint test adjusted p = **1.00**, and week-to-date average buy size adjusted p = **0.879285**. Identify the correction family when quoting values; do not combine them into a single correction table.
