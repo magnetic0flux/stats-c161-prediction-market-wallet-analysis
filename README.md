@@ -2,7 +2,7 @@
 
 Public data, code, saved analysis results, and presentation for our STATS C161 group project.
 
-**Group members:** YuZhe He; Zhiru Guoli; Asuka Iwamoto; Lexie Zhang; Zhenlong Zhang.
+**Group members:** Yuzhe He; Zhiru Guoli; Asuka Iwamoto; Lexie Zhang; Zhenlong Zhang.
 
 **Slides:** [Submission PDF](slides/STATS_C161_Midterm_Submission.pdf). The first page includes the group members and this repository's public URL. For the original interactive presentation, download the repository and open [slides/html/index.html](slides/html/index.html) with its accompanying assets.
 

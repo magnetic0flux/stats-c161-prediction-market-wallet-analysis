@@ -27711,7 +27711,7 @@
     {
       "path": "README.md",
       "bytes": 7661,
-      "sha256": "c080f93aead44ffceb4724e5680c87c9aa8335a349d7c1f617d9b6ee005e6541"
+      "sha256": "0a0233a3ec759fd20b12b42b6cb343c44eac5b123041774ef0031429010e05e7"
     },
     {
       "path": "slides/html/deck-410e8a/5a2fd9f787af45b8047e80af63ea7bb8.png",
@@ -27731,7 +27731,7 @@
     {
       "path": "slides/html/index.html",
       "bytes": 351626,
-      "sha256": "cb8c130780ddea72679afe8d8dc67d25f69dc5821125406c81d36a097b2a2a9e"
+      "sha256": "83a09b2cda48ddde1cea2a83633c4da8c5a01452c287f0a1f3c4035efabf8a71"
     },
     {
       "path": "slides/html/lib/fonts/asul/asul-bold.woff",
@@ -28126,7 +28126,7 @@
     {
       "path": "slides/STATS_C161_Midterm_Submission.pdf",
       "bytes": 3428569,
-      "sha256": "578273715a15c1c51ce7da6dc637920413881175f673d4ba418e4d742c714c6c"
+      "sha256": "715c49d5b7a959fa48e0ad53a8212524f92114c5217cda495a9bcfd0d0603657"
     },
     {
       "path": "team_materials/added_history_tests/added_history_tests.py",
