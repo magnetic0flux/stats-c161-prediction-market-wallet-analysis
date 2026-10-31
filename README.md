@@ -55,12 +55,6 @@ The supplied workflow distinguishes `REFIT_MODELS=True` (fit and evaluate models
 ### Wallet-level PCA and outliers
 Read [the wallet-table README](team_materials/wallet_level_table/README.md). The paired folders retain the relative layout used by the R analysis. From `team_materials/alpha_shape_wallets/`, `run_13features_verified.R` is the entry point for the slide cohort. Its saved outputs are in `alpha_results_pca3d_13_verified/`. Other result folders are earlier or alternative analyses, not interchangeable versions of the reported cohort. R dependencies are declared in the corresponding scripts and package source.
 
-## Interpreting the saved results
-- The matched prediction comparison uses 39,659 initial training rows, 52,888 final refit rows, and 26,507 evaluation rows. Short-history features provide limited incremental prediction in this sample.
-- The original **eight-test** Holm family gives the joint week-to-date history test adjusted p = **0.847379**. The later exploratory **twelve-test** family gives that joint test adjusted p = **1.00**, and week-to-date average buy size adjusted p = **0.879285**. Identify the correction family when quoting values; do not combine them into a single correction table.
-- Random forest provides an alternative supervised model for the same conditional-profit target. Similar aggregate performance is not proof that predictions are identical or that the two methods are statistically equivalent.
-- The PCA and alpha-shape analysis describes unusual wallet behavior. A detected outlier is not a verified insider.
-
 ## Scope and limitations
 Conditional gross profit is sell proceeds minus buy spending plus settlement value of remaining shares. It assumes zero opening holdings, complete trading records, and no fees. It does not establish verified net returns or trading skill. The test period has been inspected repeatedly, and the comparisons are exploratory. Event concentration and repeated wallets limit independence. A wallet is an address, not necessarily a unique person. Candidate selection is retrospective; recorded resolution times do not necessarily equal historical public announcement times.
 
