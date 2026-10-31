@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=mlb-cws-cle-2026-10-03-total-8pt5&slug=mlb-cws-hou-2026-09-30-f5-total-3pt5&slug=mlb-cws-hou-2026-09-30-tb-jeremy-pena-1pt5&slug=mlb-cws-hou-2026-09-30-team-total-cws-4pt5&slug=mlb-cws-hou-2026-09-30-total-6pt5&slug=mlb-cws-hou-2026-09-30-total-7pt5&slug=mlb-nyy-tb-2026-10-03-spread-away-2pt5&slug=mlb-nyy-tb-2026-10-03-total-8pt5&slug=mlb-phi-atl-2026-09-30-hr-bryson-stott-1pt5&slug=mlb-phi-atl-2026-09-30-hr-matt-olson-0pt5&slug=mlb-phi-atl-2026-09-30-hr-mauricio-dubon-1pt5&slug=mlb-phi-atl-2026-09-30-hr-michael-harris-ii-1pt5&slug=mlb-phi-atl-2026-09-30-hr-ozzie-albies-0pt5&slug=mlb-phi-atl-2026-09-30-hr-ozzie-albies-1pt5&slug=mlb-phi-atl-2026-10-01-extra-innings&slug=mlb-phi-atl-2026-10-01-f5-spread-home-1pt5&slug=mlb-phi-atl-2026-10-01-f5-total-3pt5&slug=mlb-phi-atl-2026-10-01-f5-total-4pt5&slug=mlb-phi-atl-2026-10-01-f5-total-5pt5&slug=mlb-phi-atl-2026-10-01-inning-1-winner-home&slug=mlb-phi-atl-2026-10-01-inning-6-winner-home&slug=mlb-phi-atl-2026-10-01-inning-7-winner-home&slug=mlb-phi-atl-2026-10-01-spread-home-2pt5&slug=mlb-phi-atl-2026-10-01-team-total-atl-3pt5&slug=mlb-sd-mil-2026-10-03-spread-away-1pt5&slug=mlb-sd-mil-2026-10-03-spread-away-2pt5&slug=mlb-sd-mil-2026-10-03-spread-home-2pt5&slug=mlb-sd-mil-2026-10-03-total-7pt5&slug=mlb-sd-mil-2026-10-03-total-8pt5&slug=mlb-sd-mil-2026-10-04&slug=mlb-sd-mil-2026-10-04-f5-spread-home-1pt5&slug=mlb-sd-mil-2026-10-04-f5-total-2pt5&slug=mlb-sd-mil-2026-10-04-first-five-winner-home&slug=mlb-sd-mil-2026-10-04-hr-fernando-tatis-jr-0pt5&slug=mlb-sd-mil-2026-10-04-k-michael-king-4pt5&slug=mlb-sd-mil-2026-10-04-spread-away-1pt5&slug=mlb-sd-mil-2026-10-04-spread-away-2pt5&slug=mlb-sd-mil-2026-10-04-spread-home-1pt5&slug=mlb-sd-mil-2026-10-04-total-5pt5&slug=mlb-sd-mil-2026-10-04-total-6pt5",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:48.265649+00:00",
+  "http_status": 200,
+  "response_sha256": "a5f63d25bccebdef2ec83444f2a6f820d0346947f31081d6e04d03e7c5fc2d48",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:48 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:48 GMT"
+  }
+}

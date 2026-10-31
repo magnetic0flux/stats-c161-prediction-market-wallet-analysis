@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=will-trump-say-shit-during-his-remarks-at-peterbilt-motors-company-october-1&slug=will-trump-say-si-during-his-remarks-at-peterbilt-motors-company-october-1&slug=will-trump-say-truck-20-times-during-his-remarks-at-peterbilt-motors-company-october-1&slug=will-trumps-remarks-at-peterbilt-motors-company-not-air&slug=will-tsla-dip-to-307-50-by-september-28-2026&slug=will-tsla-reach-352-50-by-september-28-2026&slug=will-xagusd-reach-61-by-september-28-2026-from-september-30&slug=will-xauusd-dip-to-4150-by-september-28-2026-from-september-30&slug=will-xauusd-reach-4200-by-september-28-2026-from-september-30&slug=wnba-las-gsv-2026-10-04-1h-total-80pt5&slug=wsl-avl-cry-2026-10-04-avl&slug=wsl-avl-cry-2026-10-04-exact-score-0-0&slug=wsl-avl-cry-2026-10-04-exact-score-0-1&slug=wsl-avl-cry-2026-10-04-exact-score-1-0&slug=wsl-avl-cry-2026-10-04-exact-score-1-1&slug=wsl-avl-cry-2026-10-04-exact-score-2-0&slug=wsl-avl-cry-2026-10-04-exact-score-2-1&slug=wsl-avl-cry-2026-10-04-exact-score-2-2&slug=wsl-avl-cry-2026-10-04-exact-score-3-1&slug=wsl-avl-cry-2026-10-04-halftime-result-away&slug=wsl-avl-cry-2026-10-04-halftime-result-home&slug=wsl-avl-cry-2026-10-04-team-total-away-0pt5&slug=wsl-avl-cry-2026-10-04-team-total-away-4pt5&slug=wsl-avl-cry-2026-10-04-team-total-away-5pt5&slug=wsl-eve-brm-2026-10-04-brm&slug=wsl-eve-brm-2026-10-04-draw&slug=wsl-eve-brm-2026-10-04-eve&slug=wsl-eve-brm-2026-10-04-exact-score-2-1&slug=wsl-eve-brm-2026-10-04-halftime-result-away&slug=wti-closes-above-92-on-october-1-2026&slug=xrp-up-or-down-october-1-2026-11pm-et&slug=xrp-up-or-down-october-1-2026-12am-et&slug=xrp-up-or-down-october-1-2026-1pm-et&slug=xrp-up-or-down-october-1-2026-4pm-et&slug=xrp-up-or-down-october-1-2026-6pm-et&slug=xrp-up-or-down-october-1-2026-7pm-et&slug=xrp-up-or-down-october-1-2026-8pm-et&slug=xrp-up-or-down-on-october-2-2026&slug=xrp-up-or-down-september-30-2026-10pm-et&slug=xrp-up-or-down-september-30-2026-9pm-et",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:51.296221+00:00",
+  "http_status": 200,
+  "response_sha256": "7012ed8f85680c91785bc2adddaf9e9b5242cbb749f95564735b910b37135c42",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:51 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:51 GMT"
+  }
+}

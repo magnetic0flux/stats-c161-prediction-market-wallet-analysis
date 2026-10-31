@@ -1,0 +1,12 @@
+{
+  "event_proxy_groups": 146,
+  "bootstrap_replicates": 300,
+  "effective_event_proxy_groups_inverse_hhi": 4.193383135139648,
+  "largest_event_row_share": 0.4753838608669408,
+  "log_loss_delta": 4.3832371957277556e-05,
+  "log_loss_delta_ci_low": -0.0001825206531894878,
+  "log_loss_delta_ci_high": 0.0005829831751981065,
+  "brier_delta": -5.323907642398393e-05,
+  "brier_delta_ci_low": -0.00015290086373539034,
+  "brier_delta_ci_high": 0.00016031410740553718
+}

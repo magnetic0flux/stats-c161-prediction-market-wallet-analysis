@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=highest-temperature-in-wuhan-on-october-4-2026-20c&slug=highest-temperature-in-wuhan-on-october-4-2026-22c&slug=highest-temperature-in-wuhan-on-october-4-2026-23c&slug=highest-temperature-in-wuhan-on-october-4-2026-24c&slug=highest-temperature-in-wuhan-on-october-4-2026-25c&slug=highest-temperature-in-wuhan-on-october-4-2026-26corhigher&slug=hype-up-or-down-october-1-2026-11pm-et&slug=hype-up-or-down-october-1-2026-12am-et&slug=hype-up-or-down-october-1-2026-4pm-et&slug=hype-up-or-down-october-1-2026-5pm-et&slug=hype-up-or-down-october-1-2026-8pm-et&slug=hype-up-or-down-october-2-2026-11pm-et&slug=hype-up-or-down-october-2-2026-2pm-et&slug=hype-up-or-down-on-october-2-2026&slug=hype-up-or-down-september-30-2026-10pm-et&slug=hype-up-or-down-september-30-2026-9pm-et&slug=hype-updown-15m-1790801100&slug=hype-updown-15m-1790811900&slug=hype-updown-15m-1790812800&slug=hype-updown-15m-1790819100&slug=hype-updown-15m-1790820000&slug=hype-updown-15m-1790823600&slug=hype-updown-15m-1790826300&slug=hype-updown-15m-1790903700&slug=hype-updown-15m-1790910900&slug=hype-updown-15m-1790964900&slug=hype-updown-15m-1791026100&slug=hype-updown-15m-1791062100&slug=hype-updown-15m-1791064800&slug=hype-updown-15m-1791091800&slug=hype-updown-15m-1791092700&slug=hype-updown-15m-1791114300&slug=hype-updown-15m-1791115200&slug=hype-updown-15m-1791122400&slug=hype-updown-15m-1791139500&slug=hype-updown-15m-1791144900&slug=hype-updown-15m-1791148500&slug=hype-updown-15m-1791154800&slug=hype-updown-4h-1790812800&slug=hype-updown-4h-1790884800",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:39.496843+00:00",
+  "http_status": 200,
+  "response_sha256": "d04d6d992f2711c75d7ca52e719952ba8445347022c900e97c3fc24e7c0817ed",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:39 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:39 GMT"
+  }
+}

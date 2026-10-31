@@ -1,0 +1,23 @@
+{
+  "reconstructed_candidate_rows": 96184,
+  "known_conditional_labels": 89736,
+  "source_raw_rows": 6815814,
+  "independent_fixed24h_checked_rows": 120,
+  "window_diagnostics": {
+    "max_relative_maintained_square_drift": 4.7649301393448695e-08,
+    "emitted_rows": 96184,
+    "float_tolerance": 1e-08,
+    "HHI_numerator_recomputed_at_every_emitted_cutoff": true
+  },
+  "event_group_source": "Original conservative proxies unioned by exact course-database event_slug; no independent on-chain verification rerun.",
+  "elapsed_seconds": 41.00536322100015,
+  "raw_file_hashes": {
+    "trades-2026-09-29.parquet": "af85dc274956f7f3a76696efc83052b08d671aca2491a4e13ec4d8fcaf39907c",
+    "trades-2026-09-30.parquet": "3981c63f429b66719bb1ae95d4c8ec26717a1be5c73d68a2653123f67f3b5091",
+    "trades-2026-10-01.parquet": "ad0d5d6f424df1a4a58b104b03ae480885ba91929af4df67eb40b27bf07f6a05",
+    "trades-2026-10-02.parquet": "4374c033569c71989da808f1b2e70d1d793b02fab46ee6d9c84406ccd9401b75",
+    "trades-2026-10-03.parquet": "1da96ad019e61b998ad870cd1a6c752e1c284f6e6bb9e5ff2bd6a02aac93491e",
+    "trades-2026-10-04.parquet": "bcab0f0d5e6026786ad2e7622b4ed771d37db061526ed4733443d58bec268066",
+    "trades-2026-10-05.parquet": "e57946b680707018dda72ec7fc76618da5b3430086f33de2e4e7ff6846351f14"
+  }
+}

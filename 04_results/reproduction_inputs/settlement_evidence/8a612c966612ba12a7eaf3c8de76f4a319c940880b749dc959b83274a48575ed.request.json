@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=uslc-lou-iel-2026-10-03-iel&slug=uslc-lou-iel-2026-10-03-lou&slug=uslc-tam-mia-2026-10-03-draw&slug=uslc-tam-mia-2026-10-03-mia&slug=uslc-tul-srp-2026-10-03-draw&slug=uslc-tul-srp-2026-10-03-tul&slug=val-ef-pcfic-2026-10-03&slug=val-fut1-t1-2026-10-04-game2-round-total-21pt5&slug=val-fut1-t1-2026-10-04-map-handicap-home-1pt5&slug=val-fut1-t1-2026-10-04-total-games-2pt5&slug=val-loud-ge1-2026-10-04-game1-round-handicap-loud-2pt5&slug=val-loud-ge1-2026-10-04-game1-round-total-21pt5&slug=val-loud-ge1-2026-10-04-map-handicap-away-1pt5&slug=val-loud-ge1-2026-10-04-total-games-2pt5&slug=val-mis-nkvt-2026-10-03-game2&slug=where-will-it-rain-on-october-2-2026-atlanta-ga&slug=where-will-it-rain-on-october-2-2026-dallas-tx&slug=where-will-it-rain-on-october-2-2026-miami-fl&slug=where-will-it-rain-on-october-2-2026-new-orleans-la&slug=where-will-it-rain-on-october-2-2026-philadelphia-pa&slug=where-will-it-rain-on-october-2-2026-san-francisco-ca&slug=where-will-it-rain-on-october-2-2026-seattle-wa&slug=where-will-it-rain-on-october-2-2026-washington-dc&slug=where-will-it-rain-on-october-3-2026-atlanta-ga&slug=where-will-it-rain-on-october-3-2026-miami-fl&slug=where-will-it-rain-on-october-3-2026-new-orleans-la&slug=where-will-it-rain-on-october-3-2026-philadelphia-pa&slug=where-will-it-rain-on-october-3-2026-san-francisco-ca&slug=where-will-it-rain-on-october-3-2026-washington-dc&slug=where-will-it-rain-on-september-30-2026-atlanta-ga&slug=where-will-it-rain-on-september-30-2026-boston-ma&slug=where-will-it-rain-on-september-30-2026-chicago-il&slug=where-will-it-rain-on-september-30-2026-dallas-tx&slug=where-will-it-rain-on-september-30-2026-denver-co&slug=where-will-it-rain-on-september-30-2026-houston-tx&slug=where-will-it-rain-on-september-30-2026-los-angeles-ca&slug=where-will-it-rain-on-september-30-2026-miami-fl&slug=where-will-it-rain-on-september-30-2026-new-orleans-la&slug=where-will-it-rain-on-september-30-2026-new-york-ny&slug=where-will-it-rain-on-september-30-2026-philadelphia-pa",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:50.149476+00:00",
+  "http_status": 200,
+  "response_sha256": "15fe97c30d2af774499a60ec7bbeb4d4cc12470067b19ad29a5573e205ba8f90",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:50 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:50 GMT"
+  }
+}

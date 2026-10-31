@@ -1,0 +1,38 @@
+{
+  "source_sha256": "b24400a1672c9157b95b286ed1bbe72797800bdec00b193abe16cd2e96d083dc",
+  "input_sha256": {
+    "data/candidate_markets_100plus_wallets.csv": "071fce12bf3694a968fce9800e249d4307428fb8b8564691136678193eae8c5d",
+    "data/candidate_markets_preliminary.csv": "c3e7ba434a66d6bbfdd3c6704d4af63d0f708d366907eab69f8f77782a82309e",
+    "data/pilot_market_metadata.csv": "bdccecc438fea90f3ff795b1fdc09e224246f7abac1220f644eb905fc312a13d",
+    "data/pilot_trades_three_markets.parquet": "1b3f06ef8f7d5c125af72f45cbddd682c4d7c91807bb40b4e0095e178d656860",
+    "data/weekly_market_metadata_complete.csv": "4f38ff33a2014a1c0a79012be882c5e74ebec5456d7c2b4ede8925c7f6c5fa47",
+    "data/weekly_market_summary.csv": "d295514881acfa3bfecb1db9a9a49f6c4a14d101688339937434fb685021288f",
+    "data/weekly_trades/README.txt": "832819eb87b66287a2d67fa33efc821aab8b9e1ecae05c1772037e5f09a845cb",
+    "data/weekly_trades/download_manifest.json": "c363b313bd03a96c3edec2caa00875cbbf25a728d8b0bbbb630171f04561f0d9",
+    "data/weekly_trades/trades-2026-09-29.parquet": "af85dc274956f7f3a76696efc83052b08d671aca2491a4e13ec4d8fcaf39907c",
+    "data/weekly_trades/trades-2026-09-30.parquet": "3981c63f429b66719bb1ae95d4c8ec26717a1be5c73d68a2653123f67f3b5091",
+    "data/weekly_trades/trades-2026-10-01.parquet": "ad0d5d6f424df1a4a58b104b03ae480885ba91929af4df67eb40b27bf07f6a05",
+    "data/weekly_trades/trades-2026-10-02.parquet": "4374c033569c71989da808f1b2e70d1d793b02fab46ee6d9c84406ccd9401b75",
+    "data/weekly_trades/trades-2026-10-03.parquet": "1da96ad019e61b998ad870cd1a6c752e1c284f6e6bb9e5ff2bd6a02aac93491e",
+    "data/weekly_trades/trades-2026-10-04.parquet": "bcab0f0d5e6026786ad2e7622b4ed771d37db061526ed4733443d58bec268066",
+    "data/weekly_trades/trades-2026-10-05.parquet": "e57946b680707018dda72ec7fc76618da5b3430086f33de2e4e7ff6846351f14"
+  },
+  "output_sha256": {
+    "results/full_week/candidate_market_accounting_summary.csv": "472d9d7ea0323f5b935368c73e2ed0d16bb02b80e219b7a8473e75fb4f2af1d7",
+    "results/full_week/full_week_candidate_coverage.csv": "2f23187a08bb215a1f0c32d32ac6d3f6f55c60989387a6ef02ae7e911b85bdeb",
+    "results/full_week/full_week_daily_audit.csv": "32b7e93afb88f1a916d95ecfc1f587607cdf03ce0bafb401a7c54841715d8d9c",
+    "results/full_week/full_week_file_date_audit.csv": "92ea3773423aef4d222225c6edd79cef5f2566b6acd1048a7c5fce402fd40361",
+    "results/full_week/full_week_market_audit.csv": "ef5b82ce4694291a1f45c570fe78cb7a4bca951f9bebc89e6a52fd675f187286",
+    "results/full_week/wallet_market_candidates_feature_dictionary.csv": "6fa08c00e2266e97022d25a936234ba5bb0d52fe031bb7a2d667e66502b3c2c6",
+    "results/full_week/wallet_market_candidates_full_week.csv": "b3eaf9a55ea757a9cc54dc1895cf441b2cb78fec8cad60a05fd43537ac0d222b",
+    "results/full_week/wallet_market_candidates_full_week.parquet": "459947c756e9966517fdf222f303026bb6afb26633b939919c49544acf090abf",
+    "results/full_week/wallet_market_full_week.csv": "0496d56b3541f68f6b2dfde95e9aadc95ad8d89d1a0f50b99905e4c3ac572651",
+    "results/full_week/wallet_market_full_week.executed.ipynb": "cc4fda95d001ab17f84533441f23dacd5b437515430967513b2b16429182cf5e",
+    "results/full_week/wallet_market_full_week_feature_dictionary.csv": "c9227d501842655ba9f64f35ac413807b69be5d0536d34322012ae91b491061d",
+    "results/full_week/wallet_market_full_week_provenance.json": "ae8242805d1539a046e00729f49ce2ffec15b047d44e1b40d441e8d003d88b2c"
+  },
+  "code_cells_executed": 14,
+  "elapsed_seconds": 270.75380755309016,
+  "job_id": "15217628",
+  "python": "3.9.6 (default, Aug 18 2021, 11:08:34) \n[GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]"
+}

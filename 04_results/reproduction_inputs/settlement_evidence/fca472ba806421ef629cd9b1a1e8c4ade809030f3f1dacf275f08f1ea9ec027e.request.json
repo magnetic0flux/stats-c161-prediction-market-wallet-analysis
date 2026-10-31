@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=argpn-tri-qui-2026-10-03-exact-score-1-1&slug=argpn-tri-qui-2026-10-03-exact-score-2-1&slug=argpn-tri-qui-2026-10-03-exact-score-2-2&slug=argpn-tri-qui-2026-10-03-halftime-result-away&slug=argpn-tri-qui-2026-10-03-halftime-result-draw&slug=argpn-tri-qui-2026-10-03-halftime-result-home&slug=argpn-tri-qui-2026-10-03-qui&slug=argpn-tri-qui-2026-10-03-team-total-away-3pt5&slug=argpn-tri-qui-2026-10-03-team-total-away-4pt5&slug=argpn-tri-qui-2026-10-03-team-total-away-5pt5&slug=argpn-tri-qui-2026-10-03-team-total-home-4pt5&slug=argpn-tri-qui-2026-10-03-tri&slug=biggest-earthquake-2026-09-29-5-3-to-5-4&slug=biggest-earthquake-2026-09-29-5-5-to-5-6&slug=biggest-earthquake-2026-09-29-5-7-to-5-8&slug=biggest-earthquake-2026-09-29-5-9-to-6-0&slug=biggest-earthquake-2026-09-29-under-5-3&slug=biggest-earthquake-2026-10-03-5-7-to-5-8&slug=biggest-earthquake-2026-10-03-6-1-plus&slug=biggest-earthquake-2026-10-03-under-5-3&slug=bitcoin-above-83600-on-october-1-2026-2pm-et&slug=bitcoin-above-83600-on-october-4-2026-5pm-et&slug=bitcoin-above-83800-on-october-1-2026-2pm-et&slug=bitcoin-above-84000-on-october-1-2026-2pm-et&slug=bitcoin-above-84400-on-october-1-2026-2pm-et&slug=bitcoin-above-84600-on-october-1-2026-2pm-et&slug=bitcoin-above-84800-on-october-2-2026-12pm-et&slug=bitcoin-above-85000-on-october-2-2026-12pm-et&slug=bitcoin-above-85000-on-october-4-2026-12pm-et&slug=bitcoin-above-85000-on-october-4-2026-2am-et&slug=bitcoin-above-85000-on-october-4-2026-7am-et&slug=bitcoin-above-85200-on-october-1-2026-2pm-et&slug=bitcoin-above-85200-on-october-2-2026-12pm-et&slug=bitcoin-above-85200-on-october-4-2026-2am-et&slug=bitcoin-above-85200-on-october-4-2026-3pm-et&slug=bitcoin-above-85200-on-october-4-2026-4pm-et&slug=bitcoin-above-85200-on-october-4-2026-5pm-et&slug=bitcoin-above-85400-on-october-1-2026-2pm-et&slug=bitcoin-above-85400-on-october-2-2026-12pm-et&slug=bitcoin-above-85400-on-october-4-2026-12pm-et",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:27.040823+00:00",
+  "http_status": 200,
+  "response_sha256": "5f0399f8b7b967478dad6b5c8d83c2741e85262a1c07f8cc16701a0723692847",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:27 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:27 GMT"
+  }
+}

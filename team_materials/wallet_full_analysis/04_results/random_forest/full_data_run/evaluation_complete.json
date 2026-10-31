@@ -1,0 +1,11 @@
+{
+  "status": "Previously inspected test period; exploratory reuse",
+  "threshold": 0.5,
+  "test_rows": 26507,
+  "test_keys_sha256": "8d139fc40610e3860ea5f2c670ba28cf8d18f95770252e092918490488001b22",
+  "test_wallets_previously_seen_fraction": 0.7229033840117705,
+  "fixed_model_manifest_sha256": "7d100b332fe2b7205969296860ad292ce0f43a20ceba24d4418901840bd31be8",
+  "metrics_sha256": "66600d34081196a691828033795ab683bcb1943cf7be8f3605cc20af0e8964ed",
+  "test_was_used_for_tuning": false,
+  "note": "A new run on these dates remains exploratory; rerunning cannot make this test fresh."
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=bitcoin-up-or-down-october-1-2026-11pm-et&slug=bitcoin-up-or-down-october-1-2026-1am-et&slug=bitcoin-up-or-down-october-1-2026-1pm-et&slug=bitcoin-up-or-down-october-1-2026-4pm-et&slug=bitcoin-up-or-down-october-1-2026-6pm-et&slug=bitcoin-up-or-down-october-1-2026-7pm-et&slug=bitcoin-up-or-down-october-1-2026-8pm-et&slug=bitcoin-up-or-down-october-1-2026-9pm-et&slug=bitcoin-up-or-down-october-2-2026-4pm-et&slug=bitcoin-up-or-down-october-4-2026-10am-et&slug=bitcoin-up-or-down-on-october-2-2026&slug=bitcoin-up-or-down-september-30-2026-10pm-et&slug=bitcoin-up-or-down-september-30-2026-9pm-et&slug=bkaba-fmp-kk3-2026-10-04-total-163pt5&slug=bkkls-spd-kk5-2026-10-04-spread-away-2pt5&slug=bklkl-nep-nev-2026-10-03-spread-home-10pt5&slug=bknbl-ade-new-2026-10-04-total-177pt5&slug=bnb-up-or-down-october-1-2026-11pm-et&slug=bnb-up-or-down-october-1-2026-12am-et&slug=bnb-up-or-down-october-1-2026-4pm-et&slug=bnb-up-or-down-october-1-2026-5pm-et&slug=bnb-up-or-down-october-4-2026-2pm-et&slug=bnb-up-or-down-on-october-2-2026&slug=bnb-up-or-down-september-30-2026-10pm-et&slug=bnb-up-or-down-september-30-2026-9pm-et&slug=bnb-updown-15m-1790742600&slug=bnb-updown-15m-1790801100&slug=bnb-updown-15m-1790811900&slug=bnb-updown-15m-1790812800&slug=bnb-updown-15m-1790819100&slug=bnb-updown-15m-1790823600&slug=bnb-updown-15m-1790828100&slug=bnb-updown-15m-1790903700&slug=bnb-updown-15m-1790910900&slug=bnb-updown-15m-1790964900&slug=bnb-updown-15m-1790965800&slug=bnb-updown-15m-1791063900&slug=bnb-updown-15m-1791064800&slug=bnb-updown-15m-1791091800&slug=bnb-updown-15m-1791092700",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:27.806128+00:00",
+  "http_status": 200,
+  "response_sha256": "893d3dcbe31d54c65b66072bb890ce00def0258c1c79f99a7dc5408405cc172e",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:27 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:27 GMT"
+  }
+}

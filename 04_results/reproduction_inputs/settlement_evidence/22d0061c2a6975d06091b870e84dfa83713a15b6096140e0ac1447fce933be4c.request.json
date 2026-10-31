@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=eth-updown-15m-1791114300&slug=eth-updown-15m-1791122400&slug=eth-updown-15m-1791144000&slug=eth-updown-15m-1791144900&slug=eth-updown-15m-1791148500&slug=eth-updown-15m-1791162000&slug=eth-updown-4h-1790812800&slug=eth-updown-4h-1791129600&slug=eth-updown-5m-1790726100&slug=eth-updown-5m-1790801700&slug=eth-updown-5m-1790812500&slug=eth-updown-5m-1790812800&slug=eth-updown-5m-1790819700&slug=eth-updown-5m-1790820000&slug=eth-updown-5m-1790877300&slug=eth-updown-5m-1790904000&slug=eth-updown-5m-1790910900&slug=eth-updown-5m-1791035400&slug=eth-updown-5m-1791065100&slug=eth-updown-5m-1791115200&slug=eth-updown-5m-1791136800&slug=eth-updown-5m-1791143700&slug=eth-updown-5m-1791144000&slug=eth-updown-5m-1791144300&slug=eth-updown-5m-1791144900&slug=eth-updown-5m-1791147300&slug=eth-updown-5m-1791147600&slug=eth-updown-5m-1791147900&slug=eth-updown-5m-1791148500&slug=eth-updown-5m-1791155100&slug=eth-updown-5m-1791162900&slug=ethereum-above-2670-on-october-4-2026-7am-et&slug=ethereum-above-2680-on-october-2-2026-12pm-et&slug=ethereum-above-2690-on-october-2-2026-12pm-et&slug=ethereum-above-2690-on-october-4-2026-3pm-et&slug=ethereum-above-2690-on-october-4-2026-4pm-et&slug=ethereum-above-2690-on-october-4-2026-5pm-et&slug=ethereum-above-2690-on-october-4-2026-7am-et&slug=ethereum-above-2700-on-october-2-2026-12pm-et&slug=ethereum-above-2700-on-october-4-2026-2am-et",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:32.074501+00:00",
+  "http_status": 200,
+  "response_sha256": "acb966829b4f7dea391281918a1c5b930dc4ce1001f4678bc56be94e17e0313d",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:32 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:32 GMT"
+  }
+}

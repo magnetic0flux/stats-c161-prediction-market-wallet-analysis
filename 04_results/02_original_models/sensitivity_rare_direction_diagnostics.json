@@ -1,0 +1,20 @@
+{
+  "analysis": "sensitivity_rare_direction",
+  "rows": 43671,
+  "markets": 1344,
+  "wallet_clusters": 10998,
+  "event_proxy_clusters": 348,
+  "intersection_clusters": 31052,
+  "df_reference": 347,
+  "absorbed_fe_degrees": 1344,
+  "slope_rank": 20,
+  "residual_df": 42307,
+  "within_condition_number": 76.34514465031019,
+  "covariance_min_eigenvalue": 1.5983999011850108e-06,
+  "covariance_negative_eigenvalues": 0,
+  "effective_event_clusters_inverse_hhi": 42.983177622794095,
+  "largest_event_share": 0.09560119988092784,
+  "single_outcome_markets": 570,
+  "within_residual_sum": 2.0961010704922955e-13,
+  "lpm_conditional_fitted_outside_01": 4251
+}

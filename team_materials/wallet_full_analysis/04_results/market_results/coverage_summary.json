@@ -1,0 +1,23 @@
+{
+  "markets_requested": 78543,
+  "exported_unique_markets": 78543,
+  "missing_market_rows": 0,
+  "metadata_found": 78518,
+  "metadata_missing": 25,
+  "recorded_resolutions": 13794,
+  "usable_binary_results": 13794,
+  "no_usable_recorded_result": 64749,
+  "original_candidate_markets": 2661,
+  "original_candidate_trades": 239434,
+  "candidate_wallet_market_pairs": 96184,
+  "reproduces_original_candidate_counts": true,
+  "candidate_outcome_name_mismatches": 0,
+  "candidates_with_100plus_wallets": 265,
+  "excluded_observed_trades_after_resolution": 28,
+  "extracted_at_min": "2026-10-19 03:12:14.496408+00:00",
+  "extracted_at_max": "2026-10-19 03:13:17.424113+00:00",
+  "source_metadata_sha256": "e8db4bbd64b461563f5df24c55d9de46b773d93be2280b2bc65e0e81072210e8",
+  "result_mapping_check": "Database resolved_yes, price_at_close, ordered outcomes and winner agree; not independent on-chain verification.",
+  "retained_after_week_resolutions": true,
+  "missing_results_recoded_as_losses": false
+}

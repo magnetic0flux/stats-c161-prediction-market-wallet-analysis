@@ -1,0 +1,22 @@
+{
+  "seed": 20261019,
+  "validation_start": "2026-10-03T00:00:00Z",
+  "test_start": "2026-10-04T00:00:00Z",
+  "full_window_start": "2026-09-30T00:00:00Z",
+  "week_start": "2026-09-29T00:00:00Z",
+  "n_candidates": 8,
+  "n_estimators": 200,
+  "n_jobs": 4,
+  "min_cv_train": 100,
+  "min_cv_validation": 100,
+  "cv_boundaries": [
+    "2026-10-01T00:00:00Z",
+    "2026-10-02T00:00:00Z",
+    "2026-10-03T00:00:00Z"
+  ],
+  "permutation_repeats": 5,
+  "permutation_max_rows": 5000,
+  "bootstrap_replicates": 300,
+  "threshold": 0.5,
+  "evaluation_status": "Previously inspected test period; exploratory reuse"
+}

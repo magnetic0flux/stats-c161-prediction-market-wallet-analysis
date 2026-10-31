@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=doge-updown-5m-1790819700&slug=doge-updown-5m-1790820000&slug=doge-updown-5m-1790824200&slug=doge-updown-5m-1790910900&slug=doge-updown-5m-1791036600&slug=doge-updown-5m-1791136800&slug=doge-updown-5m-1791144000&slug=doge-updown-5m-1791144300&slug=doge-updown-5m-1791144900&slug=doge-updown-5m-1791147000&slug=doge-updown-5m-1791147900&slug=doge-updown-5m-1791148500&slug=doge-updown-5m-1791155100&slug=doge-updown-5m-1791162900&slug=dogecoin-up-or-down-october-1-2026-11pm-et&slug=dogecoin-up-or-down-october-1-2026-12am-et&slug=dogecoin-up-or-down-october-1-2026-4pm-et&slug=dogecoin-up-or-down-october-1-2026-5pm-et&slug=dogecoin-up-or-down-october-1-2026-7pm-et&slug=dogecoin-up-or-down-october-1-2026-8pm-et&slug=dogecoin-up-or-down-october-4-2026-8pm-et&slug=dogecoin-up-or-down-on-october-2-2026&slug=dogecoin-up-or-down-september-30-2026-10pm-et&slug=dogecoin-up-or-down-september-30-2026-9pm-et&slug=dota2-1win-og-2026-10-03-game-handicap-away-1pt5&slug=dota2-ts8-1win-2026-09-30&slug=dota2-ts8-1win-2026-09-30-game-handicap-away-1pt5&slug=eth-updown-15m-1790793900&slug=eth-updown-15m-1790801100&slug=eth-updown-15m-1790811900&slug=eth-updown-15m-1790812800&slug=eth-updown-15m-1790820000&slug=eth-updown-15m-1790823600&slug=eth-updown-15m-1790826300&slug=eth-updown-15m-1790828100&slug=eth-updown-15m-1790903700&slug=eth-updown-15m-1790910900&slug=eth-updown-15m-1790964900&slug=eth-updown-15m-1791062100&slug=eth-updown-15m-1791092700",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:31.682854+00:00",
+  "http_status": 200,
+  "response_sha256": "332eace8f40ce49d6fdd3d2f6109b44ccbf09df17784b490a858a22d69258717",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:31 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:31 GMT"
+  }
+}

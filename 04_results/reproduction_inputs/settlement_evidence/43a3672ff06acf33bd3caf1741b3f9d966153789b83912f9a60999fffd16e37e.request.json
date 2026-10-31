@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=bra3-flo-bot-2026-10-03-halftime-result-draw&slug=bra3-flo-bot-2026-10-03-halftime-result-home&slug=bra3-int-bru-2026-10-03-bru&slug=bra3-int-bru-2026-10-03-draw&slug=bra3-int-bru-2026-10-03-exact-score-1-0&slug=bra3-int-bru-2026-10-03-exact-score-1-3&slug=bra3-int-bru-2026-10-03-exact-score-2-1&slug=bra3-int-bru-2026-10-03-exact-score-2-2&slug=bra3-int-bru-2026-10-03-exact-score-4-0&slug=bra3-int-bru-2026-10-03-halftime-result-away&slug=bra3-int-bru-2026-10-03-halftime-result-draw&slug=bra3-int-bru-2026-10-03-halftime-result-home&slug=bra3-int-bru-2026-10-03-int&slug=bra3-psc-ara-2026-10-03-btts&slug=bra3-psc-ara-2026-10-03-draw&slug=bra3-psc-ara-2026-10-03-exact-score-2-3&slug=bra3-psc-ara-2026-10-03-exact-score-3-3&slug=bra3-psc-ara-2026-10-03-first-half-total-0pt5&slug=bra3-psc-ara-2026-10-03-first-half-total-2pt5&slug=bra3-psc-ara-2026-10-03-psc&slug=bra3-stc-mp-2026-10-03-draw&slug=bra3-stc-mp-2026-10-03-exact-score-0-1&slug=bra3-stc-mp-2026-10-03-halftime-result-away&slug=bra3-stc-mp-2026-10-03-halftime-result-home&slug=btc-updown-15m-1790801100&slug=btc-updown-15m-1790812800&slug=btc-updown-15m-1790820000&slug=btc-updown-15m-1790823600&slug=btc-updown-15m-1790826300&slug=btc-updown-15m-1790828100&slug=btc-updown-15m-1790903700&slug=btc-updown-15m-1790910900&slug=btc-updown-15m-1790964900&slug=btc-updown-15m-1791026100&slug=btc-updown-15m-1791036000&slug=btc-updown-15m-1791091800&slug=btc-updown-15m-1791092700&slug=btc-updown-15m-1791114300&slug=btc-updown-15m-1791115200&slug=btc-updown-15m-1791135900",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:28.601273+00:00",
+  "http_status": 200,
+  "response_sha256": "b23494afbd129ff105d918b35988f2dacf2213885db67c8a994d9bd87efb84a3",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:28 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:28 GMT"
+  }
+}

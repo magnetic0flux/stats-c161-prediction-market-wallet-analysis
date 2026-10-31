@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=bitcoin-above-85400-on-october-4-2026-2am-et&slug=bitcoin-above-85400-on-october-4-2026-7am-et&slug=bitcoin-above-85600-on-october-2-2026-12pm-et&slug=bitcoin-above-85600-on-october-4-2026-12pm-et&slug=bitcoin-above-85600-on-october-4-2026-2am-et&slug=bitcoin-above-85600-on-october-4-2026-3pm-et&slug=bitcoin-above-85600-on-october-4-2026-4pm-et&slug=bitcoin-above-85600-on-october-4-2026-7am-et&slug=bitcoin-above-85800-on-october-2-2026-12pm-et&slug=bitcoin-above-85800-on-october-4-2026-12pm-et&slug=bitcoin-above-85800-on-october-4-2026-9pm-et&slug=bitcoin-above-86000-on-october-4-2026-12pm-et&slug=bitcoin-above-86000-on-october-4-2026-2am-et&slug=bitcoin-above-86000-on-october-4-2026-4pm-et&slug=bitcoin-above-86000-on-october-4-2026-9pm-et&slug=bitcoin-above-86200-on-october-2-2026-12pm-et&slug=bitcoin-above-86200-on-october-4-2026-12pm-et&slug=bitcoin-above-86200-on-october-4-2026-2am-et&slug=bitcoin-above-86200-on-october-4-2026-4pm-et&slug=bitcoin-above-86200-on-october-4-2026-5pm-et&slug=bitcoin-above-86200-on-october-4-2026-9pm-et&slug=bitcoin-above-86400-on-october-2-2026-12pm-et&slug=bitcoin-above-86400-on-october-4-2026-12pm-et&slug=bitcoin-above-86400-on-october-4-2026-4pm-et&slug=bitcoin-above-86400-on-october-4-2026-5pm-et&slug=bitcoin-above-86600-on-october-4-2026-12pm-et&slug=bitcoin-above-86600-on-october-4-2026-5pm-et&slug=bitcoin-above-86600-on-october-4-2026-9pm-et&slug=bitcoin-above-86800-on-october-2-2026-12pm-et&slug=bitcoin-above-86800-on-october-4-2026-2am-et&slug=bitcoin-above-86800-on-october-4-2026-4pm-et&slug=bitcoin-above-86800-on-october-4-2026-7am-et&slug=bitcoin-above-86800-on-october-4-2026-9pm-et&slug=bitcoin-above-87000-on-october-4-2026-4pm-et&slug=bitcoin-above-87200-on-october-2-2026-12pm-et&slug=bitcoin-above-87200-on-october-4-2026-3pm-et&slug=bitcoin-above-87400-on-october-2-2026-12pm-et&slug=bitcoin-above-87600-on-october-2-2026-12pm-et&slug=bitcoin-above-87800-on-october-2-2026-12pm-et&slug=bitcoin-above-88000-on-october-2-2026-12pm-et",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:27.407962+00:00",
+  "http_status": 200,
+  "response_sha256": "348be2704e543527e50e13060587907fd4b9a96e1d04a43069207ada0ab54745",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:27 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:27 GMT"
+  }
+}

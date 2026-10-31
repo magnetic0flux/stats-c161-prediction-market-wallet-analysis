@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=argpn-god-ala-2026-10-04-team-total-home-5pt5&slug=argpn-god-ala-2026-10-04-total-2pt5&slug=argpn-gue-cc-2026-10-04-btts&slug=argpn-gue-cc-2026-10-04-exact-score-1-2&slug=argpn-gue-cc-2026-10-04-first-half-team-total-away-0pt5&slug=argpn-gue-cc-2026-10-04-first-half-team-total-away-3pt5&slug=argpn-gue-cc-2026-10-04-first-half-team-total-home-0pt5&slug=argpn-gue-cc-2026-10-04-first-half-team-total-home-3pt5&slug=argpn-gue-cc-2026-10-04-first-half-total-0pt5&slug=argpn-gue-cc-2026-10-04-first-half-total-3pt5&slug=argpn-gue-cc-2026-10-04-first-half-total-4pt5&slug=argpn-gue-cc-2026-10-04-halftime-result-away&slug=argpn-gue-cc-2026-10-04-second-half-team-total-home-3pt5&slug=argpn-gue-cc-2026-10-04-spread-away-1pt5&slug=argpn-gue-cc-2026-10-04-team-total-away-0pt5&slug=argpn-gue-cc-2026-10-04-team-total-away-1pt5&slug=argpn-gue-cc-2026-10-04-team-total-away-4pt5&slug=argpn-gue-cc-2026-10-04-team-total-away-5pt5&slug=argpn-gue-cc-2026-10-04-team-total-home-0pt5&slug=argpn-gue-cc-2026-10-04-team-total-home-1pt5&slug=argpn-gue-cc-2026-10-04-team-total-home-3pt5&slug=argpn-gue-cc-2026-10-04-team-total-home-4pt5&slug=argpn-gue-cc-2026-10-04-team-total-home-5pt5&slug=argpn-gue-cc-2026-10-04-total-0pt5&slug=argpn-gue-cc-2026-10-04-total-1pt5&slug=argpn-gue-cc-2026-10-04-total-2pt5&slug=argpn-gue-cc-2026-10-04-total-3pt5&slug=argpn-gue-cc-2026-10-04-total-4pt5&slug=argpn-gue-cc-2026-10-04-total-5pt5&slug=argpn-gue-cc-2026-10-04-total-6pt5&slug=argpn-gue-cc-2026-10-04-total-7pt5&slug=argpn-gue-cc-2026-10-04-total-8pt5&slug=argpn-sma-alm-2026-10-04-alm&slug=argpn-sma-alm-2026-10-04-draw&slug=argpn-sma-alm-2026-10-04-total-4pt5&slug=argpn-tri-qui-2026-10-03-draw&slug=argpn-tri-qui-2026-10-03-exact-score-0-0&slug=argpn-tri-qui-2026-10-03-exact-score-0-1&slug=argpn-tri-qui-2026-10-03-exact-score-0-2&slug=argpn-tri-qui-2026-10-03-exact-score-1-0",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:26.673807+00:00",
+  "http_status": 200,
+  "response_sha256": "25364e3c06b5968830f68a231d9fb7bbbff82bb11217f013fe3ce6c24f3eb17b",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:26 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:26 GMT"
+  }
+}

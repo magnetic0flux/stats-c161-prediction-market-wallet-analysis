@@ -1,0 +1,9 @@
+{
+  "evidence_rows": 2661,
+  "verified_market_count": 2661,
+  "verified_base_disagreements": 0,
+  "candidate_markets": 2661,
+  "candidate_rows_with_verified_mapping": 96184,
+  "labels_rechosen_using_model_fit": false,
+  "main_label_mapping_changed": false
+}

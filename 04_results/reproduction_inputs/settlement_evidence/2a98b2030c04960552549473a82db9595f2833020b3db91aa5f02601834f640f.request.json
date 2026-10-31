@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=mlbb-aurevi-lvlup-2026-10-04&slug=mlbb-aurevi-ts-2026-10-02&slug=mlbb-aurevi-ts-2026-10-02-game1&slug=mlbb-aurevi-yndx-2026-10-03&slug=mlbb-onic-navi-2026-10-04-game-handicap-home-1pt5&slug=mlbb-re1-rakuza-2026-10-04&slug=mlbb-re1-rakuza-2026-10-04-game-handicap-away-1pt5&slug=mlbb-re1-rakuza-2026-10-04-game1&slug=mlbb-re1-rakuza-2026-10-04-game2&slug=mlbb-yndx-ts-2026-10-04-game1&slug=msft-close-above-490-on-september-30-2026&slug=msft-close-above-500-on-october-2-2026&slug=msft-close-above-500-on-september-30-2026&slug=msft-close-above-510-on-october-2-2026&slug=msft-close-above-510-on-september-30-2026&slug=msft-close-above-520-on-september-30-2026&slug=msft-close-above-530-on-september-30-2026&slug=msft-up-or-down-on-october-2-2026&slug=msft-up-or-down-on-september-30-2026&slug=nfl-dal-hou-2026-10-04-pyd-cj-stroud-249pt5&slug=nfl-dal-hou-2026-10-04-pyd-dak-prescott-249pt5&slug=nfl-dal-hou-2026-10-04-pyd-dak-prescott-299pt5&slug=nfl-dal-hou-2026-10-04-rec-jake-ferguson-4pt5&slug=nfl-gb-tb-2026-10-04-pyd-jordan-love-174pt5&slug=nfl-gb-tb-2026-10-04-pyd-jordan-love-249pt5&slug=nfl-gb-tb-2026-10-04-pyd-jordan-love-299pt5&slug=nfl-gb-tb-2026-10-04-recyd-matthew-golden-59pt5&slug=nfl-gb-tb-2026-10-04-recyd-matthew-golden-69pt5&slug=nfl-gb-tb-2026-10-04-recyd-matthew-golden-89pt5&slug=nfl-gb-tb-2026-10-04-ryd-bucky-irving-49pt5&slug=nfl-gb-tb-2026-10-04-ryd-kaleb-johnson-49pt5&slug=nfl-kc-lv-2026-10-04-pyd-patrick-mahomes-224pt5&slug=nfl-kc-lv-2026-10-04-recyd-brock-bowers-79pt5&slug=nfl-kc-lv-2026-10-04-recyd-kenneth-walker-19pt5&slug=nfl-kc-lv-2026-10-04-recyd-travis-kelce-49pt5&slug=nfl-la-phi-2026-10-04-anytime-td-blake-corum&slug=nfl-la-phi-2026-10-04-anytime-td-colby-parkinson&slug=nfl-la-phi-2026-10-04-anytime-td-jalen-hurts&slug=nfl-la-phi-2026-10-04-ptd-matthew-stafford-1pt5&slug=nfl-la-phi-2026-10-04-pyd-matthew-stafford-249pt5",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:48.669233+00:00",
+  "http_status": 200,
+  "response_sha256": "e897ae8070fc22aad5161acfdb95f83544c8be0719140daad97eb4cfae1e6e1e",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:48 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:48 GMT"
+  }
+}

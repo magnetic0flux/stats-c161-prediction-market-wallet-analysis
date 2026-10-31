@@ -1,0 +1,89 @@
+column,role,units,availability,definition
+wallet,identifier/time,unitless,observed identifier/prediction timestamp,wallet
+market,identifier/time,unitless,observed identifier/prediction timestamp,market
+prediction_time,identifier/time,UTC timestamp,observed identifier/prediction timestamp,prediction time
+audit_only_final_fill_rows,retrospective audit; never predictor,count,retrospective or scenario; unverified where stated,final fill rows
+label_final_observed_buy_dollars,label/scenario/context; never predictor,recorded dollars,retrospective or scenario; unverified where stated,final observed buy dollars
+label_final_observed_sell_dollars,label/scenario/context; never predictor,recorded dollars,retrospective or scenario; unverified where stated,final observed sell dollars
+label_final_observed_cashflow,label/scenario/context; never predictor,recorded dollars,retrospective or scenario; unverified where stated,final observed cashflow
+label_assumed_zero_start_gross_pnl,label/scenario/context; never predictor,recorded dollars,retrospective or scenario; unverified where stated,"sell dollars - buy dollars + q0*p0 + q1*(1-p0), unverified base payout mapping"
+label_reversed_mapping_gross_pnl,label/scenario/context; never predictor,recorded dollars,retrospective or scenario; unverified where stated,sell dollars - buy dollars + q0*(1-p0) + q1*p0
+audit_only_duplicate_excess,retrospective audit; never predictor,count,retrospective or scenario; unverified where stated,duplicate excess
+label_final_observed_net_shares_outcome0_zero_start,label/scenario/context; never predictor,contract shares,retrospective or scenario; unverified where stated,final observed net shares outcome0 zero start
+label_final_observed_net_shares_outcome1_zero_start,label/scenario/context; never predictor,contract shares,retrospective or scenario; unverified where stated,final observed net shares outcome1 zero start
+audit_only_min_observed_inventory_zero_start,retrospective audit; never predictor,contract shares,retrospective or scenario; unverified where stated,min observed inventory zero start
+audit_only_negative_observed_inventory,retrospective audit; never predictor,contract shares,retrospective or scenario; unverified where stated,negative observed inventory
+label_dedup_assumption_gross_pnl,label/scenario/context; never predictor,recorded dollars,retrospective or scenario; unverified where stated,Base PNL recomputed after full-field drop_duplicates; sensitivity assumption only
+feature_entry_buy_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,entry buy dollars; own first observed timestamp batch only
+feature_entry_sell_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,entry sell dollars; own first observed timestamp batch only
+feature_entry_buy_shares,feature,contract shares,observed at prediction time; partial pilot scope,entry buy shares; own first observed timestamp batch only
+feature_entry_fill_rows,feature,count,observed at prediction time; partial pilot scope,entry fill rows; own first observed timestamp batch only
+feature_entry_has_sell,feature,unitless,observed at prediction time; partial pilot scope,entry has sell; own first observed timestamp batch only
+feature_entry_buy_vwap,feature,dollars per contract share,observed at prediction time; partial pilot scope,entry buy vwap; sum dollars / sum shares for indicated subset; own first observed timestamp batch only
+feature_entry_no_buy,feature,unitless,observed at prediction time; partial pilot scope,entry no buy; 1 if indicated subset has no buy shares/dollars; own first observed timestamp batch only
+feature_entry_log_buy_dollars,feature,log1p of underlying count or recorded dollars,observed at prediction time; partial pilot scope,ln(1 + entry buy dollars); own first observed timestamp batch only
+feature_entry_outcome0_buy_dollar_share,feature,unitless,observed at prediction time; partial pilot scope,entry outcome0 buy dollar share; own first observed timestamp batch only
+feature_entry_direction_concentration,feature,unitless,observed at prediction time; partial pilot scope,entry direction concentration; own first observed timestamp batch only
+feature_entry_both_outcomes_bought,feature,unitless,observed at prediction time; partial pilot scope,entry both outcomes bought; own first observed timestamp batch only
+label_base_diagnostic_profit_sign,label/scenario/context; never predictor,binary,conditional observed accounting; not confirmed truth,label base diagnostic profit sign; see inline vectorized accounting formulas
+label_base_gross_state,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,base gross state
+label_reverse_diagnostic_profit_sign,label/scenario/context; never predictor,binary,conditional observed accounting; not confirmed truth,label reverse diagnostic profit sign; see inline vectorized accounting formulas
+label_reverse_gross_state,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,reverse gross state
+label_dedup_diagnostic_profit_sign,label/scenario/context; never predictor,binary,conditional observed accounting; not confirmed truth,label dedup diagnostic profit sign; see inline vectorized accounting formulas
+label_dedup_gross_state,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,dedup gross state
+conditional_profit_label,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,conditional profit label; 1 if scenario PNL > configured epsilon; 0 otherwise; unknown if negative observed inventory; other accounting assumptions still unverified
+confirmed_net_profit_label,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,Desired actual net-profit target; unknown for all pairs because accounting evidence unavailable
+label_status,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,status
+label_unknown_reasons,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,unknown reasons
+label_reason_settlement_mapping_unverified,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,reason settlement mapping unverified; 1 if named evidence limitation applies
+label_reason_opening_inventory_and_cost_basis_unverified,label/scenario/context; never predictor,contract shares,retrospective or scenario; unverified where stated,reason opening inventory and cost basis unverified; 1 if named evidence limitation applies
+label_reason_trade_coverage_unverified,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,reason trade coverage unverified; 1 if named evidence limitation applies
+label_reason_fees_unavailable,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,reason fees unavailable; 1 if named evidence limitation applies
+label_reason_transfers_split_merge_redemption_unavailable,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,reason transfers split merge redemption unavailable; 1 if named evidence limitation applies
+label_reason_historical_result_availability_unverified,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,reason historical result availability unverified; 1 if named evidence limitation applies
+label_reason_negative_observed_inventory,label/scenario/context; never predictor,contract shares,retrospective or scenario; unverified where stated,reason negative observed inventory; 1 if named evidence limitation applies
+label_reason_duplicate_looking_rows_without_unique_trade_id,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,reason duplicate looking rows without unique trade id; 1 if named evidence limitation applies
+label_context_mapping_status,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,context mapping status
+label_context_outcome0,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,context outcome0
+label_context_outcome1,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,context outcome1
+label_context_assumed_payout_outcome0,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,context assumed payout outcome0
+label_context_assumed_payout_outcome1,label/scenario/context; never predictor,unitless,retrospective or scenario; unverified where stated,context assumed payout outcome1
+audit_only_in_100plus_wallet_market_subset,audit only; never predictor,binary,conditional observed accounting; not confirmed truth,audit only in 100plus wallet market subset; see inline vectorized accounting formulas
+feature_strict_prior_market_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,"strict prior market dollars; target market, time < T"
+feature_strict_prior_market_wallets,feature,count,observed at prediction time; partial pilot scope,"strict prior market wallets; target market, time < T"
+feature_observed_market_age_hours,feature,hours,observed at prediction time; partial pilot scope,observed market age hours
+feature_strict_prior_market_log_dollars,feature,log1p of underlying count or recorded dollars,observed at prediction time; partial pilot scope,"ln(1 + strict prior market dollars); target market, time < T"
+feature_strict_prior_market_log_wallets,feature,log1p of underlying count or recorded dollars,observed at prediction time; partial pilot scope,"ln(1 + strict prior market wallets); target market, time < T"
+feature_entry_utc_hour,feature,unitless,observed at prediction time; partial pilot scope,entry utc hour; own first observed timestamp batch only
+feature_entry_utc_weekday,feature,unitless,observed at prediction time; partial pilot scope,entry utc weekday; own first observed timestamp batch only
+feature_entry_utc_date,feature,UTC calendar date,observed at prediction time; partial pilot scope,entry utc date; own first observed timestamp batch only
+feature_entry_outcome0_buy_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,entry outcome0 buy dollars; own first observed timestamp batch only
+feature_entry_outcome0_sell_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,entry outcome0 sell dollars; own first observed timestamp batch only
+feature_entry_outcome0_buy_shares,feature,contract shares,observed at prediction time; partial pilot scope,entry outcome0 buy shares; own first observed timestamp batch only
+feature_entry_outcome0_observed_net_shares_zero_start,feature,contract shares,observed at prediction time; partial pilot scope,entry outcome0 observed net shares zero start; own first observed timestamp batch only
+feature_entry_outcome0_buy_vwap,feature,dollars per contract share,observed at prediction time; partial pilot scope,entry outcome0 buy vwap; sum dollars / sum shares for indicated subset; own first observed timestamp batch only
+feature_entry_outcome1_buy_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,entry outcome1 buy dollars; own first observed timestamp batch only
+feature_entry_outcome1_sell_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,entry outcome1 sell dollars; own first observed timestamp batch only
+feature_entry_outcome1_buy_shares,feature,contract shares,observed at prediction time; partial pilot scope,entry outcome1 buy shares; own first observed timestamp batch only
+feature_entry_outcome1_observed_net_shares_zero_start,feature,contract shares,observed at prediction time; partial pilot scope,entry outcome1 observed net shares zero start; own first observed timestamp batch only
+feature_entry_outcome1_buy_vwap,feature,dollars per contract share,observed at prediction time; partial pilot scope,entry outcome1 buy vwap; sum dollars / sum shares for indicated subset; own first observed timestamp batch only
+feature_entry_total_dollars,feature,recorded dollars,observed at prediction time; partial pilot scope,entry total dollars; own first observed timestamp batch only
+feature_entry_sell_dollar_fraction,feature,unitless,observed at prediction time; partial pilot scope,entry sell dollar fraction; own first observed timestamp batch only
+feature_entry_direction_hhi,feature,unitless,observed at prediction time; partial pilot scope,entry direction hhi; sum squared buy-dollar shares; missing if no buys; own first observed timestamp batch only
+feature_week_history_fill_rows,feature,count,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,"Number of strict-prior supplied-week rows, BUY and SELL"
+feature_week_history_distinct_timestamps,feature,count,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,Distinct UTC timestamps among eligible rows
+feature_week_history_markets,feature,count,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,Distinct markets among eligible BUY/SELL rows
+feature_week_history_buy_dollars,feature,recorded dollars,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,Sum dollars where side=BUY
+feature_week_history_buy_market_hhi,feature,unitless,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,Sum market buy-dollar squares / total buy dollars squared; missing if zero buys
+feature_week_history_first_time,feature,UTC timestamp,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,Minimum eligible history timestamp; missing if empty
+feature_week_history_latest_time,feature,UTC timestamp,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,Maximum eligible history timestamp; missing if empty
+feature_week_history_observed_span_hours,feature,hours,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,(Prediction time - first eligible history time)/3600
+feature_week_history_recency_hours,feature,hours,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,(Prediction time - latest eligible history time)/3600
+feature_week_history_log_recency_hours,feature,unitless,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,ln(1 + (Prediction time - latest eligible history time)/3600)
+feature_week_history_log_fill_rows,feature,unitless,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,"ln(1 + Number of strict-prior supplied-week rows, BUY and SELL)"
+feature_week_history_log_distinct_timestamps,feature,unitless,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,ln(1 + Distinct UTC timestamps among eligible rows)
+feature_week_history_log_markets,feature,unitless,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,ln(1 + Distinct markets among eligible BUY/SELL rows)
+feature_week_history_log_buy_dollars,feature,unitless,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,ln(1 + Sum dollars where side=BUY)
+feature_week_history_no_observed_rows,feature,binary,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,1 if no eligible supplied-week rows; not lifetime novice status
+feature_week_history_no_buy,feature,binary,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,1 if eligible history has zero buy dollars
+feature_week_history_prior_conditional_profit_history_available,feature,binary,Observed supplied-week other-market fills strictly before prediction; coverage not globally verified,0 always: historical outcomes/accounting/time availability unverified

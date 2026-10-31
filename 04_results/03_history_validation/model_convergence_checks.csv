@@ -1,0 +1,11 @@
+model,iterations,converged,warnings,rows,features
+baseline_validation_reused,27,True,,39659,13
+baseline_test_reused,25,True,,52888,13
+expanding_3_validation_reused,42,True,,39659,16
+expanding_3_test_reused,33,True,,52888,16
+fixed24h_3_validation_reused,39,True,,39659,16
+fixed24h_3_test_reused,40,True,,52888,16
+expanding_5_validation_reused,63,True,,39659,20
+expanding_5_test_reused,70,True,,52888,20
+fixed24h_5_validation_reused,52,True,,39659,20
+fixed24h_5_test_reused,56,True,,52888,20

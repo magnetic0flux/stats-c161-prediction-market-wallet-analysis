@@ -1,0 +1,27 @@
+{
+  "baseline": {
+    "min_samples_leaf": 50,
+    "max_features": "sqrt",
+    "max_depth": null
+  },
+  "expanding_3": {
+    "min_samples_leaf": 50,
+    "max_features": "sqrt",
+    "max_depth": null
+  },
+  "fixed24h_3": {
+    "min_samples_leaf": 50,
+    "max_features": "sqrt",
+    "max_depth": null
+  },
+  "expanding_5": {
+    "min_samples_leaf": 50,
+    "max_features": "sqrt",
+    "max_depth": null
+  },
+  "fixed24h_5": {
+    "min_samples_leaf": 50,
+    "max_features": "sqrt",
+    "max_depth": null
+  }
+}

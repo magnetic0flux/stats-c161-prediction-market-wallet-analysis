@@ -1,0 +1,1627 @@
+[
+  {
+    "path": "RF_logistic_results.ipynb",
+    "bytes": 17315,
+    "sha256": "28f3ec31ab992465624a87d08f59089fca6b53eca3dc35354085c4ff9e81adae"
+  },
+  {
+    "path": "RF_logistic_resultssummary.html",
+    "bytes": 1167442,
+    "sha256": "9c720df5c976064f04ec4ffa302d557c00be22a39b857e4f883e51215aae6aaa"
+  },
+  {
+    "path": "added_history_tests/added_history_tests.py",
+    "bytes": 3672,
+    "sha256": "346b33d9256fe1f8cfa695a50a0a1ddd5a67be7dcdbae03c42cad79ccba5982d"
+  },
+  {
+    "path": "added_history_tests/added_tests_hhi_avg_buy.csv",
+    "bytes": 464,
+    "sha256": "688b6bf840645e8a27928d266c085b0b9130324459bde6aedc776d9f3d7cb465"
+  },
+  {
+    "path": "added_history_tests/all_12_tests_holm.csv",
+    "bytes": 674,
+    "sha256": "fbbae916709cc5d758b1b87ed6065b87632a1a9d5c8ec556f97bb28db13c8c8b"
+  },
+  {
+    "path": "added_history_tests/README.txt",
+    "bytes": 1180,
+    "sha256": "c5f90f95d8e33d302daa637bc1f7bd0fd932b9d237fff59cad1efe75d1fd9ccf"
+  },
+  {
+    "path": "alpha_shape_wallets/export_3d_data.R",
+    "bytes": 12855,
+    "sha256": "f05506490eb30500668c9b25cd24327232ee39b11f27eae98f3fcde314d1f146"
+  },
+  {
+    "path": "alpha_shape_wallets/feature_comparison_profitability_vs_alpha_shape.xlsx",
+    "bytes": 8474,
+    "sha256": "09b7f04d660bedcaa9935f1f05409cb79aacdc2b0e8b7090d4d605c2c760a087"
+  },
+  {
+    "path": "alpha_shape_wallets/outlier_profile.R",
+    "bytes": 11102,
+    "sha256": "834a5d0f8c68e6d05745233e51471394f710c64639afc0fcce6c2518270c6523"
+  },
+  {
+    "path": "alpha_shape_wallets/pool_shape_3d.R",
+    "bytes": 1336,
+    "sha256": "401bc876b07df9b74013be94c2ae2e5182d6aaf29bb9734a95a4139fc7963fa0"
+  },
+  {
+    "path": "alpha_shape_wallets/run_13features_verified.R",
+    "bytes": 1575,
+    "sha256": "905971c889890009a96c4b3f86acce3550c0e4ab2dce6d67168605b30766be34"
+  },
+  {
+    "path": "alpha_shape_wallets/run_profitable_only.R",
+    "bytes": 645,
+    "sha256": "dc17e39625becfa7a5899758d171b09406d70c52912c8f91a5588e856b842b85"
+  },
+  {
+    "path": "alpha_shape_wallets/run_study_features.R",
+    "bytes": 4105,
+    "sha256": "50dd12a878c08e47fd28998041572f6abb4e772fb2a03f583045ee88b5ee2f28"
+  },
+  {
+    "path": "alpha_shape_wallets/run_verified_markets.R",
+    "bytes": 2328,
+    "sha256": "757e80c1eaca66713b2e382183afbb076fbebaba09c3633c19142c2640afd156"
+  },
+  {
+    "path": "alpha_shape_wallets/wallet_alpha_analysis.R",
+    "bytes": 25910,
+    "sha256": "398906cbd06b92942394a66cc57b01f27b73ebdf2f38192ed84c0134f8d4ba71"
+  },
+  {
+    "path": "wallet_full_analysis/README.md",
+    "bytes": 9341,
+    "sha256": "3c341a05c18e28c5a9fda1c1131f693e484b395e8a90bcf89c64b6eaac7561b2"
+  },
+  {
+    "path": "wallet_full_analysis/results_report.html",
+    "bytes": 443287,
+    "sha256": "13ceaec1c19036e77ccea0461f417ef989f97aba918727eaf8d043d5592a7c1a"
+  },
+  {
+    "path": "wallet_level_table/example_analysis.R",
+    "bytes": 1313,
+    "sha256": "30527e695f22b1c6599c5499cfdd5e14518c21c3d2041eaefea789c5f0c108b4"
+  },
+  {
+    "path": "wallet_level_table/polymarket_wallets.csv",
+    "bytes": 33633805,
+    "sha256": "059f6a9479dd299cee06113750ee39417b1c8776069f57bf16178910c1cd9f8a"
+  },
+  {
+    "path": "wallet_level_table/polymarket_wallets_dictionary.csv",
+    "bytes": 7396,
+    "sha256": "ba6bdfff2fffc9ff40c5ad73b54d9695dd38e7817194109809ee2c64b2b71dc1"
+  },
+  {
+    "path": "wallet_level_table/polymarket_wallets_insider.csv",
+    "bytes": 10872996,
+    "sha256": "199f76453057f269766c204fce435c7ded7c57a1f381df84a277036773eb05f8"
+  },
+  {
+    "path": "wallet_level_table/polymarket_wallet_market_pairs.csv.gz",
+    "bytes": 14824981,
+    "sha256": "858aadbf9024a6cb68259171f91e3d115c7623c96406882ecf23916dd9cf23c7"
+  },
+  {
+    "path": "wallet_level_table/polymarket_wallet_market_pairs_dictionary.csv",
+    "bytes": 1389,
+    "sha256": "1289512f71d18e48da6f4116bd4a042a9b259287f01abc6c5aa43464a55f236b"
+  },
+  {
+    "path": "wallet_level_table/polymarket_wallet_market_pair_buy_fills.csv.gz",
+    "bytes": 4040627,
+    "sha256": "33f373eb37e794109e3fb131a6d7880ca87a50fe013eddc4743546c5bcd3858c"
+  },
+  {
+    "path": "wallet_level_table/polywallet_0.2.0.tar.gz",
+    "bytes": 27141209,
+    "sha256": "76de4e0bde071dfa15b87c4fd9b8558d6ff9a9cab93935ca71fc77193b17e0c8"
+  },
+  {
+    "path": "wallet_level_table/README.md",
+    "bytes": 10471,
+    "sha256": "d6ee896fe37efa2d995b99a2fec995934f95a79c9d0342c38d2eb4e600f89d4e"
+  },
+  {
+    "path": "wallet_level_table/select_insider_columns.R",
+    "bytes": 2109,
+    "sha256": "20c3896f512d7e11a886d0a32bd4c3e006f6ad2df243c20a69b86c1586ba069a"
+  },
+  {
+    "path": "wallet_random_forest/importance_real_data_check.json",
+    "bytes": 299,
+    "sha256": "71cd1aae8a10b0440c4349d2f370f25380b262f5a48f8e498815abaa532996e5"
+  },
+  {
+    "path": "wallet_random_forest/README.md",
+    "bytes": 1739,
+    "sha256": "ff7c22c014cc6b31d88c960767df2d575af670593ae6c141f6a6458a0098a92d"
+  },
+  {
+    "path": "wallet_random_forest/RF_logistic_results.ipynb",
+    "bytes": 17315,
+    "sha256": "28f3ec31ab992465624a87d08f59089fca6b53eca3dc35354085c4ff9e81adae"
+  },
+  {
+    "path": "wallet_random_forest/RF_logistic_resultssummary.html",
+    "bytes": 1167442,
+    "sha256": "9c720df5c976064f04ec4ffa302d557c00be22a39b857e4f883e51215aae6aaa"
+  },
+  {
+    "path": "wallet_random_forest/verification.json",
+    "bytes": 949,
+    "sha256": "611283b74ce9b54ae8a387807642ebb5f2524d4cc5c01cfbbece164240ec0822"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/alpha_shape_all_wallets.png",
+    "bytes": 552888,
+    "sha256": "5ab2487301df3bce7867bc6b01e1aa090a4a9494b531a87f88d5015ef6a372e1"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/alpha_shape_Politics_other_profitable.png",
+    "bytes": 238397,
+    "sha256": "ef5329472401dce22f6dc103404a27f28e11edc8d7a95390a14f93652c8ac5bc"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/alpha_shape_Politics_other_unprofitable.png",
+    "bytes": 226956,
+    "sha256": "606234772ce0e59da333363e7a70bf877930bdbd498efd53a025b59451e83759"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/alpha_shape_Sports_crypto_weather_profitable.png",
+    "bytes": 425489,
+    "sha256": "20f9993348a339e641bf8f47d504f744e062e5afba9bdd15bd89baf1695a0a24"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/alpha_shape_Sports_crypto_weather_unprofitable.png",
+    "bytes": 439544,
+    "sha256": "91518ce3a1b64a37c2df6d1721ffd6ea38db4a75c7384efdcaf4f67040b18d33"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/community_metrics.csv",
+    "bytes": 1650,
+    "sha256": "4c03fbd1657bd08b0b26d8cd63fc359af30710b8ada30b4cc5ba7bc202e15f34"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/k_choice.png",
+    "bytes": 44730,
+    "sha256": "33d5df17fae053ee7691b8652665aaa80d56ded21c819f09eda413e568785fc5"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/k_scan.csv",
+    "bytes": 1506,
+    "sha256": "65d6b63521c882993f5f0b4ce81690b35b53815e102b303307c019bf487c1997"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/outlier_summary.csv",
+    "bytes": 296,
+    "sha256": "92e84b5347fad474362ed8ae33423d150a3e24d7f1e9fa5f3d4fab7216fb119d"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results/wallet_alpha_flags.csv",
+    "bytes": 8810430,
+    "sha256": "9d40b1b2c5cce55b123589088a94c8dfbf1c613683b48e105bdcf326eca6ca7d"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/alpha_shape_all_wallets.html",
+    "bytes": 18035023,
+    "sha256": "f4a7950e297a303819cb680fb9bb948061e85b21d2e55e294b16f99550907c90"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/alpha_shape_Politics_other_profitable.html",
+    "bytes": 5280006,
+    "sha256": "68acd0beb70d6575813c0d1e39395d7237bfb05310b895173d13762cad5af34b"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/alpha_shape_Politics_other_unprofitable.html",
+    "bytes": 4931101,
+    "sha256": "1f45e47327a0d40107b051cf29d99af6e4e2b280f79b7fecf132aa59952963f8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/alpha_shape_Sports_crypto_weather_profitable.html",
+    "bytes": 10436327,
+    "sha256": "b32f6d2cd572c06c37f6a03be46e173e0d29467a947590b6ffd63c0389d2bee8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/alpha_shape_Sports_crypto_weather_unprofitable.html",
+    "bytes": 9566261,
+    "sha256": "57d105a818065606a5761426d1c331cc198351934f9fd479eb2b4297b552ca76"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/community_metrics.csv",
+    "bytes": 1713,
+    "sha256": "01b391e0df4d53cb88e7af51c50eb8d0b91b2d63d19eeeb85079fab9422a756b"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/k_choice.png",
+    "bytes": 48596,
+    "sha256": "e079cbff100c79c553e4fd4ddd0587b633a3c7eaa16f4df090710e193b23ac21"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/k_scan.csv",
+    "bytes": 1400,
+    "sha256": "5bb08ab27ea4435c219c0d9b73291868eda1fcf1075cf8b7190d192aa8729e9f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/mst_drop_by_k.rds",
+    "bytes": 990794,
+    "sha256": "b7744cd3fee7349d725ca6afea2ca8bcb3ad2b3ea2099bf80b729ca5de6e937c"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outliers_projections.png",
+    "bytes": 403485,
+    "sha256": "b320bdd716b9b3762b1adef84e301abf6004303188d2a5d2be71d6bb5328cbb6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_summary.csv",
+    "bytes": 383,
+    "sha256": "0a3816b0d1c2086a400111526f2c4b107981b335398d4600480ca59671495ca0"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/pca_loadings.csv",
+    "bytes": 489,
+    "sha256": "0aac112a3593003c8a6590f7110ed996642d5b729be9ac438eeb9ca84ef1feab"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/pca_loadings.png",
+    "bytes": 56956,
+    "sha256": "fbe1be194ffc55074ecdb131677d1ba196840ee839e7e3b2dbf1f8a30ef76655"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "592c5aabb3aa5b34ff66521ec37a5a232bc595cc3bdc9ebe7855cfa6a6ca75df"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/pool_shape_3d.rds",
+    "bytes": 1821106,
+    "sha256": "c8a662f1b1e4a4661fb3a2d7048e5cbd96512651f7bfc39bd464b9817bb0f7ee"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/wallet_alpha_flags.csv",
+    "bytes": 9331135,
+    "sha256": "c59549516b8c9a171445ff3120cf1c37408645d8e9d1a2879477d8097456ceb9"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/alpha_shape_all_wallets.html",
+    "bytes": 9530085,
+    "sha256": "7089285a32082b83e5283364677db5f8fe33c816d3d6e155cb3a41606dd72779"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/alpha_shape_Politics_other_profitable.html",
+    "bytes": 4042776,
+    "sha256": "f8a8e55dc8ea06618f4eee8230dca86d05446621270381fff5c2a56fdf275af3"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/alpha_shape_Politics_other_unprofitable.html",
+    "bytes": 4011261,
+    "sha256": "f4b4b94bdca20f637d358d93922333926c3d2d34813040ae642d06317b3560ee"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/alpha_shape_Sports_crypto_weather_profitable.html",
+    "bytes": 6959360,
+    "sha256": "d902aa1dfc76fd7ce0d85c0445835c68d2a7fe027ccdf07e771f7972a7dc35c6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/alpha_shape_Sports_crypto_weather_unprofitable.html",
+    "bytes": 6237236,
+    "sha256": "c57ba99243eba22d193c19ad0151d96cc52f71583e1add2f30e99f125e2879ac"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/community_metrics.csv",
+    "bytes": 1701,
+    "sha256": "800d0e5df87697979a410c315a8b85c32dbd240d8fa27b6ba7bea76a615be218"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/k_choice.png",
+    "bytes": 47350,
+    "sha256": "611dbc2002a46b2657ed21c2e618dad784d81882e1ce22c9d8a71b48769a2aee"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/k_scan.csv",
+    "bytes": 1369,
+    "sha256": "a62c17468f6c5479fbf49d28a1389a53d95151bd109444d970c398e6addc69ec"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/mst_drop_by_k.rds",
+    "bytes": 400821,
+    "sha256": "ee21c5dd9da78531111065cb20d22f3cab924ccf6ddb2576a6c20a01a6b08866"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outliers_projections.png",
+    "bytes": 419159,
+    "sha256": "cba31f6f7c33ef26080e5df696da27be1b58a5d2a03b0621b20ad62846e1b652"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_summary.csv",
+    "bytes": 418,
+    "sha256": "59fffb830ff4c7d4f7cd5bca541f5c408430b282fd0e53ea00e809dba4325a08"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/pca_loadings.csv",
+    "bytes": 484,
+    "sha256": "47e6834a360a18da4a15d808bed8a1cd7c1896aa57f8e328784143a9c208b9cf"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/pca_loadings.png",
+    "bytes": 57372,
+    "sha256": "37b7a3bfc60ce135baeeeae622eb1b75951edd028139d330d94b46b797549137"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "26a32dec77ea7f68cab393dbc4622a10e8921ccc6172e63a70551e551d0223a8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/pool_shape_3d.rds",
+    "bytes": 736820,
+    "sha256": "28a2707a8f64b99d21ad0f7b04bc499e0a0c5df893f19b82565e76e09f3d9404"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/wallet_alpha_flags.csv",
+    "bytes": 3697045,
+    "sha256": "64aca5d05379d95fec1192da33d712410000ddcb2c07bf1c0e781bf5c276ce1f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/alpha_shape_all_wallets.html",
+    "bytes": 18006189,
+    "sha256": "90b1487b47bac39c10d6098a44220755db665a16a7c2ba05ee45c6a78ff0e8d8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/alpha_shape_Politics_other_profitable.html",
+    "bytes": 5251800,
+    "sha256": "17be3be95890894cb700adfeb2b4218556bbe1c7f20b2b7d3831172af76cd8f8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/alpha_shape_Politics_other_unprofitable.html",
+    "bytes": 4932315,
+    "sha256": "d30e4b45913783f99681c1e917da12a58f79f240e0868acd34ceedb934908659"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/alpha_shape_Sports_crypto_weather_profitable.html",
+    "bytes": 10187095,
+    "sha256": "77a991e4026839d0eb09e5ac19b1b2ae50560bb879a82317e2bcdfe5da9616c4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/alpha_shape_Sports_crypto_weather_unprofitable.html",
+    "bytes": 9541079,
+    "sha256": "686c6872fe070c7b017e33fb3054ce57def891ebe81d487594cfda85e44384a6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/community_metrics.csv",
+    "bytes": 1689,
+    "sha256": "0a56baf9ee05e9025f733e9d150b698c01dc7bd9e09de99409cd0201eeb0df9e"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/k_choice.png",
+    "bytes": 46672,
+    "sha256": "be871dc5118a315b70ca731690f81c18d0cbf8474c29685192d8a1368c1b43e4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/k_scan.csv",
+    "bytes": 1435,
+    "sha256": "30af70221c43bf22e6c531cae506da7eb361debc1a218963322560316fd4592f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/mst_drop_by_k.rds",
+    "bytes": 959223,
+    "sha256": "23a3e6ee5665ed6141c6323fd68bc307706230c0b426ff063c159e4ae39242e6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outliers_projections.png",
+    "bytes": 456120,
+    "sha256": "712e2f9fcc849e41791168590a4a250aa00a82f671141b82e5de045347edfa84"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_summary.csv",
+    "bytes": 393,
+    "sha256": "33e2bb81e81be8554d17123dab0f916d74660ac20c07138384a276783970c8eb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/pca_loadings.csv",
+    "bytes": 209,
+    "sha256": "fdef97edf006114ef846c17f7c506528a219e724e8d8bc09a01c79ff7fc0aae3"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/pca_loadings.png",
+    "bytes": 35243,
+    "sha256": "0eef8b86819d5b5e9feb6a7d7484e14741911dfa438ebc8143f5c6145158e067"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "8ba022b7f221b4c7c1b7d547ddb67202e1b15ea05e4ba500cba369c5976998a1"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/pool_shape_3d.rds",
+    "bytes": 1782796,
+    "sha256": "3177cd6aec0b39885117da8b75985a5c4373efe0c1eef6f84457613483d49518"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/wallet_alpha_flags.csv",
+    "bytes": 9325105,
+    "sha256": "acc41a4cf335f485282e59170918a16629ca4c2ee1def1f7efab37189703a93f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/alpha_shape_all_wallets.html",
+    "bytes": 11458841,
+    "sha256": "738c5d8e1222c36ee049ac6d479a825bc00a10c8f4fb3345bff6267aa2007b1f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/alpha_shape_Politics_other.html",
+    "bytes": 5240978,
+    "sha256": "3fc2dbb7bdcbd38ec6e2767ae0f79b0e85645f70fceb2e035283b7f6f48df7c4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/alpha_shape_Sports_crypto_weather.html",
+    "bytes": 10145143,
+    "sha256": "0351cdce665b9ace1052bf61ebbee0b00a868ec3083e9018d4395011b549a779"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/community_metrics.csv",
+    "bytes": 1101,
+    "sha256": "7ed50eb6378cb99b9486c9b17e82b589645a71b207e76ae3555629ad53922796"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/k_choice.png",
+    "bytes": 47121,
+    "sha256": "455c26df6566564f6aa2dc6a859ee879544163023745f73977307f5fb8df0ea2"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/k_scan.csv",
+    "bytes": 1355,
+    "sha256": "524a6716bac0fece4d42dbb07f0a1ea39a306dcd498d1562d168998eb6a97f95"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/mst_drop_by_k.rds",
+    "bytes": 512500,
+    "sha256": "8dd97b2835fc69ecbe76855d3f7c24c1eff4c949b8e3e8bc19fdc1c24eae1fa2"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outliers_projections.png",
+    "bytes": 368234,
+    "sha256": "848afb365cbc3550de233556c0b60338b19817ce3f28288bdfef87497aaa676c"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_summary.csv",
+    "bytes": 356,
+    "sha256": "cc319c4fb51685ef74cc8082e6b1511e0a74a0596ee1c5ede0366241c7077b42"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/pca_loadings.csv",
+    "bytes": 209,
+    "sha256": "fdef97edf006114ef846c17f7c506528a219e724e8d8bc09a01c79ff7fc0aae3"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/pca_loadings.png",
+    "bytes": 35243,
+    "sha256": "bfa0b66595e24ca739b6c36395b03ca1a83a60b1c6465ddde1df495b8b8bcd70"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "8ba022b7f221b4c7c1b7d547ddb67202e1b15ea05e4ba500cba369c5976998a1"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/pool_shape_3d.rds",
+    "bytes": 964484,
+    "sha256": "834a199f7b1f9f41787ba6adfea9be7239f0db576c4947b155547c1fba47e2b8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/wallet_alpha_flags.csv",
+    "bytes": 4867971,
+    "sha256": "1fe3579fc623cf78f61caa3d4651916be56075f7e97c946c515add3da1724bef"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/alpha_shape_all_wallets.html",
+    "bytes": 9631101,
+    "sha256": "ffb2cf55b53a97432b043a96ca1b6174e5ebb6c275c189c3fe806338ef99d2bd"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/alpha_shape_Politics_other_profitable.html",
+    "bytes": 4009593,
+    "sha256": "136825bafd3082d75a26ea5a05b9a99dfce6b36c19d2c7c414b9be63afd4712c"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/alpha_shape_Politics_other_unprofitable.html",
+    "bytes": 3976080,
+    "sha256": "d99ef675edc9c6b0916a39de5d562b58b481bd6f936575b02e91ce999634762a"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/alpha_shape_Sports_crypto_weather_profitable.html",
+    "bytes": 6961383,
+    "sha256": "e6820a6d25deca2d2e5b4fcc2b8c680cf835550658a5407ec2422ebd272356c4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/alpha_shape_Sports_crypto_weather_unprofitable.html",
+    "bytes": 6254029,
+    "sha256": "a7d5289709582ed6966908df28cf342b717a17cd96aefb3f2091d735f0d48adb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/community_metrics.csv",
+    "bytes": 1679,
+    "sha256": "91e97b2c5a99e0c3a1ae7734aa17cd7ed78e957863710533bd7581030ff206ce"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/k_choice.png",
+    "bytes": 48356,
+    "sha256": "f1b0fe9a26a8da95c579ec3bd32cadaaf8a91f447a56fbe3c870bce5a7c45036"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/k_scan.csv",
+    "bytes": 1366,
+    "sha256": "3528f90dcdfacd42b07e97e79fd1a7d61f81362900b3f8f4b12d1a193021f344"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/mst_drop_by_k.rds",
+    "bytes": 397536,
+    "sha256": "b14f79aeb1d2b32ffdc000efef49943e80cb2bbeafa7c19498a0721c083100d8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outliers_projections.png",
+    "bytes": 378369,
+    "sha256": "182bc051d415fa249a9cd56a2eef44f67289c685a4a23e69719eea4508ea02e9"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_summary.csv",
+    "bytes": 415,
+    "sha256": "cf559471e5d28c5f61a6baedb6234ef2a614c90610a4f26c3031eff891fbdd6f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/pca_loadings.csv",
+    "bytes": 209,
+    "sha256": "fdef97edf006114ef846c17f7c506528a219e724e8d8bc09a01c79ff7fc0aae3"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/pca_loadings.png",
+    "bytes": 35243,
+    "sha256": "b74eaa3049dcf705eca68608f3e6811ccd0041c301a09bef64d5a1ec3d51a0a6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "8ba022b7f221b4c7c1b7d547ddb67202e1b15ea05e4ba500cba369c5976998a1"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/pool_shape_3d.rds",
+    "bytes": 737453,
+    "sha256": "0b3720339b43d348fc2c80632220155f45adddccbcb13ebda5142649a6b4e19b"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/wallet_alpha_flags.csv",
+    "bytes": 3696306,
+    "sha256": "15e4d051702bda7b7faa98f47e28c891a2b998353b5cd64c8bf57d9e0f70c376"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/alpha_shape_all_wallets.html",
+    "bytes": 7099258,
+    "sha256": "3ca6588142879454522bf0b6305d3bb520eb82a20929aefeb1e5de8ae8a99f15"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/alpha_shape_Politics_other.html",
+    "bytes": 3999215,
+    "sha256": "944c77bec2366411fb037b19591d07d51ab21e608d2ba57987848e5ba9914cd6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/alpha_shape_Sports_crypto_weather.html",
+    "bytes": 6953174,
+    "sha256": "3487e7ab16ab3d58ad8211e7e8c625fc8eb3153205dbcd4637cbbb54438e654d"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/community_metrics.csv",
+    "bytes": 1070,
+    "sha256": "4e3ca45402815900d9ebd601fba94cd2a012d54dc9516db3fca9eb323e765cfe"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/k_choice.png",
+    "bytes": 45364,
+    "sha256": "2e5e1c5bf93574a82f64117f1c33e59a16b8c4886ab80b5dbe40b4b6cf593fbc"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/k_scan.csv",
+    "bytes": 1355,
+    "sha256": "b0cc0f34f8b598a70b3054916b24c5c74865c74f7dedcd266ed5fe0cb3027854"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/mst_drop_by_k.rds",
+    "bytes": 226981,
+    "sha256": "3240b42c07e4833672c3bc6f4148c73a8292c94e57498d1d165992bad84b08c5"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outliers_projections.png",
+    "bytes": 349505,
+    "sha256": "e2bb27085b5d8da0335cb645def75a86b16501de99906ed0705410575e03b979"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_summary.csv",
+    "bytes": 348,
+    "sha256": "8e3d96e5d92c6208823116fb8c4eb926047dabceeb0b0ab8ecc713a1c9eab234"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/pca_loadings.csv",
+    "bytes": 209,
+    "sha256": "fdef97edf006114ef846c17f7c506528a219e724e8d8bc09a01c79ff7fc0aae3"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/pca_loadings.png",
+    "bytes": 35243,
+    "sha256": "7f50cbfd0f62a972800cf0a8983a97ef7859a2c874a0c29e9984a9c4d2faacce"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "8ba022b7f221b4c7c1b7d547ddb67202e1b15ea05e4ba500cba369c5976998a1"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/pool_shape_3d.rds",
+    "bytes": 419704,
+    "sha256": "b6e5de98d42a7d8dc06899c8fc72b41c3bd176596828eb76a5c6d2f90beaa3ed"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/wallet_alpha_flags.csv",
+    "bytes": 1990719,
+    "sha256": "06884d0e346ada2bab529c59f2858d4703e37a031467fa0580901a7099349fff"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/alpha_shape_all_wallets.html",
+    "bytes": 8430209,
+    "sha256": "8c5f4e4c6aba20216f95d3944e5023bb6c73c8fe5f036818d8c06c3c3f088885"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/alpha_shape_Politics_other_profitable.html",
+    "bytes": 3999000,
+    "sha256": "6e5c30618146746b287833244aa23fadba2a329ba7a0b413e560d3ec83cf9574"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/alpha_shape_Politics_other_unprofitable.html",
+    "bytes": 3962893,
+    "sha256": "0c756fbd8ee8c317b18ea51aa992108cabe599311427d40045570b707a857d62"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/alpha_shape_Sports_crypto_weather_profitable.html",
+    "bytes": 6501758,
+    "sha256": "c259e0ec2842cd36218a9fe0884cf6be7764a138bec05fbe8325ba8dfd0df90a"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/alpha_shape_Sports_crypto_weather_unprofitable.html",
+    "bytes": 5791197,
+    "sha256": "623858d1799b9fdc5c9798e849e0844ac05dc89a2eff84b03fbdfc670f7ab2c9"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/community_metrics.csv",
+    "bytes": 1651,
+    "sha256": "b6365756a4d363b4f411c831f5da5f3f7da674ccd013eb6157dfeed19e860f4f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/k_choice.png",
+    "bytes": 43953,
+    "sha256": "08780f523aa3219e1429a4d29abd783b98bbddaad58509c7e89dbf2407d1f8f0"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/k_scan.csv",
+    "bytes": 1355,
+    "sha256": "dd39eae279b637375cf1e330bbbc40eaabf8f3851c5351c773a6225d5dfd27a5"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/mst_drop_by_k.rds",
+    "bytes": 300708,
+    "sha256": "3438efbd1184bf123b3a82d756cddc58b49d037bbec48a47dbffe788dd6f4f75"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outliers_projections.png",
+    "bytes": 358156,
+    "sha256": "343bc99ac23956824432cebbc52e60561daa8f4adf96d16e145f3e50ebc4aa1f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_summary.csv",
+    "bytes": 422,
+    "sha256": "65044ad555334a7c02fd4760d31a046e709ac5fb2c6cfecf7be29b321889c0e1"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/pca_loadings.csv",
+    "bytes": 205,
+    "sha256": "08c860d53ef2c1d86165e91f2c3baaa8a08f73851c18320d3d0a74db3410ccfb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/pca_loadings.png",
+    "bytes": 37132,
+    "sha256": "6251d6887c516572789c0d6592c21b843ed88120f728b5b443789bc21510d753"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "c1ea3e459521e97bc33a8d020659984a5c9adf0bfb3540e6f5a5d84105acad43"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/pool_shape_3d.rds",
+    "bytes": 578801,
+    "sha256": "84248c08d6190e3addf0e162d0db649a561f1e6255d420c5f7f90099fe2e8d74"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/wallet_alpha_flags.csv",
+    "bytes": 4283053,
+    "sha256": "81bd2d496d5f78e204d5e047f5c054f31265ec8c66dae5a7339c90a5b628cab2"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/alpha_shape_all_wallets.html",
+    "bytes": 6663674,
+    "sha256": "aba5785ae8f53c5791053d0850338fafed6bd068ffbd98870643012711ed9b2f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/alpha_shape_Politics_other.html",
+    "bytes": 3988396,
+    "sha256": "d916c61ec3af26cb1f56efbd9204bbbb9f77c5fb6eaecfdd9df2f3059fab85b2"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/alpha_shape_Sports_crypto_weather.html",
+    "bytes": 6575488,
+    "sha256": "2c4fb72c580de8dced0ffb7dee3b0c5a7a0b78a8e105e7688ad66bbfa3136a1b"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/community_metrics.csv",
+    "bytes": 1065,
+    "sha256": "d2fbb966b5bd57e47cf2941960c88b2a97ded549d5e8c8859404ad1d5a1e41b6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/k_choice.png",
+    "bytes": 42786,
+    "sha256": "3832909c0ec128ffc7eef53e2454fd09b960eaf1f20949afa353d936ba20c2e7"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/k_scan.csv",
+    "bytes": 1289,
+    "sha256": "b7c7f01451335f2616b77f2efe6ab359d923ad51e8fda0d08e2e077726ebf9ae"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/mst_drop_by_k.rds",
+    "bytes": 178298,
+    "sha256": "2ce424ef54b8822c5d940c5077dcb3f508f8a998577882f44cdef34e211b7d9e"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outliers_projections.png",
+    "bytes": 342540,
+    "sha256": "380cb5244aab77799f1333339c34f1e5c1f83d1103a67f706748dd1fcfb55349"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_summary.csv",
+    "bytes": 370,
+    "sha256": "301773d4aecb938f91cf1cd10fd22d08e7fb8d19805704519e7a8fd65bd5fd5d"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/pca_loadings.csv",
+    "bytes": 205,
+    "sha256": "08c860d53ef2c1d86165e91f2c3baaa8a08f73851c18320d3d0a74db3410ccfb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/pca_loadings.png",
+    "bytes": 37132,
+    "sha256": "bc7f237d1dc91ba187d527405e85896b0ff271b27906dad7a78a5d07e0194df8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/pca_variance.csv",
+    "bytes": 68,
+    "sha256": "c1ea3e459521e97bc33a8d020659984a5c9adf0bfb3540e6f5a5d84105acad43"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/pool_shape_3d.rds",
+    "bytes": 356766,
+    "sha256": "e1dedc837806ffc88219942b1150cc4330789e534cd81f8543be87c2115599eb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/wallet_alpha_flags.csv",
+    "bytes": 2330026,
+    "sha256": "5c02219b44a2ab9fb8e67b3a744b89260ae5bb232a3e1ef69eb97833e2778182"
+  },
+  {
+    "path": "alpha_shape_wallets/interactive_3d/alpha_shape_toggle.html",
+    "bytes": 411787,
+    "sha256": "3bdd87e59a316f30d4a0cd6648fff2810bc405aec1f76b541cfe672b90c87ff7"
+  },
+  {
+    "path": "alpha_shape_wallets/interactive_3d/wallet_data.js",
+    "bytes": 9842698,
+    "sha256": "75e4d182f3312881d9762ef67ac9cbab7f6a5218ff4e7aa9032a61281fd9e991"
+  },
+  {
+    "path": "alpha_shape_wallets/interactive_3d/wallet_space.html",
+    "bytes": 22558,
+    "sha256": "b522db66e36a7300368b16495130ff47777d9e94292ed0017bf87daa2f70d9f4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_profile/enrichment_grid.csv",
+    "bytes": 989,
+    "sha256": "d8c4dd36bde5ce2e44bc802a589a4d39793195c535b9c3e79231b489383f294c"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_profile/enrichment_grid.png",
+    "bytes": 90652,
+    "sha256": "3d11a2c7d86777a96291996a4071d39157b8c29d573ee32faa0919c4c573566f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_profile/feature_comparison.csv",
+    "bytes": 1277,
+    "sha256": "140fc3649add40bb5d1e1da5cd8d8ab51255d20ef81a4574c50f2ecbecc36cf6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_profile/feature_distributions.png",
+    "bytes": 78037,
+    "sha256": "af3f4711e73cae33e446aff2b685805fce1b03555349a0f78f2158244ef6e4a3"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_profile/k_robustness.csv",
+    "bytes": 601,
+    "sha256": "562c2ae7875e9095b3b288512515aedadface9612747c79ad1425833c8f4a7ea"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 488,
+    "sha256": "ed5fd1d0c4f034d9d3f4c7216ee99ed437b4dc3f1b5e76f7c0bae9a4d9dd37df"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d/outlier_profile/outlier_model.png",
+    "bytes": 40474,
+    "sha256": "7531922146ef837807ade3491fbdbd70de6cd36ffa0eefb6cf817dd2c4e05a24"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/enrichment_grid.csv",
+    "bytes": 937,
+    "sha256": "ac46b1592ad2c6b1b960aa5f91742aaddd58ea7789df0652b56349720cf596bb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/enrichment_grid.png",
+    "bytes": 84791,
+    "sha256": "e7ddfe85297134902cdcaddea4cf59ab48efcdb29e083503b2eaa5cb73701745"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/enrichment_grid_spec.json",
+    "bytes": 199,
+    "sha256": "afa64ffb8fabe0634ce6cd2a43d8dbb31684cca000906d22a421c1dd78a00780"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/feature_comparison.csv",
+    "bytes": 1287,
+    "sha256": "8d31f20a2589fde5b5fb3003fc03e8fd5d45fdc802cfce426a41a90ba50ba088"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/feature_distributions.png",
+    "bytes": 76335,
+    "sha256": "b431528d01ce24a4fd2c300f498f0f8cbe2631d68111f8f924e80cbf3f9987d2"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/k_robustness.csv",
+    "bytes": 611,
+    "sha256": "fb7e5ae5383518bc458d11138580b4a6bb612f91f9a70fc1fa70fa31b8a10da3"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 488,
+    "sha256": "d88751b72989d5295a687735a13b62f91976f4d55331be0fa4f11b9a4d5e4476"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_13_verified/outlier_profile/outlier_model.png",
+    "bytes": 40504,
+    "sha256": "9961dd75c317656591ffe66a4f8ff8840e40a535bf201976d1e2347216a803cb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_profile/enrichment_grid.csv",
+    "bytes": 981,
+    "sha256": "73c1f0003a069d4561f2eadba182128db4d9353fe8e86b7cfb00b39de88c4812"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_profile/enrichment_grid.png",
+    "bytes": 92137,
+    "sha256": "42d6919b167a9f96d16ea8b17e82497bc38a0f0e6631ae62f03539f33b5b008b"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_profile/feature_comparison.csv",
+    "bytes": 1281,
+    "sha256": "ae2da0739bc229666b72950ecf215d17f1cad2ce2702501515831b299f559725"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_profile/feature_distributions.png",
+    "bytes": 77016,
+    "sha256": "25df3904cde276e9b9d5346f36ecf0b57d2d2ee59640c7a49f284d383b2d23fd"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_profile/k_robustness.csv",
+    "bytes": 607,
+    "sha256": "64863764cdc7394341c1a60c9ae2a0c6956c17d370bc2a7133719f478aa46be6"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 470,
+    "sha256": "1215af416303dfde4ea83b741804eec5e21d78b5771a88792970af93ca3c665b"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced/outlier_profile/outlier_model.png",
+    "bytes": 40456,
+    "sha256": "90e3c630c23474127e8f06366b278660be56f0c2b1115618dc4946a67eb337fb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_profile/enrichment_grid.csv",
+    "bytes": 969,
+    "sha256": "c6b2519ac3be34552337031cc50321868197e11ce7e6c4e7d156c6c909f863c9"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_profile/enrichment_grid.png",
+    "bytes": 91894,
+    "sha256": "cc9e6974756f7597ae098806b850279a086baabff0c0da007204559419affad4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_profile/feature_comparison.csv",
+    "bytes": 1280,
+    "sha256": "a08231f0f7062f70e887841ce20782e009c7e9943e9630975779fd34ca8353d4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_profile/feature_distributions.png",
+    "bytes": 77139,
+    "sha256": "1ad1846a51ed5969e3604d3d94ab423fceac3ded77c9000e95d2080cc0414acb"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_profile/k_robustness.csv",
+    "bytes": 598,
+    "sha256": "052a8239f155e066bb2f85348305db426d9fd72acbdbf62f9703d3b95612577c"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 485,
+    "sha256": "05b7fd2f40b64a658ee21900f45a2dea0f5a2aae0c6d0c4a85cbf0030e323331"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_profitable/outlier_profile/outlier_model.png",
+    "bytes": 40592,
+    "sha256": "c8bef105bfc474f3df2aadc6421875f5603b312b1bdb913705b6e96576d272a9"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_profile/enrichment_grid.csv",
+    "bytes": 941,
+    "sha256": "c8b5280c3d94fd6cd42e41fde058d4ec149e1680cfcdcdc9c5972e289da1af5a"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_profile/enrichment_grid.png",
+    "bytes": 87260,
+    "sha256": "19ec5832087594aa8de832cda697c286c8d3e3cbfdccbc66bfec3cc8163a05d5"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_profile/feature_comparison.csv",
+    "bytes": 1292,
+    "sha256": "f6b6dd7e40f07ffa333e5544810c38d99c82b1d45d0d43482e43dc4973be9784"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_profile/feature_distributions.png",
+    "bytes": 76648,
+    "sha256": "a1b447fbd6d09ede95b490bbc681e0ddc8aac3bfb799ce3a6ef0d0b2a8d89e19"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_profile/k_robustness.csv",
+    "bytes": 609,
+    "sha256": "e2ae8a34a829d1c4d6ed6ecafa77b03eda36c2873008f2c9addfc45282ceb151"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 483,
+    "sha256": "d2cd162bdb51be464f99b50b06652c3ba8b950505c3b5791e5ae0b51c69cbad0"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified/outlier_profile/outlier_model.png",
+    "bytes": 40577,
+    "sha256": "dbbdd31daa64151f4833f1add1de49ff822309e32b11291ad2f63fa0dedc793e"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_profile/enrichment_grid.csv",
+    "bytes": 855,
+    "sha256": "1bae5752c8cd9659af810ca8d9a077392e5708c0fd22cfc6c88282891226ed47"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_profile/enrichment_grid.png",
+    "bytes": 81641,
+    "sha256": "66991cd68e1fe5617b29b0dd6993f5d1f083168ab8dbfb4f842028ab16a5063e"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_profile/feature_comparison.csv",
+    "bytes": 1291,
+    "sha256": "ec20805851585787ae0b1241ec0dc209516fb741ab44a7131d6a4de0b78821e5"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_profile/feature_distributions.png",
+    "bytes": 77093,
+    "sha256": "899b55269d692e20f1ec3a816e48a8299b25ac04873a0cab0ca8d818195ff6c8"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_profile/k_robustness.csv",
+    "bytes": 613,
+    "sha256": "5e354b4287970e10363418ee79ba31ba0482dcd9fe057140f83e69635151df0e"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 483,
+    "sha256": "4ff18e0f2d1f604fa394b2e83633e7b5310fb590f1a62a72833f1919c8a1b22e"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_balanced_verified_profitable/outlier_profile/outlier_model.png",
+    "bytes": 40498,
+    "sha256": "872ee49be7271765aa6bab0e4ef928c2f34c31abf5f4a7f5ab13ebb1edad60b5"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/enrichment_grid.csv",
+    "bytes": 830,
+    "sha256": "ea7d15d3fcff041ba9c19683677f1d5246010d77ba17cf025cd9d0d8f16c8f5e"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/enrichment_grid.png",
+    "bytes": 87098,
+    "sha256": "ce4714bc68f6641b1459d604d694fc5d423d26c3f593f747ba277ef57fa4c36b"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/enrichment_grid_spec.json",
+    "bytes": 219,
+    "sha256": "f4b72eba89a9fcee09f834329d9c7df612d3086a64299c19bbf1915d5db0fb5f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/feature_comparison.csv",
+    "bytes": 1120,
+    "sha256": "6716db296da5d63643cf680f161f5c3cba10197c262bb6ea1809b8f68e10b065"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/feature_distributions.png",
+    "bytes": 73063,
+    "sha256": "bc51cf7e14bd970c1646c9777ef735b1553a53fc3b8af556af2d9ecbd73e66a4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/k_robustness.csv",
+    "bytes": 620,
+    "sha256": "da93abf5708c72923f0753fdff82d820a05bc87c23f884c36c548b4615e2e447"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 397,
+    "sha256": "f266762c0646c7b7ea35e75a1a2631ff49adf6fce4cf5ede00b88d28394c9327"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study/outlier_profile/outlier_model.png",
+    "bytes": 37589,
+    "sha256": "0694989cf1acb52f20e1c741d4f8ddc859e905cff88d79102b0baccc46b6279d"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/enrichment_grid.csv",
+    "bytes": 707,
+    "sha256": "22207ff9139657a43d215e6a7c3e791db86cf8e9230f8a11ef56b9a82622df42"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/enrichment_grid.png",
+    "bytes": 83648,
+    "sha256": "d9e4497024faed889a5ea5dd818013827e9ca467a138e5ae26814cafe7ff24a4"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/enrichment_grid_spec.json",
+    "bytes": 219,
+    "sha256": "f4b72eba89a9fcee09f834329d9c7df612d3086a64299c19bbf1915d5db0fb5f"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/feature_comparison.csv",
+    "bytes": 1101,
+    "sha256": "557067aaec5912b30cb89f60110a8455fac1cfc39d2adc07eecadc409e00259d"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/feature_distributions.png",
+    "bytes": 71612,
+    "sha256": "031603c6ac1649826ceed4d5045c06f9f65a8b5032c922230e2feb4cde3f2d11"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/k_robustness.csv",
+    "bytes": 629,
+    "sha256": "70d17d4d2b48a33c25b8b7c96e8a3c70c1caab7fb4f20d2af0d118bbbe7da2f1"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/outlier_logistic_model.csv",
+    "bytes": 395,
+    "sha256": "1841df3b022b486fba07f3afb4fbb71f92b9812aa542085d8eb8a13556e3c0d7"
+  },
+  {
+    "path": "alpha_shape_wallets/alpha_results_pca3d_study_profitable/outlier_profile/outlier_model.png",
+    "bytes": 37588,
+    "sha256": "b0960d65976b6327b659f761c20bf10c2f696a74fedeb9723ecdadde6d3f889e"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/00_all_market_results.ipynb",
+    "bytes": 12768,
+    "sha256": "e58038befebccd56edd3235634956c579144bf4613a08c4420b6c8dcae03268b"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/01_rf_data_preparation.ipynb",
+    "bytes": 13263,
+    "sha256": "8419a9ceaffcacb7357a22f1cf03ccce81887bedfaed062c808f94ca3ecac2d5"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/02_rf_models.ipynb",
+    "bytes": 14876,
+    "sha256": "2993cb4ebfcffbe38521645585646b160d968d667e9a777b5a65a7a3c16e70ee"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/03_rf_validation.ipynb",
+    "bytes": 445386,
+    "sha256": "f71bc2a3469052ad7fad58c1adc8b816f15a11d3ad6df72e51374bbf003ff620"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/full_scope_query.py",
+    "bytes": 4442,
+    "sha256": "d61661013898391dd6763874d7c9d8628fca7a8609abdc65e88605e55ba2e6fd"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/original_feature_algorithms.py",
+    "bytes": 11146,
+    "sha256": "9700a89eb9436e8af4632bc76eaed9d3cb2b4c7591868863d6b822dfcde2631b"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/prepare_full_model_inputs.py",
+    "bytes": 21203,
+    "sha256": "e65681487725ed12590e5f148d739c2c6110990ff1f93facdce37c53d30e9e7f"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/refresh_all_market_results.py",
+    "bytes": 1412,
+    "sha256": "7d97ce81dd450bb72b232d77d9ff026119ae380c797bf9b116e27b7891551a55"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/requirements.txt",
+    "bytes": 411,
+    "sha256": "0692a70ee9580447f40b596053da1bfbfbfb13827aed78395c0fb7f7e257284e"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/requirements_database.txt",
+    "bytes": 24,
+    "sha256": "d7988ae6418c6155324eb156ed925de71d1907089fbbbcf9a766af8002062e9b"
+  },
+  {
+    "path": "wallet_full_analysis/02_notebooks/rf_common.py",
+    "bytes": 39579,
+    "sha256": "738eaa3e39f2c93d1673149bde88b3238cec3dca12cdb861d13336bae4dc7b0d"
+  },
+  {
+    "path": "wallet_full_analysis/data/candidate_markets_100plus_wallets.csv",
+    "bytes": 243592,
+    "sha256": "86af0e298e3753fe09258feed398a4318654041b155432ad06b9f119ce12a287"
+  },
+  {
+    "path": "wallet_full_analysis/data/candidate_markets_preliminary.csv",
+    "bytes": 2305854,
+    "sha256": "502d453ad6d82f95a3495f3e745424bf0a793349a3db74204a42088cc259cc2f"
+  },
+  {
+    "path": "wallet_full_analysis/data/markets_in_yuzhe_files.csv",
+    "bytes": 4022309,
+    "sha256": "1e975194db86dda22c1a4a1e90894eeab0ffccbcfa322c700d0d738ad774c83b"
+  },
+  {
+    "path": "wallet_full_analysis/data/market_trade_summary.csv",
+    "bytes": 22951386,
+    "sha256": "38aa36f788d5d10cefcf51adfab7c9ec557be5b00ccb163152baa6194e1bab32"
+  },
+  {
+    "path": "wallet_full_analysis/data/weekly_market_metadata_complete.csv",
+    "bytes": 46473594,
+    "sha256": "e8db4bbd64b461563f5df24c55d9de46b773d93be2280b2bc65e0e81072210e8"
+  },
+  {
+    "path": "wallet_full_analysis/reference/original_01_data_preparation.ipynb",
+    "bytes": 87455,
+    "sha256": "0f4321c7253b61709301b6420d7ed008354466902a63df77f9d7d37a61b41a68"
+  },
+  {
+    "path": "wallet_full_analysis/reference/original_03_final_validation.ipynb",
+    "bytes": 70796,
+    "sha256": "11acf7f993e7b77149b71ac54908bf7c616f36681eb1c7e9c9fafd492e3bd152"
+  },
+  {
+    "path": "wallet_full_analysis/reference/source_snapshot.json",
+    "bytes": 238,
+    "sha256": "2378c6ee03984b07dee730b4b02b615989e2348d3f176a1b671e9f5fa51ccc37"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/01_data_preparation/wallet_market_candidates_full_week.parquet",
+    "bytes": 11192514,
+    "sha256": "bc78b648ef682055c01955c22eabddb8a94762dce1af08b66acac2fa6b7dbcac"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/03_history_validation/fixed24h_history_features.parquet",
+    "bytes": 8570612,
+    "sha256": "416b7a2fe816ccdac130ea675ab6f2e1790c823e86302aa70567a71b30d764e8"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/03_history_validation/official_event_connected_mapping.csv",
+    "bytes": 543538,
+    "sha256": "2b77a3a01eb1ceab438993ee898f27f72000a3ff4e7cae5aaa086b369b4d8f41"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/03_history_validation/preparation_checks.json",
+    "bytes": 1291,
+    "sha256": "d91fc75958a72a3597648d7d6a6758ea4957e5b103af16c8d992447a31f9a856"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/03_history_validation/row_split_audit.csv",
+    "bytes": 19121135,
+    "sha256": "917018220f71f4bae21734f93d651e56f5c8eae9ff89ce7d2eea2be9c0b126d0"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/market_results/all_market_result_coverage.csv",
+    "bytes": 7754529,
+    "sha256": "e2b893327ed9f0367b2d2ae7d64041afbe4fea444dde0c367a84017221f05c24"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/market_results/coverage_summary.json",
+    "bytes": 999,
+    "sha256": "e7b3a754460a88472d5091419c97eb114db75ddac77566a5e50b092dd4f31b5f"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/market_results/markets_without_recorded_results.csv",
+    "bytes": 5847161,
+    "sha256": "f1e107ae5e0d8de74728211066feebaf73c4d230902449fc506bff1db5588d06"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/market_results/recorded_market_results.csv",
+    "bytes": 8489068,
+    "sha256": "d13d145481263a5017a54a28afc0f28f017789a2e64afa1331426ff0b4eeb457"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/latest_run.json",
+    "bytes": 32,
+    "sha256": "6a385a56725a80d9fd8f09ceacdff5026848de4378c3867ca91a0a5912183963"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/all_cv_results.csv",
+    "bytes": 19887,
+    "sha256": "69fad71217d224564b432b2936fb88ff423f5e89b916f19865cdc964dbddbe45"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/all_entry_keys.parquet",
+    "bytes": 1630353,
+    "sha256": "56b1b7cb22e05b6f9f2038ad8f42896d8cc6ab5bae05012c0959848edf99a098"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/candidate_grid.json",
+    "bytes": 667,
+    "sha256": "b2ee6ebd3815aae3595e6e573b6548f4df1f7d14c378e51c8fdc0646444e3cd5"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cohort_summary.csv",
+    "bytes": 1025,
+    "sha256": "95e0dbefb34f6ea997eed953d8d695655a1dcb7fefb3a544c064da9f84ca50f6"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_candidates_baseline.csv",
+    "bytes": 1124,
+    "sha256": "2b79c782498914cba2b6da6b7289d859d469677c2afc514a99181a8b0630556b"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_candidates_expanding_3.csv",
+    "bytes": 1123,
+    "sha256": "e7bbbf989d5ebef4350c20dab614ee66d509bfd786e702e6f17129e8000109d5"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_candidates_expanding_5.csv",
+    "bytes": 1120,
+    "sha256": "0f07b745485069806a29fbc113bea9fe6c0ddadbbf8d665c010e7f64060b4e36"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_candidates_fixed24h_3.csv",
+    "bytes": 1118,
+    "sha256": "ed3e5e2d6ef1e10591be720aaf8f74bc93c4b6d82d807991b08d59cbc9fc6187"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_candidates_fixed24h_5.csv",
+    "bytes": 1120,
+    "sha256": "65c7440f45f997b2d85d53c976aa200fab43e6db1c0e07dc3e5937e0c2047c7c"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_folds_baseline.csv",
+    "bytes": 4075,
+    "sha256": "1be4d9c970ef6a3a0decf8dff800fbec913beee0f7441932a3eb5dd37fd07370"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_folds_expanding_3.csv",
+    "bytes": 4125,
+    "sha256": "af96e84ca040e165147398c665ce453f234cc5b2bf6778bcaa75791a52b8e044"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_folds_expanding_5.csv",
+    "bytes": 4127,
+    "sha256": "a631fc30d326eb79f5a173ec254001b132fa53338f3e39b1ecbd35b265cd4206"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_folds_fixed24h_3.csv",
+    "bytes": 4115,
+    "sha256": "477463bd67839bece5f7b6b0c976a54fc1cbb29a50e08fec98d20b1b8323b8f2"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/cv_folds_fixed24h_5.csv",
+    "bytes": 4113,
+    "sha256": "438c55480359c4a35fba0b160bf31fb39ba74068f16f23a8685e7efb4fe0e681"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/data_manifest.json",
+    "bytes": 4336,
+    "sha256": "09cdfb66e717f57bb1a673fc25538542889b5175dda01c76a2ab3b49b0425fcd"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/evaluation_complete.json",
+    "bytes": 588,
+    "sha256": "d66ea22bf5ed32687a31ec0508ad4b93ccdbb61e7720f22cee71d96fa036c855"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/event_mapping.csv",
+    "bytes": 543538,
+    "sha256": "2b77a3a01eb1ceab438993ee898f27f72000a3ff4e7cae5aaa086b369b4d8f41"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/exploratory_test_metrics.csv",
+    "bytes": 2909,
+    "sha256": "66600d34081196a691828033795ab683bcb1943cf7be8f3605cc20af0e8964ed"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/exploratory_test_predictions.csv",
+    "bytes": 8985650,
+    "sha256": "13c3f983a8cc599f1d3349d2a7c51e9d4a8eb643d038613f07988394453d3516"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/feature_sets.csv",
+    "bytes": 1806,
+    "sha256": "02f900da334b64e6969183c7d7e3fc5e57adfd952e8d1593a1f3f0717574ace8"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/forward_cv_audit.csv",
+    "bytes": 568,
+    "sha256": "9b250bb01c677ba753b703c854071741796b03042741b1ae38ab5c1400332828"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/model_manifest.json",
+    "bytes": 15779,
+    "sha256": "7d100b332fe2b7205969296860ad292ce0f43a20ceba24d4418901840bd31be8"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/paired_event_log_loss_differences.csv",
+    "bytes": 2500,
+    "sha256": "40e93f3ff811263e519653ac83e1c45407adff9f0c2b79351919f9e6d4dbbba9"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/refit.parquet",
+    "bytes": 10605847,
+    "sha256": "f0ce657b6b18fd20cc262b45e43d5e86594349312f2eac5ad52f3ec8e6a805e1"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/rf_impurity_importance.csv",
+    "bytes": 4177,
+    "sha256": "8cbcbae7c40786582aac4c0aeab354fbfa0025e5b76acb73501b937645eeeb5a"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/run_config.json",
+    "bytes": 603,
+    "sha256": "00c7109aff630ad50103b52c50fd3f6089f002ff5cc0a0385f8a616177679da0"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/selected_parameters.json",
+    "bytes": 507,
+    "sha256": "527ab7772b50eaceb2f294440214709e21611bdfedbcf855d421907e4308a717"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/test.parquet",
+    "bytes": 5612774,
+    "sha256": "5c7a6163bdb46328309210caf7c619773baabf92809efa50c36be19bb2a913a3"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/train.parquet",
+    "bytes": 8042401,
+    "sha256": "db24310ba8cfcc529774ba998ed8e25f93919345d958021400751ecaf5db90c2"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/validation.parquet",
+    "bytes": 1642426,
+    "sha256": "b4342fa901fecc6a693511131b2acd3a0a46937ea1a378e5c093201dbb81c2a1"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/validation_grouped_permutation_importance.csv",
+    "bytes": 12625,
+    "sha256": "2daf1a286c4f5c04624370a17128fe0e17ede4d81757fbf1376985c21c8026f5"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/validation_metrics.csv",
+    "bytes": 2225,
+    "sha256": "481753de8e5def0f9b687020d54c01867f680d5ace9c6f36879d7f1a442868f4"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/figures/roc_pr_calibration.png",
+    "bytes": 172291,
+    "sha256": "9424c9e2812b52815a8c92f89363da8478b2d50169621ca84900ae8da6c351b1"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/figures/validation_feature_importance.png",
+    "bytes": 152524,
+    "sha256": "00a15f37a39f164c4f70c20eb0d583a9477d0e66f924a03ddf17e0291a9be8ae"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/logistic_baseline.joblib",
+    "bytes": 2093,
+    "sha256": "fd6104d9860b853d139e8d0e21b99f490df28963b9a3c756d0cf027e4540ceb8"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/logistic_expanding_3.joblib",
+    "bytes": 2248,
+    "sha256": "d0a89e76c6f990738dcf394e3a6943875169b44e06c3d41158734f707e5f4b75"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/logistic_expanding_5.joblib",
+    "bytes": 2392,
+    "sha256": "63adff2d5dcbc6ecfde3817a08d231b7947613eaa01b51d0dada34fbb7f2f845"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/logistic_fixed24h_3.joblib",
+    "bytes": 2245,
+    "sha256": "74f37f2096bbf93e73d30e30a933ab7b6e89f2df30e7e11476afee664de05d26"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/logistic_fixed24h_5.joblib",
+    "bytes": 2390,
+    "sha256": "b961b889cf2d5debdff1d8dcacb63dc4cc4900a28b4fd4c8cf846146942ce62c"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/random_forest_baseline.joblib",
+    "bytes": 5610644,
+    "sha256": "def5ef797a2b53fb592397403ad4a597d6004a594bdf224f1381d68400a51b1d"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/random_forest_expanding_3.joblib",
+    "bytes": 5603358,
+    "sha256": "a9816d6b6d26d5da7575a6dab0bbce41720282a9a20d61aff162a00a6d7a81a8"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/random_forest_expanding_5.joblib",
+    "bytes": 5613646,
+    "sha256": "d88219f34c63ab32da5ed1dc36a57f35c55d7a3ffb0581dd0069e7dc695082b0"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/random_forest_fixed24h_3.joblib",
+    "bytes": 5598733,
+    "sha256": "c1fd59eb7ab827ea5748808d1655d5000bb2d66c5461def974bc5f1463a4643d"
+  },
+  {
+    "path": "wallet_full_analysis/04_results/random_forest/full_data_run/models/random_forest_fixed24h_5.joblib",
+    "bytes": 5613872,
+    "sha256": "fcb2632e6832a17884ce9645f3eff01a425a775e06788be1836f4b494da720ff"
+  },
+  {
+    "path": "wallet_full_analysis/data/weekly_trades/download_manifest.json",
+    "bytes": 684,
+    "sha256": "c363b313bd03a96c3edec2caa00875cbbf25a728d8b0bbbb630171f04561f0d9"
+  },
+  {
+    "path": "wallet_level_table/build_scripts/build.py",
+    "bytes": 9686,
+    "sha256": "243a002a6210774d642a9ccafac7ba003ace6e75c64dfed0fbebd1fd59d01451"
+  },
+  {
+    "path": "wallet_level_table/build_scripts/cat.py",
+    "bytes": 925,
+    "sha256": "cc6c6da4ecc34681dc2892408b40a4772977e30ebc991972c31b37f01b003d63"
+  },
+  {
+    "path": "wallet_level_table/build_scripts/dict.py",
+    "bytes": 8553,
+    "sha256": "e7049cf08399105fe938159c602324d71397ea34c1ebfbe15b0f8c9162d9c998"
+  },
+  {
+    "path": "wallet_level_table/build_scripts/pairs.py",
+    "bytes": 2757,
+    "sha256": "da5347832d0a25f184a081089df8d3046c49edc5e31329caaa46c9f6081f3cb8"
+  },
+  {
+    "path": "wallet_level_table/build_scripts/pair_buy_fills.py",
+    "bytes": 1815,
+    "sha256": "79f74ba5742328fffaa7a7c01f38abc79aa3986c597d4498fccd441bd0c46c0d"
+  },
+  {
+    "path": "wallet_level_table/polywallet/DESCRIPTION",
+    "bytes": 788,
+    "sha256": "154355f582f76215a6b357c393e03ceacb3446726d89afb2ba8963c0be2d8ce6"
+  },
+  {
+    "path": "wallet_level_table/polywallet/LICENSE",
+    "bytes": 101,
+    "sha256": "aba49d6077a7eb69d87a06b45de2b95dc08feafad9433595bf6a23eb99bacddb"
+  },
+  {
+    "path": "wallet_level_table/polywallet/NAMESPACE",
+    "bytes": 267,
+    "sha256": "4fa856d161ae144aca2f704f1eb35026963a33a8a7bc3b01b2b6b1ee6664d652"
+  },
+  {
+    "path": "wallet_level_table/polywallet/man/polywallet.Rd",
+    "bytes": 2905,
+    "sha256": "cd7d68307037c4dcd8ffe5fbb15af9145770c27448430039240219978b5e29fb"
+  },
+  {
+    "path": "wallet_level_table/polywallet/R/polywallet.R",
+    "bytes": 6071,
+    "sha256": "fc9f38e71364c2564d9e22336491767eac37100c4bb3b67012f2b57b0bdb3a6b"
+  },
+  {
+    "path": "wallet_level_table/polywallet/inst/extdata/polymarket_wallets.csv.gz",
+    "bytes": 12302793,
+    "sha256": "70f5eff05cdd15771c931fa75d709ad6524f8435561ebc4565ea4aee921989a6"
+  },
+  {
+    "path": "wallet_level_table/polywallet/inst/extdata/polymarket_wallets_dictionary.csv",
+    "bytes": 7396,
+    "sha256": "ba6bdfff2fffc9ff40c5ad73b54d9695dd38e7817194109809ee2c64b2b71dc1"
+  },
+  {
+    "path": "wallet_level_table/polywallet/inst/extdata/polymarket_wallet_market_pairs.csv.gz",
+    "bytes": 14824981,
+    "sha256": "858aadbf9024a6cb68259171f91e3d115c7623c96406882ecf23916dd9cf23c7"
+  },
+  {
+    "path": "wallet_level_table/polywallet/inst/extdata/polymarket_wallet_market_pairs_dictionary.csv",
+    "bytes": 1389,
+    "sha256": "1289512f71d18e48da6f4116bd4a042a9b259287f01abc6c5aa43464a55f236b"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/01_rf_data_preparation.ipynb",
+    "bytes": 10306,
+    "sha256": "41b33879a59a1eb380028b6221bdeac9d2d54adc48af71583332ac32795f6fdc"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/02_rf_models.ipynb",
+    "bytes": 9436,
+    "sha256": "9ece0c501af5414eb153fd8ec54ebcc9b41132d3c2ad8d684a3a8bbb2ceae3e8"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/03_rf_validation.ipynb",
+    "bytes": 7886,
+    "sha256": "5a323048cb3102420740d1d2fa5c5fe01030a5bd3b8b2c96eddd1b044c9bf7e1"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/04_feature_importance_only.ipynb",
+    "bytes": 4332,
+    "sha256": "e526e8266c7fddb47d2a17838308e1945e854e043aff906f277c6c8a541d8eb3"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/comparison_summary.py",
+    "bytes": 9089,
+    "sha256": "6317bf692bc924e05fc49663a20a329db4eb6b531e2610f72159a9597e97ab6d"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/feature_importance.py",
+    "bytes": 18976,
+    "sha256": "b4e8c4c0dc4a57c8b8f9d1f916d46b646b85c87bd105a5e3fa4e7b2a9aed6dcf"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/requirements.txt",
+    "bytes": 411,
+    "sha256": "0692a70ee9580447f40b596053da1bfbfbfb13827aed78395c0fb7f7e257284e"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/rf_common.py",
+    "bytes": 39380,
+    "sha256": "588deb85432ec261c5487017840b35e736e33304fea7fd667d46cd42c4fa723f"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/RF_logistic_resultssummary.template.html",
+    "bytes": 1167442,
+    "sha256": "9c720df5c976064f04ec4ffa302d557c00be22a39b857e4f883e51215aae6aaa"
+  },
+  {
+    "path": "wallet_random_forest/02_notebooks/smoke_test.py",
+    "bytes": 15437,
+    "sha256": "c28f6f928d108e93100e6a435dc3b5d5000a1c0a8ceaedb638c375f8eeda738c"
+  },
+  {
+    "path": "wallet_random_forest/reference/original_03_final_validation.ipynb",
+    "bytes": 70796,
+    "sha256": "11acf7f993e7b77149b71ac54908bf7c616f36681eb1c7e9c9fafd492e3bd152"
+  }
+]

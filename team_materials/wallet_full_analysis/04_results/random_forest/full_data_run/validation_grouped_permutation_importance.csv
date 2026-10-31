@@ -1,0 +1,66 @@
+variant,feature_group,columns_json,mean_log_loss_increase,shuffle_sd,evaluated_rows,repeats,interpretation
+baseline,"entry_price (p, p2, p3, missing)","[""entry_price"", ""entry_price_squared"", ""entry_price_cubed"", ""entry_price__missing""]",0.4367789977450317,0.012591006192219933,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,market_log_observed_age,"[""market_log_observed_age""]",0.004137590005059755,0.0015067582999169957,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,entry_log_buy,"[""entry_log_buy""]",0.002947010917731074,0.0005467868423344206,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,market_log_wallets,"[""market_log_wallets""]",0.0002414753853103413,0.0007148851234746944,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,entry_log_fill_rows,"[""entry_log_fill_rows""]",1.5224775738553741e-05,8.918304602567102e-06,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,window_exposure_days,"[""window_exposure_days""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,entry_concentration,"[""entry_concentration""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,"hour_of_day (sin, cos)","[""clock_sin"", ""clock_cos""]",-0.0034278478305599046,0.00046978275824731164,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+baseline,market_log_dollars,"[""market_log_dollars""]",-0.004229224920241604,0.0006442692403284814,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,"entry_price (p, p2, p3, missing)","[""entry_price"", ""entry_price_squared"", ""entry_price_cubed"", ""entry_price__missing""]",0.44848056779913276,0.010540619363832505,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,ALL_HISTORY_TOGETHER,"[""history__log_fills"", ""history__log_markets"", ""history__log_buy_dollars""]",0.004929499905259227,0.0005855106616108492,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,market_log_observed_age,"[""market_log_observed_age""]",0.004294023415314074,0.0012476987853331503,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,history__log_fills,"[""history__log_fills""]",0.0037163187844972967,0.00024863220142524014,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,entry_log_buy,"[""entry_log_buy""]",0.003406935881739681,0.0005626061409076091,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,history__log_markets,"[""history__log_markets""]",0.0013814961116475066,0.0002847509388314719,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,history__log_buy_dollars,"[""history__log_buy_dollars""]",0.0008729662089193235,0.00012819822733294318,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,entry_concentration,"[""entry_concentration""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,window_exposure_days,"[""window_exposure_days""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,entry_log_fill_rows,"[""entry_log_fill_rows""]",-1.7251999850920186e-07,6.265560704208071e-07,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,market_log_wallets,"[""market_log_wallets""]",-5.933975252780943e-06,0.0007698840940584247,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,"hour_of_day (sin, cos)","[""clock_sin"", ""clock_cos""]",-0.0020455327981085737,0.0003952394312614043,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_3,market_log_dollars,"[""market_log_dollars""]",-0.0027779430321273834,0.000521130752928758,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,"entry_price (p, p2, p3, missing)","[""entry_price"", ""entry_price_squared"", ""entry_price_cubed"", ""entry_price__missing""]",0.44587721596017194,0.011934303615558112,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,market_log_observed_age,"[""market_log_observed_age""]",0.004631499058851851,0.0011699790638452232,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,entry_log_buy,"[""entry_log_buy""]",0.003218441906429226,0.0004979095912626637,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,ALL_HISTORY_TOGETHER,"[""history__log_fills"", ""history__log_markets"", ""history__log_buy_dollars""]",0.002745935318607118,0.0004587923379000642,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,history__log_fills,"[""history__log_fills""]",0.0019783903908105584,0.0001521361847365261,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,history__log_markets,"[""history__log_markets""]",0.0011114438283250205,0.0001743546346226448,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,history__log_buy_dollars,"[""history__log_buy_dollars""]",0.0005313074922278615,0.0003128721183250926,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,entry_concentration,"[""entry_concentration""]",2.2204460492503132e-17,4.9650683064945465e-17,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,entry_log_fill_rows,"[""entry_log_fill_rows""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,window_exposure_days,"[""window_exposure_days""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,market_log_wallets,"[""market_log_wallets""]",-0.0006876448416480274,0.0007975047404524518,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,"hour_of_day (sin, cos)","[""clock_sin"", ""clock_cos""]",-0.0025665524886063773,0.0004593141857379899,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_3,market_log_dollars,"[""market_log_dollars""]",-0.0041024107250881795,0.0006740439042326475,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,"entry_price (p, p2, p3, missing)","[""entry_price"", ""entry_price_squared"", ""entry_price_cubed"", ""entry_price__missing""]",0.4200267144671382,0.009539953185843261,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,ALL_HISTORY_TOGETHER,"[""history__log_fills"", ""history__log_markets"", ""history__log_buy_dollars"", ""history__buy_hhi"", ""history__log_avg_buy_ticket"", ""history__buy_hhi__missing"", ""history__log_avg_buy_ticket__missing""]",0.006753537631172346,0.0006601994054625754,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,market_log_observed_age,"[""market_log_observed_age""]",0.004279538272472761,0.0009338431645347755,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,entry_log_buy,"[""entry_log_buy""]",0.0035829880706912064,0.0004545069278675619,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,history__log_fills,"[""history__log_fills""]",0.0027661637746817956,0.0001372739547690199,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,history_avg_buy_size (incl. missing),"[""history__log_avg_buy_ticket"", ""history__log_avg_buy_ticket__missing""]",0.00271505693335341,0.0004397100191342281,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,history__log_buy_dollars,"[""history__log_buy_dollars""]",0.0012176840739153484,0.00014294474002698464,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,history_concentration (incl. missing),"[""history__buy_hhi"", ""history__buy_hhi__missing""]",0.0012119918907756654,0.0002386514616189177,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,history__log_markets,"[""history__log_markets""]",0.0009810768992876916,0.00011776950952982907,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,market_log_wallets,"[""market_log_wallets""]",0.0004737001314043754,0.0005349365705972519,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,entry_log_fill_rows,"[""entry_log_fill_rows""]",1.3300327550314072e-06,2.096081352595456e-06,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,window_exposure_days,"[""window_exposure_days""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,entry_concentration,"[""entry_concentration""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,"hour_of_day (sin, cos)","[""clock_sin"", ""clock_cos""]",-0.0010613691387855728,0.00012358758844518934,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+expanding_5,market_log_dollars,"[""market_log_dollars""]",-0.0020164602784691565,0.00036310917210773607,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,"entry_price (p, p2, p3, missing)","[""entry_price"", ""entry_price_squared"", ""entry_price_cubed"", ""entry_price__missing""]",0.4330779807647317,0.011231233037455832,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,market_log_observed_age,"[""market_log_observed_age""]",0.0042412493614982115,0.0013698211610992514,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,ALL_HISTORY_TOGETHER,"[""history__log_fills"", ""history__log_markets"", ""history__log_buy_dollars"", ""history__buy_hhi"", ""history__log_avg_buy_ticket"", ""history__buy_hhi__missing"", ""history__log_avg_buy_ticket__missing""]",0.0042051255885312,0.0008204143034926429,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,entry_log_buy,"[""entry_log_buy""]",0.0032550664805417575,0.0003929122366759449,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,history_avg_buy_size (incl. missing),"[""history__log_avg_buy_ticket"", ""history__log_avg_buy_ticket__missing""]",0.002222478441467135,0.00033591545125113097,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,history__log_fills,"[""history__log_fills""]",0.0022114841591123423,0.00010210852770183392,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,history__log_markets,"[""history__log_markets""]",0.0008161211116668344,0.00011765045328929861,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,history__log_buy_dollars,"[""history__log_buy_dollars""]",0.000749595056324659,0.0002503612858696985,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,history_concentration (incl. missing),"[""history__buy_hhi"", ""history__buy_hhi__missing""]",0.00022674717497748187,0.0002967098434931074,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,entry_log_fill_rows,"[""entry_log_fill_rows""]",1.3103900186051122e-07,3.1168835353827575e-06,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,entry_concentration,"[""entry_concentration""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,window_exposure_days,"[""window_exposure_days""]",0.0,0.0,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,market_log_wallets,"[""market_log_wallets""]",-0.00029088678451077987,0.0006250151827618964,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,"hour_of_day (sin, cos)","[""clock_sin"", ""clock_cos""]",-0.0014029000853436058,0.00020144563566535566,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.
+fixed24h_5,market_log_dollars,"[""market_log_dollars""]",-0.003137108096703789,0.00033661143008193085,5000,5,Positive means worse validation loss after shuffling; SD is not a CI.

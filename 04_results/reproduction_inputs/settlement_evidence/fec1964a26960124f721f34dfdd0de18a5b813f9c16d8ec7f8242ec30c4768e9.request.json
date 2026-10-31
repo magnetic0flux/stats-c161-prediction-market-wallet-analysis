@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=aapl-close-above-320-on-october-2-2026&slug=aapl-close-above-325-on-october-2-2026&slug=aapl-close-above-325-on-september-30-2026&slug=aapl-close-above-330-on-october-2-2026&slug=aapl-close-above-330-on-september-30-2026&slug=aapl-close-above-335-on-october-2-2026&slug=aapl-close-above-340-on-october-1-2026&slug=aapl-close-above-340-on-october-2-2026&slug=aapl-close-above-340-on-september-30-2026&slug=aapl-close-above-345-on-september-30-2026&slug=aapl-up-or-down-on-october-2-2026&slug=aapl-up-or-down-on-september-30-2026&slug=afcq-bur-alg-2026-09-29-exact-score-0-5&slug=afcq-bur-alg-2026-09-29-exact-score-1-4&slug=afcq-bur-alg-2026-09-29-exact-score-1-5&slug=afcq-bur-alg-2026-09-29-exact-score-2-3&slug=afcq-bur-alg-2026-09-29-exact-score-2-4&slug=afcq-bur-alg-2026-09-29-exact-score-2-5&slug=afcq-bur-alg-2026-09-29-exact-score-3-1&slug=afcq-bur-alg-2026-09-29-exact-score-3-2&slug=afcq-bur-alg-2026-09-29-exact-score-3-3&slug=afcq-bur-alg-2026-09-29-exact-score-3-4&slug=afcq-bur-alg-2026-09-29-exact-score-3-5&slug=afcq-bur-alg-2026-09-29-exact-score-4-0&slug=afcq-bur-alg-2026-09-29-exact-score-4-1&slug=afcq-bur-alg-2026-09-29-exact-score-4-2&slug=afcq-bur-alg-2026-09-29-exact-score-4-3&slug=afcq-bur-alg-2026-09-29-exact-score-4-4&slug=afcq-bur-alg-2026-09-29-exact-score-5-0&slug=afcq-bur-alg-2026-09-29-exact-score-5-1&slug=afcq-bur-alg-2026-09-29-exact-score-5-2&slug=afcq-bur-alg-2026-09-29-exact-score-5-3&slug=afcq-cv-rwa-2026-09-29-spread-away-1pt5&slug=afcq-cv-rwa-2026-09-29-spread-away-2pt5&slug=afcq-cv-rwa-2026-09-29-spread-away-3pt5&slug=afcq-cv-rwa-2026-09-29-spread-away-4pt5&slug=afcq-cv-rwa-2026-09-29-spread-home-1pt5&slug=afcq-cv-rwa-2026-09-29-spread-home-2pt5&slug=afcq-cv-rwa-2026-09-29-spread-home-3pt5&slug=afcq-eri-sa-2026-09-30-exact-score-2-5",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:25.150516+00:00",
+  "http_status": 200,
+  "response_sha256": "d4c7a0469f1c501c25d1e19388cc3b3585bb30e207ae71b0322136a40045bfde",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:25 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:25 GMT"
+  }
+}

@@ -1,0 +1,3 @@
+column,reason
+entry_price__missing,zero within-market variation or exact linear alias
+history_log_recency__missing,zero within-market variation or exact linear alias

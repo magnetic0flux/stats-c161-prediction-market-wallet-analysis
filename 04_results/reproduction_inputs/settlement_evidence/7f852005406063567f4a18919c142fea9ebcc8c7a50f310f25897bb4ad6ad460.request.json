@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=xrp-updown-5m-1791144000&slug=xrp-updown-5m-1791144300&slug=xrp-updown-5m-1791144900&slug=xrp-updown-5m-1791147900&slug=xrp-updown-5m-1791148500&slug=xrp-updown-5m-1791150300&slug=xrp-updown-5m-1791155100&slug=xrp-updown-5m-1791162900&slug=zec-updown-15m-1790801100&slug=zec-updown-15m-1790811900&slug=zec-updown-15m-1790910900&slug=zec-updown-15m-1790964900&slug=zec-updown-15m-1791062100&slug=zec-updown-15m-1791064800&slug=zec-updown-15m-1791138600&slug=zec-updown-15m-1791144900&slug=zec-updown-15m-1791148500&slug=zec-updown-4h-1790812800&slug=zec-updown-4h-1790899200&slug=zec-updown-5m-1790812800&slug=zec-updown-5m-1790819700",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:52.020842+00:00",
+  "http_status": 200,
+  "response_sha256": "4f5b5fea1e5f3d89216c53a951a64b2a3ff9ca380249f893dba508a868314297",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:52 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:52 GMT"
+  }
+}

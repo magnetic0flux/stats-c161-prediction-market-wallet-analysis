@@ -1,0 +1,11 @@
+{
+  "url": "https://clob.polymarket.com/markets/0xd1de24afb6554d761d19943f2ad7bffe2f11bd1531af68892697c912d85a8360",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:29:09.976039+00:00",
+  "http_status": 200,
+  "response_sha256": "f7d84b1dec4e12030e66594b5adecabe6f7d7eb2a4a921b79d983ef159d86ae6",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:29:09 GMT",
+    "Content-Type": "application/json"
+  }
+}

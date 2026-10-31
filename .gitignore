@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+02_notebooks/data/
+02_notebooks/results/
+04_results/reruns/

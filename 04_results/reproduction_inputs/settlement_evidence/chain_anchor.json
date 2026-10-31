@@ -1,0 +1,15 @@
+{
+  "chain_id": 137,
+  "block_number_hex": "0x5b68e06",
+  "block_number": 95849990,
+  "block_hash": "0x690e3787a485440aa09742cedc35bdbd546eb988d799f6e85d1e9167d6e891c1",
+  "block_timestamp": 1792480354,
+  "ctf_address": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+  "ctf_code_keccak256": "0xbe524e094025c2a1122ccfbe3264e29fe662d7e0ae518b6926135c814405eceb",
+  "collateral_candidate": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+  "rpc_endpoint": "https://polygon.drpc.org",
+  "anchor_selection": "latest_minus_128_blocks; pinned state, not a claim of result publication time",
+  "initial_rpc_response_key": "fff6db157bb9fb931a74f622f64747d398ab8f914f40ba52b12b9f39dfbf4e24",
+  "anchor_rpc_response_key": "e352c4f897a9aa433f9ce8928e263a48e9716c53da51060193d0765aae175ffe",
+  "created_at_utc": "2026-10-20T07:15:46.311496+00:00"
+}

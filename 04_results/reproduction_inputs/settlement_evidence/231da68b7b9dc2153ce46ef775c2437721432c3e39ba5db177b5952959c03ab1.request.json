@@ -1,0 +1,48 @@
+{
+  "url": "https://polygon.drpc.org",
+  "request_json": [
+    {
+      "jsonrpc": "2.0",
+      "id": 24,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+          "data": "0xd42dc0c26d3ef56472af6b7d48f9ac7bc2bf5a6d7422b3fdb1e7c9a1e8cae83c4921cd62"
+        },
+        "0x5b68e06"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 25,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+          "data": "0xdd34de676d3ef56472af6b7d48f9ac7bc2bf5a6d7422b3fdb1e7c9a1e8cae83c4921cd62"
+        },
+        "0x5b68e06"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 26,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+          "data": "0x0504c8146d3ef56472af6b7d48f9ac7bc2bf5a6d7422b3fdb1e7c9a1e8cae83c4921cd620000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "0x5b68e06"
+      ]
+    }
+  ],
+  "retrieved_at_utc": "2026-10-20T07:23:34.337449+00:00",
+  "http_status": 200,
+  "response_sha256": "03a1aaf82f423d058b4b188f21c80cd568ce0a147b409f78c0573d9edb21d47d",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:23:34 GMT",
+    "Content-Type": "application/json"
+  }
+}

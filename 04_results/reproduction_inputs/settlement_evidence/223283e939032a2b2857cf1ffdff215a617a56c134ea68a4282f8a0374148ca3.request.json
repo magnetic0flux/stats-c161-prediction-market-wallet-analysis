@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=cs2-g2-1win-2026-10-04-game3-round-total-24pt5&slug=cs2-g2-1win-2026-10-04-map-handicap-away-1pt5&slug=cs2-g2-1win-2026-10-04-map-handicap-home-1pt5&slug=cs2-g2-1win-2026-10-04-total-games-2pt5&slug=cs2-gls1-grmioe-2026-10-02&slug=cs2-gls1-pcy-2026-10-04&slug=cs2-gls1-pcy-2026-10-04-game1&slug=cs2-gls1-pcy-2026-10-04-game2&slug=cs2-gls1-pcy-2026-10-04-map-handicap-away-1pt5&slug=cs2-gls1-pcy-2026-10-04-total-games-2pt5&slug=cs2-jjh-js1-2026-10-02&slug=cs2-js1-eace-2026-10-02&slug=cs2-lag-mars-2026-09-29-game1&slug=cs2-lag-mars-2026-09-29-game2&slug=cs2-lc-sinqu-2026-10-01&slug=cs2-lg6-ast10-2026-10-04&slug=cs2-lg6-ast10-2026-10-04-game1&slug=cs2-lg6-ast10-2026-10-04-game2-round-handicap-ast10-3pt5&slug=cs2-lg6-ast10-2026-10-04-game3-round-total-21pt5&slug=cs2-lg6-ast10-2026-10-04-map-handicap-away-1pt5&slug=cs2-lg6-ast10-2026-10-04-map-handicap-home-1pt5&slug=cs2-lg6-ast10-2026-10-04-total-games-2pt5&slug=cs2-lg6-big5-2026-10-02&slug=cs2-lg6-big5-2026-10-02-game1&slug=cs2-lg6-big5-2026-10-02-total-games-2pt5&slug=cs2-mellre-forzer-2026-10-03&slug=cs2-mellre-forzer-2026-10-03-total-games-2pt5&slug=cs2-mw-meiano-2026-09-30-game1&slug=cs2-mw-meiano-2026-09-30-game2&slug=cs2-nicetr-fcf-2026-10-01&slug=cs2-nicetr-saw2-2026-10-04&slug=cs2-nicetr-saw2-2026-10-04-game1&slug=cs2-nicetr-saw2-2026-10-04-game2&slug=cs2-nicetr-saw2-2026-10-04-map-handicap-home-1pt5&slug=cs2-nicetr-saw2-2026-10-04-total-games-2pt5&slug=cs2-nip-havu-2026-10-02&slug=cs2-pre-glt-2026-10-02&slug=cs2-pure-nicetr-2026-10-02&slug=cs2-pure-nicetr-2026-10-02-total-games-2pt5&slug=cs2-rustec-enjoy-2026-10-04-game1",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:30.883680+00:00",
+  "http_status": 200,
+  "response_sha256": "882e9e322e5e1d18f7ebe2859d58324b01c9d570310912b2c363d56e5cdb81d4",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:30 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:30 GMT"
+  }
+}

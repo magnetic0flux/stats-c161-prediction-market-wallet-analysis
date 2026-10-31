@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=where-will-it-rain-on-september-30-2026-phoenix-az&slug=where-will-it-rain-on-september-30-2026-san-francisco-ca&slug=where-will-it-rain-on-september-30-2026-seattle-wa&slug=where-will-it-rain-on-september-30-2026-washington-dc&slug=which-cities-face-tornado-risk-on-october-2-2026-denver-co&slug=which-cities-face-tornado-risk-on-october-2-2026-little-rock-ar&slug=will-aapl-dip-to-332-by-september-28-2026-from-september-30&slug=will-aapl-dip-to-336-by-september-28-2026-from-september-30&slug=will-aapl-reach-340-by-september-28-2026&slug=will-abnb-dip-to-158-by-september-28-2026-from-september-30&slug=will-amzn-dip-to-248-by-september-28-2026-from-september-30&slug=will-amzn-reach-252-by-september-28-2026-from-september-30&slug=will-bitcoin-dip-to-78k-on-october-1-2026&slug=will-bitcoin-dip-to-79k-on-october-1-2026&slug=will-bitcoin-dip-to-80k-on-october-1-2026&slug=will-bitcoin-dip-to-80k-on-october-2-2026&slug=will-bitcoin-dip-to-81k-on-october-1-2026&slug=will-bitcoin-dip-to-81k-on-october-2-2026&slug=will-bitcoin-dip-to-82k-on-october-1-2026&slug=will-bitcoin-dip-to-82k-on-october-2-2026&slug=will-bitcoin-dip-to-83k-on-october-1-2026&slug=will-bitcoin-dip-to-83k-on-october-2-2026&slug=will-bitcoin-dip-to-84k-on-october-2-2026&slug=will-bitcoin-dip-to-85k-on-october-2-2026&slug=will-bitcoin-reach-84k-on-october-1-2026&slug=will-bitcoin-reach-85k-on-october-1-2026&slug=will-bitcoin-reach-86k-on-october-1-2026&slug=will-bitcoin-reach-86k-on-october-2-2026&slug=will-bitcoin-reach-87k-on-october-1-2026&slug=will-bitcoin-reach-87k-on-october-2-2026&slug=will-bitcoin-reach-88k-on-october-1-2026&slug=will-bitcoin-reach-88k-on-october-2-2026&slug=will-bitcoin-reach-89k-on-october-1-2026&slug=will-bitcoin-reach-89k-on-october-2-2026&slug=will-bitcoin-reach-90k-on-october-2-2026&slug=will-bitcoin-reach-90k-on-september-30-2026&slug=will-bitcoin-reach-91k-on-october-2-2026&slug=will-bitcoin-reach-91k-on-september-30-2026&slug=will-bitcoin-reach-92k-on-october-2-2026&slug=will-bitcoin-reach-93k-on-october-2-2026",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:50.531626+00:00",
+  "http_status": 200,
+  "response_sha256": "9eb3bd8e244dacbb82ad6bc3fdc70d716b65c72a01c987349bc7c21a8ca88d05",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:50 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:50 GMT"
+  }
+}

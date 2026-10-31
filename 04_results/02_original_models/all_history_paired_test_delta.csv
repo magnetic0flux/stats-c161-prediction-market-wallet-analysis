@@ -1,0 +1,2 @@
+comparison,event_proxy_groups,bootstrap_replicates,effective_event_proxy_groups_inverse_hhi,largest_event_row_share,log_loss_delta,log_loss_delta_ci_low,log_loss_delta_ci_high,brier_delta,brier_delta_ci_low,brier_delta_ci_high
+remove_all_history_from_logistic,146,300,4.193383135139648,0.4753838608669408,6.198179546423498e-05,-0.00016375268502688946,0.0005836126917151493,-4.0169591289582944e-05,-0.00013925627753952813,0.0001689231411300879

@@ -1,0 +1,9 @@
+lookback,hypothesis,model,p_raw,F,test_status,df_num,df_reference,p_holm_frozen_8_test_family
+expanding,single_log_fills,expanding_only_log_fills,0.9978323811921941,7.394455422989335e-06,estimable,1,265,1.0
+expanding,single_log_markets,expanding_only_log_markets,0.91816164438774,0.010577646063006792,estimable,1,265,1.0
+expanding,single_log_buy_dollars,expanding_only_log_buy_dollars,0.557931782997355,0.34416944941997746,estimable,1,265,1.0
+expanding,joint_all_three,expanding_all_three,0.1059223349630942,2.059772047134588,estimable,3,265,0.8473786797047536
+fixed24h,single_log_fills,fixed24h_only_log_fills,0.9674840044963264,0.0016648507350176507,estimable,1,265,1.0
+fixed24h,single_log_markets,fixed24h_only_log_markets,0.9070236919557406,0.013666836208598198,estimable,1,265,1.0
+fixed24h,single_log_buy_dollars,fixed24h_only_log_buy_dollars,0.640628410298434,0.21842274295350422,estimable,1,265,1.0
+fixed24h,joint_all_three,fixed24h_all_three,0.36557012021792107,1.0623451148059269,estimable,3,265,1.0

@@ -1,0 +1,11 @@
+feature,cohort,rows,nonmissing,mean,unique
+feature_entry_has_sell,conditional_label_present,89736,89736,4.45751983596327e-05,2
+feature_entry_has_sell,conditional_label_unknown,6448,6448,0.7639578163771712,2
+feature_entry_no_buy,conditional_label_present,89736,89736,0.0,1
+feature_entry_no_buy,conditional_label_unknown,6448,6448,0.7583746898263027,2
+feature_entry_both_outcomes_bought,conditional_label_present,89736,89736,0.0008023535704733886,2
+feature_entry_both_outcomes_bought,conditional_label_unknown,6448,6448,0.0,1
+feature_entry_direction_concentration,conditional_label_present,89736,89736,0.9995443153458194,73
+feature_entry_direction_concentration,conditional_label_unknown,6448,1558,1.0,1
+feature_entry_buy_vwap,conditional_label_present,89736,89736,0.6385265781843116,21619
+feature_entry_buy_vwap,conditional_label_unknown,6448,1558,0.5748470886944799,645

@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=afcq-eri-sa-2026-09-30-exact-score-3-4&slug=afcq-eri-sa-2026-09-30-exact-score-3-5&slug=afcq-eri-sa-2026-09-30-exact-score-4-3&slug=afcq-eri-sa-2026-09-30-exact-score-4-4&slug=afcq-eri-sa-2026-09-30-exact-score-4-5&slug=afcq-eri-sa-2026-09-30-exact-score-5-2&slug=afcq-eri-sa-2026-09-30-exact-score-5-3&slug=afcq-eth-sen-2026-09-29-first-half-total-2pt5&slug=afcq-eth-sen-2026-09-29-first-half-total-4pt5&slug=afcq-eth-sen-2026-09-29-spread-home-4pt5&slug=afcq-eth-sen-2026-09-29-team-total-home-0pt5&slug=afcq-eth-sen-2026-09-29-total-2pt5&slug=afcq-eth-sen-2026-09-29-total-4pt5&slug=afcq-eth-sen-2026-09-29-total-7pt5&slug=afcq-gab-nige-2026-09-29-exact-score-0-1&slug=afcq-gab-nige-2026-09-29-exact-score-0-3&slug=afcq-gab-nige-2026-09-29-exact-score-2-0&slug=afcq-gab-nige-2026-09-29-halftime-result-away&slug=afcq-gb-nig-2026-09-29-first-half-team-total-home-3pt5&slug=afcq-gb-nig-2026-09-29-second-half-team-total-home-3pt5&slug=afcq-gb-nig-2026-09-29-spread-away-1pt5&slug=afcq-gb-nig-2026-09-29-spread-away-2pt5&slug=afcq-gb-nig-2026-09-29-spread-away-3pt5&slug=afcq-gb-nig-2026-09-29-spread-away-5pt5&slug=afcq-gb-nig-2026-09-29-spread-home-2pt5&slug=afcq-gb-nig-2026-09-29-spread-home-3pt5&slug=afcq-gb-nig-2026-09-29-spread-home-4pt5&slug=afcq-gb-nig-2026-09-29-spread-home-5pt5&slug=afcq-gb-nig-2026-09-29-team-total-away-0pt5&slug=afcq-gb-nig-2026-09-29-team-total-away-5pt5&slug=afcq-gb-nig-2026-09-29-team-total-home-3pt5&slug=afcq-gb-nig-2026-09-29-team-total-home-4pt5&slug=afcq-gb-nig-2026-09-29-team-total-home-5pt5&slug=afcq-gha-gam-2026-09-29-exact-score-0-4&slug=afcq-gha-gam-2026-09-29-exact-score-0-5&slug=afcq-gha-gam-2026-09-29-exact-score-1-3&slug=afcq-gha-gam-2026-09-29-exact-score-1-4&slug=afcq-gha-gam-2026-09-29-exact-score-2-3&slug=afcq-gha-gam-2026-09-29-exact-score-3-2&slug=afcq-gha-gam-2026-09-29-exact-score-4-1",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:25.531519+00:00",
+  "http_status": 200,
+  "response_sha256": "6aac8f4a0d83bf102967df376a62007047c35c37fb5de35febb504c8b3f6c3aa",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:25 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:25 GMT"
+  }
+}

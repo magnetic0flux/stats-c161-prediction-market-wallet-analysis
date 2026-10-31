@@ -1,0 +1,82 @@
+{
+  "retrieved_completed_at_utc": "2026-10-20T07:30:56.170542+00:00",
+  "input_market_count": 2661,
+  "public_exact_identity_matches": 2661,
+  "onchain_verified": 2661,
+  "verified_base_matches": 2661,
+  "verified_base_mismatches": 0,
+  "status_counts": {
+    "onchain_token_bound_payout_verified": 2661
+  },
+  "collateral_binding_counts": {
+    "neg_risk_wrapped_USDCe": 1532,
+    "direct_USDCe": 1129
+  },
+  "anchor": {
+    "chain_id": 137,
+    "block_number_hex": "0x5b68e06",
+    "block_number": 95849990,
+    "block_hash": "0x690e3787a485440aa09742cedc35bdbd546eb988d799f6e85d1e9167d6e891c1",
+    "block_timestamp": 1792480354,
+    "ctf_address": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+    "ctf_code_keccak256": "0xbe524e094025c2a1122ccfbe3264e29fe662d7e0ae518b6926135c814405eceb",
+    "collateral_candidate": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "rpc_endpoint": "https://polygon.drpc.org",
+    "anchor_selection": "latest_minus_128_blocks; pinned state, not a claim of result publication time",
+    "initial_rpc_response_key": "fff6db157bb9fb931a74f622f64747d398ab8f914f40ba52b12b9f39dfbf4e24",
+    "anchor_rpc_response_key": "e352c4f897a9aa433f9ce8928e263a48e9716c53da51060193d0765aae175ffe",
+    "created_at_utc": "2026-10-20T07:15:46.311496+00:00"
+  },
+  "neg_risk_adapter_proof": {
+    "adapter_address": "0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296",
+    "wrapped_collateral": "0x3a3bd7bb9528e159577f7c2e685cc81a765002e2",
+    "underlying_collateral": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "ctf_address": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+    "getter_response_key": "3beccf7e1e62e4e5d9d2ac38e2ff6778a6fc7408e2ce132cc996942b1489e606",
+    "code_response_key": "7e6f23d3680b6c2e146d03ab797480406dcd03659a4e991266e646b92a4c69a2",
+    "code_keccak256": "0x10798bfdebdc3b8727171551b1287ee4c87b486045ed51a6ddc94e34f66560a1",
+    "block_number_hex": "0x5b68e06",
+    "block_hash": "0x690e3787a485440aa09742cedc35bdbd546eb988d799f6e85d1e9167d6e891c1",
+    "documentation": "https://github.com/Polymarket/neg-risk-ctf-adapter/blob/main/src/NegRiskAdapter.sol"
+  },
+  "secondary_pilots": {
+    "cs2-g2-1win-2026-10-04": {
+      "response_key": [
+        "821d22512f44d76322a6cdba1842995c9724fa7e9ed7b34a2ca43d9672fe8123",
+        "0a1734477acd935fd7164c0c9ed3766e01e749f2a011441a5154a6c1ea5843f6",
+        "6bf858b0fac0deeef0034f5d4d84e567cc7266933498847e470fb78c31fd9a42"
+      ],
+      "matches": true,
+      "read_mode": "latest; independent later-block crosscheck, not historical publication evidence",
+      "secondary_observed_header_hash": "0x7f946fec3528c6835d094a91e139705a424a264020471e50b13de3fcaf1bbfe2",
+      "clob_response_key": "550a7a499b8601e0d2286a3186c39b93643f347837e407b0b8108e7c009838fb"
+    },
+    "highest-temperature-in-tokyo-on-october-2-2026-23c": {
+      "response_key": [
+        "bd5abe8e77d86a1b3729e00830962dce70a9f3793a76ba61c6ae682941d41f9d",
+        "0cecbdb2958da678e50c81aa4c83c43c670593595599e39d422442b159e6d218",
+        "f680ccfc34a237926b7a61f035ecb81fb7708f8f7a8350398ca90f44f8cd82a5"
+      ],
+      "matches": true,
+      "read_mode": "latest; independent later-block crosscheck, not historical publication evidence",
+      "secondary_observed_header_hash": "0x7f946fec3528c6835d094a91e139705a424a264020471e50b13de3fcaf1bbfe2",
+      "clob_response_key": "e12f803e667f5e1fdd23c8414d800c4e96911062abdb69eef2afa5cdc97016e9"
+    },
+    "btc-updown-5m-1791162900": {
+      "response_key": [
+        "0d1df0d57330b74ff5fcc694f6cb5960a37727d2a0d3f3cd627ecff41bbdd2e5",
+        "5cc2dc0c0f0b2d726a2b51b4385bb3056c4973500810e0ef423ce9255c96ace6",
+        "18a5a4f3845f97f7b0c349f9d09a02e2636dc80a6c848fae730f4f0e676384e2"
+      ],
+      "matches": true,
+      "read_mode": "latest; independent later-block crosscheck, not historical publication evidence",
+      "secondary_observed_header_hash": "0x2841439a4c043c4d3bb95668b15ef43ba31d2a1f87bb0a9790a341753156f62c",
+      "clob_response_key": "c02ed7df61c7623a05ff1ee85a0de37196acf73b720fd82ce03aa5b134b385da"
+    }
+  },
+  "canonical_recheck_response_key": "c2a6d958554392fe4b7e06e4aa1a9fadabb898936b7717c1d5a929e86720b1cf",
+  "code_source_sha256": "cc0130223eb0e2a136cbeeea437a57152fd279c440bf4efd1d857cf41d7f02a0",
+  "output_sha256": "2ad3b3d81d8434b87a0e3e048cfeae8c8db9e86cbe40ff7eb3630e4f3964f90d",
+  "interpretation": "Pinned onchain token-bound payout only. No proof of historical result publication, opening holdings, costs, transfers, fees or true net profitability.",
+  "errors": {}
+}

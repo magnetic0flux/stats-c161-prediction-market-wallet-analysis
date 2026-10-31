@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=btc-updown-15m-1791138600&slug=btc-updown-15m-1791139500&slug=btc-updown-15m-1791143100&slug=btc-updown-15m-1791144000&slug=btc-updown-15m-1791144900&slug=btc-updown-15m-1791145800&slug=btc-updown-15m-1791147600&slug=btc-updown-4h-1790798400&slug=btc-updown-4h-1790899200&slug=btc-updown-4h-1790985600&slug=btc-updown-5m-1790726100&slug=btc-updown-5m-1790733300&slug=btc-updown-5m-1790801700&slug=btc-updown-5m-1790812500&slug=btc-updown-5m-1790812800&slug=btc-updown-5m-1790824200&slug=btc-updown-5m-1790877300&slug=btc-updown-5m-1790910900&slug=btc-updown-5m-1791064800&slug=btc-updown-5m-1791065400&slug=btc-updown-5m-1791092100&slug=btc-updown-5m-1791093300&slug=btc-updown-5m-1791136800&slug=btc-updown-5m-1791143700&slug=btc-updown-5m-1791144300&slug=btc-updown-5m-1791144900&slug=btc-updown-5m-1791147300&slug=btc-updown-5m-1791147600&slug=btc-updown-5m-1791147900&slug=btc-updown-5m-1791150300&slug=btc-updown-5m-1791155100&slug=btc-updown-5m-1791157800&slug=btc-updown-5m-1791162900&slug=cfb-ind-rutger-2026-10-03-spread-away-24pt5&slug=cfb-mia-clmsn-2026-10-03-1h-spread-away-10pt5&slug=cfb-mia-clmsn-2026-10-03-spread-away-11pt5&slug=cfb-mia-clmsn-2026-10-03-spread-away-12pt5&slug=cfb-mia-clmsn-2026-10-03-spread-away-15pt5&slug=cfb-mia-clmsn-2026-10-03-spread-away-18pt5&slug=cfb-mia-clmsn-2026-10-03-spread-away-9pt5",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:28.970082+00:00",
+  "http_status": 200,
+  "response_sha256": "29397b68a826a368b07b471a7361ddda1e7b71f772de00adb6e14c017ab67e98",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:28 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:28 GMT"
+  }
+}

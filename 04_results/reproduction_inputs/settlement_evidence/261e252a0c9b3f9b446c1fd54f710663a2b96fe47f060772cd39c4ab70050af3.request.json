@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=idn2-spf-pek-2026-10-04-spread-home-1pt5&slug=idn2-spf-pek-2026-10-04-team-total-home-0pt5&slug=idn2-spf-pek-2026-10-04-total-0pt5&slug=idn2-spf-pek-2026-10-04-total-1pt5&slug=idn2-spf-pek-2026-10-04-total-3pt5&slug=idn2-spf-pek-2026-10-04-total-4pt5&slug=idn2-spf-pek-2026-10-04-total-7pt5&slug=itf-aunion1-zgragg1-2026-10-04&slug=itf-belans1-borocz1-2026-10-04&slug=lol-esb-ucam1-2026-09-30&slug=lol-esb-ucam1-2026-09-30-total-games-2pt5&slug=lol-g2nord-bombat-2026-09-30-game1-odd-even-total-kills&slug=lol-gal-tsc-2026-10-04-game1&slug=lol-gal-tsc-2026-10-04-game2&slug=lol-gal-tsc-2026-10-04-game3&slug=lol-gam-we-2026-10-03&slug=lol-hmble-bar-2026-09-30&slug=lol-hmble-bar-2026-09-30-total-games-2pt5&slug=lol-hrts-nbs-2026-09-30&slug=lol-hrts-nbs-2026-09-30-game1&slug=lol-hrts-nbs-2026-09-30-game1-odd-even-total-kills&slug=lol-hrts-nbs-2026-09-30-game2&slug=lol-hrts-nbs-2026-09-30-game2-odd-even-total-kills&slug=lol-hrts-nbs-2026-09-30-total-games-2pt5&slug=lol-koia-ucam1-2026-10-04-game1&slug=lol-koia-ucam1-2026-10-04-game2&slug=lol-koia-ucam1-2026-10-04-game3&slug=lol-lll-fur-2026-10-03-game2-kill-over-24pt5&slug=lol-los-kbm-2026-09-30&slug=lol-los-kbm-2026-09-30-game2&slug=lol-los-kbm-2026-09-30-game3&slug=lol-los-kbm-2026-09-30-total-games-3pt5&slug=lol-red-kt-2026-10-04&slug=lol-red-kt-2026-10-04-game2&slug=lol-red-kt-2026-10-04-total-games-2pt5&slug=lol-red-navi-2026-10-03&slug=lol-sly-bar-2026-10-04-game1&slug=lol-sly-bar-2026-10-04-game2&slug=lol-sly-bar-2026-10-04-game3&slug=lol-tl2-ly-2026-10-04-game2",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:40.277133+00:00",
+  "http_status": 200,
+  "response_sha256": "055cae43069cdc6421e168318b06ab1f7cc995180499c6a069a90b53ad7ebb8f",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:40 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:40 GMT"
+  }
+}

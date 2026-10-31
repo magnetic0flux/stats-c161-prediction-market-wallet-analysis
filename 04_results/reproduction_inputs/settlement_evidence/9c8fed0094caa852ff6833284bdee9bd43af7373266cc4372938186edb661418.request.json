@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=nfl-la-phi-2026-10-04-rec-devonta-smith-3pt5&slug=nfl-la-phi-2026-10-04-rec-dontayvion-wicks-3pt5&slug=nfl-la-phi-2026-10-04-ryd-kyren-williams-49pt5&slug=nfl-la-phi-2026-10-04-ryd-kyren-williams-59pt5&slug=nfl-la-phi-2026-10-04-ryd-kyren-williams-69pt5&slug=nfl-la-phi-2026-10-04-ryd-saquon-barkley-69pt5&slug=nfl-mia-min-2026-10-04-pyd-malik-willis-174pt5&slug=nfl-mia-min-2026-10-04-rec-jordan-addison-4pt5&slug=nfl-mia-min-2026-10-04-rec-tai-felton-1pt5&slug=nfl-mia-min-2026-10-04-rec-tj-hockenson-3pt5&slug=nfl-ne-buf-2026-10-04-rec-dalton-kincaid-4pt5&slug=nfl-ne-buf-2026-10-04-rec-demario-douglas-2pt5&slug=nfl-ne-buf-2026-10-04-rec-dj-moore-3pt5&slug=nfl-ne-buf-2026-10-04-recyd-dalton-kincaid-19pt5&slug=nfl-ne-buf-2026-10-04-recyd-hunter-henry-39pt5&slug=nfl-ne-buf-2026-10-04-recyd-romeo-doubs-39pt5&slug=nfl-ne-buf-2026-10-04-ryd-drake-maye-29pt5&slug=nfl-ne-buf-2026-10-04-ryd-james-cook-iii-79pt5&slug=nfl-ten-bal-2026-10-04-rec-gunnar-helm-2pt5&slug=nfl-ten-bal-2026-10-04-rec-mark-andrews-3pt5&slug=nfl-ten-bal-2026-10-04-rec-zay-flowers-5pt5&slug=nfl-ten-bal-2026-10-04-recyd-zay-flowers-69pt5&slug=nflx-up-or-down-on-september-30-2026&slug=nvda-up-or-down-on-september-30-2026&slug=r6siege-ff2-dz-2026-10-02&slug=r6siege-g2-ge-2026-09-30&slug=r6siege-lev-pozy-2026-10-04&slug=r6siege-lev-pozy-2026-10-04-game2&slug=sol-updown-15m-1790742600&slug=sol-updown-15m-1790793900&slug=sol-updown-15m-1790801100&slug=sol-updown-15m-1790811900&slug=sol-updown-15m-1790812800&slug=sol-updown-15m-1790820000&slug=sol-updown-15m-1790823600&slug=sol-updown-15m-1790826300&slug=sol-updown-15m-1790903700&slug=sol-updown-15m-1790912700&slug=sol-updown-15m-1790964900&slug=sol-updown-15m-1791062100",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:49.029880+00:00",
+  "http_status": 200,
+  "response_sha256": "2b0760ef93a0764b4dc46c0fb3796a1683715b2ab3e5b85501e11b109a46f27e",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:49 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:49 GMT"
+  }
+}

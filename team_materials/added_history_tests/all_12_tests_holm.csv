@@ -1,0 +1,13 @@
+lookback,hypothesis,p_raw,p_holm_12
+expanding,single_log_fills,0.997832381190112,1.0
+expanding,single_log_markets,0.9181616443876313,1.0
+expanding,single_log_buy_dollars,0.5579317829973436,1.0
+expanding,joint_all_three,0.10592233496308827,1.0
+fixed24h,single_log_fills,0.967484004496399,1.0
+fixed24h,single_log_markets,0.9070236919557352,1.0
+fixed24h,single_log_buy_dollars,0.6406284102984571,1.0
+fixed24h,joint_all_three,0.3655701202179218,1.0
+expanding,single_buy_hhi,0.8577918521220034,1.0
+expanding,single_log_avg_buy_ticket,0.07327371338965812,0.8792845606758974
+fixed24h,single_buy_hhi,0.5126891580109164,1.0
+fixed24h,single_log_avg_buy_ticket,0.14912490915587365,1.0

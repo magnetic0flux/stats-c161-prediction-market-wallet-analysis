@@ -1,0 +1,9 @@
+candidate_id,params_json,cv_log_loss,cv_brier,cv_mean_roc_auc
+7,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 50}",0.46670542550897576,0.15221351152389873,0.8483692354002348
+2,"{""max_depth"": 12, ""max_features"": ""sqrt"", ""min_samples_leaf"": 10}",0.46801980413256505,0.1536468968299536,0.8442581052146831
+5,"{""max_depth"": 6, ""max_features"": 0.7, ""min_samples_leaf"": 50}",0.48439344308558535,0.1610298397682753,0.8264986747403812
+0,"{""max_depth"": null, ""max_features"": 0.7, ""min_samples_leaf"": 50}",0.48730133695967126,0.16191953435448617,0.8275443007227326
+1,"{""max_depth"": 6, ""max_features"": 0.7, ""min_samples_leaf"": 25}",0.5059192820294535,0.1710815966122325,0.786602261197844
+3,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 50}",0.5082878266231798,0.17119075140802442,0.7978426578749807
+6,"{""max_depth"": 6, ""max_features"": 0.7, ""min_samples_leaf"": 10}",0.5250644328000479,0.1787802709919329,0.779621926549196
+4,"{""max_depth"": 12, ""max_features"": 1.0, ""min_samples_leaf"": 10}",0.5721927142878578,0.1948171268552845,0.7349892544734853

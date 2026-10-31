@@ -1,0 +1,16 @@
+concept,specified_terms,retained_terms,df_num,p_raw,status,F,p_holm_primary_family,q_bh_primary_family
+entry_buy_scale,entry_log_buy,entry_log_buy,1,0.21550682034172258,estimable,1.5396589446766422,1.0,0.359178033902871
+entry_price_nonlinear,entry_price;entry_price_squared;entry_price_cubed,entry_price;entry_price_squared;entry_price_cubed,3,1.542863585664435e-152,estimable,764.9549594447802,2.3142953784966524e-151,2.3142953784966524e-151
+entry_fill_rows,entry_log_fill_rows,entry_log_fill_rows,1,0.4393197298815258,estimable,0.59943798636358,1.0,0.5069073806325297
+prior_market_volume,market_log_dollars,market_log_dollars,1,0.11974324766920308,estimable,2.4326519114822385,1.0,0.31215748047605646
+prior_market_participants,market_log_wallets,market_log_wallets,1,0.5885547340441708,estimable,0.29315264669845376,1.0,0.6305943579044687
+observed_market_age,market_log_observed_age,market_log_observed_age,1,0.3158078936553193,estimable,1.009144388207654,1.0,0.4306471277117991
+utc_clock,clock_sin;clock_cos,clock_sin;clock_cos,2,0.103553854681974,estimable,2.2825475427430657,1.0,0.31215748047605646
+observation_window_exposure,window_exposure_days,window_exposure_days,1,0.02431394951401912,estimable,5.116760407940949,0.3403952931962677,0.1823546213551434
+history_activity,history_log_fills,history_log_fills,1,0.14642928898119245,estimable,2.118540077617195,1.0,0.31215748047605646
+history_breadth,history_log_markets,history_log_markets,1,0.8615769288868163,estimable,0.030449079912634715,1.0,0.8615769288868163
+history_buy_scale,history_log_buy,history_log_buy,1,0.05222966759837112,estimable,3.794421716489869,0.6789856787788245,0.26114833799185555
+history_buy_concentration,history_buy_hhi,history_buy_hhi,1,0.4164980602741106,estimable,0.6617573122400195,1.0,0.5069073806325297
+history_observed_span,history_log_span,history_log_span,1,0.1664839895872301,estimable,1.9223862121583082,1.0,0.31215748047605646
+history_recency,history_log_recency,history_log_recency,1,0.2882045166199778,estimable,1.1314565700646613,1.0,0.4306471277117991
+missingness,entry_price__missing;history_buy_hhi__missing;history_log_span__missing;history_log_recency__missing,history_buy_hhi__missing;history_log_span__missing,2,0.13542318848226212,estimable_reduced_due_alias,2.0109149459033997,1.0,0.31215748047605646

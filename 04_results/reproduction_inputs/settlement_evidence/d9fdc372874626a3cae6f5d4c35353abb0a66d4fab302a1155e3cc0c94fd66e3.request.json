@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=solana-up-or-down-october-1-2026-8pm-et&slug=solana-up-or-down-october-3-2026-8pm-et&slug=solana-up-or-down-on-october-2-2026&slug=solana-up-or-down-september-30-2026-10pm-et&slug=solana-up-or-down-september-30-2026-9pm-et&slug=trump-names-ai-czar-by-october-1-2026-20260928&slug=trump-names-ai-czar-by-october-2-2026-20260928&slug=tsla-up-or-down-on-october-1-2026&slug=tsla-up-or-down-on-september-30-2026&slug=unl-cze-eng-2026-09-29-ags-morgan-rogers-90068695&slug=unl-esp-hrv-2026-09-29-ags-alex-baena-90086625&slug=unl-esp-hrv-2026-09-29-ags-mikel-oyarzabal-90029865&slug=unl-esp-hrv-2026-09-29-assists-ivan-smolcic-90073075-gte3&slug=unl-esp-hrv-2026-09-29-goals-fabian-ruiz-90029825-gte3&slug=unl-grc-ger-2026-10-04-shots-alexandros-kyziridis-90113007-gte4&slug=unl-grc-ger-2026-10-04-shots-christos-zafeiris-90103133-gte4&slug=unl-grc-ger-2026-10-04-shots-david-raum-90096540-gte4&slug=unl-grc-ger-2026-10-04-shots-konstantinos-koulierakis-90106460-gte4&slug=unl-grc-ger-2026-10-04-shots-konstantinos-koulierakis-90106460-gte5&slug=unl-grc-ger-2026-10-04-shots-philipp-treu-90121053-gte4&slug=unl-grc-ger-2026-10-04-shots-philipp-treu-90121053-gte5&slug=unl-ire-isr-2026-10-04-ags-dor-peretz-90028814&slug=unl-ire-isr-2026-10-04-ags-troy-parrott-90082576&slug=unl-mal-and-2026-10-04-goals-plus-assists-alex-martinez-90065795-gte3&slug=unl-mal-and-2026-10-04-goals-plus-assists-moi-san-nicolas-90033570-gte3&slug=unl-prt-nor-2026-10-04-ags-goncalo-ramos-90084903&slug=unl-prt-nor-2026-10-04-ags-joao-felix-90067728&slug=unl-wal-den-2026-10-04-ags-rasmus-hjlund-90090584&slug=uru1-alb-def-2026-10-03-btts&slug=uru1-alb-def-2026-10-03-first-half-total-0pt5&slug=uru1-alb-def-2026-10-03-first-half-total-1pt5&slug=uru1-alb-def-2026-10-03-spread-away-1pt5&slug=uru1-alb-def-2026-10-03-spread-home-1pt5&slug=uru1-alb-def-2026-10-03-spread-home-2pt5&slug=uru1-alb-def-2026-10-03-total-8pt5&slug=usdnok-up-or-down-on-october-2-2026&slug=uslc-det-bir-2026-10-03-bir&slug=uslc-det-bir-2026-10-03-halftime-result-draw&slug=uslc-det-bir-2026-10-03-halftime-result-home&slug=uslc-lou-iel-2026-10-03-draw",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:49.781910+00:00",
+  "http_status": 200,
+  "response_sha256": "81667bf9e1a8c0c1fa8b6910c632fcd3b36337167208f200c3679f9d96281eab",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:49 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:49 GMT"
+  }
+}

@@ -1,0 +1,20 @@
+column,definition
+wallet,Wallet address
+market,Market slug
+market_category,"crypto_updown / crypto_price / sports_esports / weather / politics_other (keyword rules on the slug)"
+verified_market,1 if the market's outcome was confirmed on the blockchain (2,661 markets of the original study)
+event_group,Event the market belongs to (confirmed markets only; NA otherwise)
+first_trade_time,The wallet's first trade in this market (UTC)
+resolved_at,When the market resolved (UTC; from the market file)
+resolved_after_week,1 if resolved after 2026-10-05; trades between Oct 5 and resolution are missing
+fills,Number of the wallet's trades in this market
+buy_dollars,Total spent buying
+sell_dollars,Total received selling
+buy_shares,Total shares bought
+net_shares_outcome0,Shares of outcome 0 bought minus sold during the week
+net_shares_outcome1,Shares of outcome 1 bought minus sold during the week
+payout_outcome0,1 if outcome 0 won (outcome 1 pays 1 - this)
+entry_buy_vwap,Average buy price in the wallet's first timestamp batch in this market
+negative_inventory,1 if the wallet sold more shares than it had bought at some point (held shares before the week); profit_label is NA
+gross_pnl_dollars,sell_dollars - buy_dollars + net_shares_outcome0*payout_outcome0 + net_shares_outcome1*(1 - payout_outcome0)
+profit_label,1 if gross_pnl_dollars > 0.000001; 0 otherwise; NA if negative_inventory

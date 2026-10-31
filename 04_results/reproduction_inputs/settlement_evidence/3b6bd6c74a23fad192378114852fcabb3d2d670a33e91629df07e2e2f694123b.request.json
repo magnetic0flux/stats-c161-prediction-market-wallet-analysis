@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=sol-updown-15m-1791063900&slug=sol-updown-15m-1791064800&slug=sol-updown-15m-1791091800&slug=sol-updown-15m-1791092700&slug=sol-updown-15m-1791114300&slug=sol-updown-15m-1791115200&slug=sol-updown-15m-1791136800&slug=sol-updown-15m-1791137700&slug=sol-updown-15m-1791144000&slug=sol-updown-15m-1791147600&slug=sol-updown-15m-1791148500&slug=sol-updown-15m-1791162000&slug=sol-updown-4h-1790812800&slug=sol-updown-4h-1790899200&slug=sol-updown-5m-1790726100&slug=sol-updown-5m-1790801700&slug=sol-updown-5m-1790812500&slug=sol-updown-5m-1790812800&slug=sol-updown-5m-1790819700&slug=sol-updown-5m-1790820000&slug=sol-updown-5m-1790904000&slug=sol-updown-5m-1791028500&slug=sol-updown-5m-1791036600&slug=sol-updown-5m-1791064800&slug=sol-updown-5m-1791065100&slug=sol-updown-5m-1791065700&slug=sol-updown-5m-1791115200&slug=sol-updown-5m-1791136800&slug=sol-updown-5m-1791144000&slug=sol-updown-5m-1791144300&slug=sol-updown-5m-1791144900&slug=sol-updown-5m-1791145200&slug=sol-updown-5m-1791147600&slug=sol-updown-5m-1791147900&slug=sol-updown-5m-1791148500&slug=sol-updown-5m-1791162900&slug=solana-up-or-down-october-1-2026-11pm-et&slug=solana-up-or-down-october-1-2026-4pm-et&slug=solana-up-or-down-october-1-2026-6pm-et&slug=solana-up-or-down-october-1-2026-7pm-et",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:49.415047+00:00",
+  "http_status": 200,
+  "response_sha256": "d73741e8f14d762b6a8673fa41ac135744190704380ac67d506960a7e6c7836e",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:49 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:49 GMT"
+  }
+}

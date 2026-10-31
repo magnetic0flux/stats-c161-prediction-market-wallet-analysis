@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=bnb-updown-15m-1791114300&slug=bnb-updown-15m-1791115200&slug=bnb-updown-15m-1791122400&slug=bnb-updown-15m-1791144000&slug=bnb-updown-15m-1791144900&slug=bnb-updown-15m-1791148500&slug=bnb-updown-4h-1790798400&slug=bnb-updown-4h-1790812800&slug=bnb-updown-5m-1790726100&slug=bnb-updown-5m-1790733300&slug=bnb-updown-5m-1790801700&slug=bnb-updown-5m-1790812500&slug=bnb-updown-5m-1790812800&slug=bnb-updown-5m-1790819700&slug=bnb-updown-5m-1790820000&slug=bnb-updown-5m-1790824200&slug=bnb-updown-5m-1790904000&slug=bnb-updown-5m-1790910900&slug=bnb-updown-5m-1791028500&slug=bnb-updown-5m-1791035400&slug=bnb-updown-5m-1791036600&slug=bnb-updown-5m-1791092400&slug=bnb-updown-5m-1791093300&slug=bnb-updown-5m-1791136800&slug=bnb-updown-5m-1791137100&slug=bnb-updown-5m-1791139800&slug=bnb-updown-5m-1791144300&slug=bnb-updown-5m-1791144900&slug=bnb-updown-5m-1791146700&slug=bnb-updown-5m-1791147900&slug=bnb-updown-5m-1791148500&slug=bnb-updown-5m-1791150300&slug=bnb-updown-5m-1791155100&slug=bnb-updown-5m-1791161400&slug=bnb-updown-5m-1791162900&slug=bra3-flo-bot-2026-10-03-bot&slug=bra3-flo-bot-2026-10-03-exact-score-2-3&slug=bra3-flo-bot-2026-10-03-exact-score-3-1&slug=bra3-flo-bot-2026-10-03-exact-score-5-5&slug=bra3-flo-bot-2026-10-03-halftime-result-away",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:28.218967+00:00",
+  "http_status": 200,
+  "response_sha256": "38e75fc4b68a258ddb24809ae658610eff807babd391387df9887017c6af2a0f",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:28 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:28 GMT"
+  }
+}

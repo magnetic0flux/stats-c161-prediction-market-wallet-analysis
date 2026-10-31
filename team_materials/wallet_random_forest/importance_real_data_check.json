@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "models_retrained": false,
+  "saved_models_checked": 10,
+  "importance_rows": 170,
+  "refit_rows": [
+    52888
+  ],
+  "comparison": "All 170 scores match previously delivered real-data comparison within 1e-14",
+  "model_hashes_verified": true,
+  "test_labels_read": false
+}

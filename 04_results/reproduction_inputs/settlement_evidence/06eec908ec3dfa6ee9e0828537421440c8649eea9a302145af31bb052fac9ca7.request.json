@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=cs2-b8-fnc-2026-10-02-game1-round-handicap-b8-3pt5&slug=cs2-b8-fnc-2026-10-02-game1-round-total-21pt5&slug=cs2-b8-fnc-2026-10-02-game2-round-handicap-b8-3pt5&slug=cs2-b8-fnc-2026-10-02-game2-round-total-21pt5&slug=cs2-b8-fnc-2026-10-02-map-handicap-away-1pt5&slug=cs2-b8-fnc-2026-10-02-total-games-2pt5&slug=cs2-bb3-m80-2026-10-04-game1&slug=cs2-bb3-m80-2026-10-04-game2&slug=cs2-bbl1-havu-2026-10-02&slug=cs2-bcg-bmb-2026-10-02&slug=cs2-bcg-pre-2026-10-02&slug=cs2-btf-meg1-2026-10-04-game1&slug=cs2-btf-meg1-2026-10-04-game2&slug=cs2-btf-meg1-2026-10-04-map-handicap-away-1pt5&slug=cs2-chama-underw-2026-09-30&slug=cs2-chama-underw-2026-09-30-total-games-2pt5&slug=cs2-ef1-lilmix-2026-10-02&slug=cs2-faze-ast10-2026-10-02-game1-round-handicap-ast10-3pt5&slug=cs2-fh1-sinqu-2026-10-01&slug=cs2-fokus-js1-2026-10-02&slug=cs2-furia-mouz-2026-10-04&slug=cs2-furia-mouz-2026-10-04-game1&slug=cs2-furia-mouz-2026-10-04-game1-round-handicap-furia-3pt5&slug=cs2-furia-mouz-2026-10-04-game1-round-handicap-mouz-3pt5&slug=cs2-furia-mouz-2026-10-04-game1-round-total-18pt5&slug=cs2-furia-mouz-2026-10-04-game2&slug=cs2-furia-mouz-2026-10-04-game2-round-handicap-mouz-3pt5&slug=cs2-furia-mouz-2026-10-04-game2-round-total-21pt5&slug=cs2-furia-mouz-2026-10-04-game2-round-total-24pt5&slug=cs2-furia-mouz-2026-10-04-map-handicap-home-1pt5&slug=cs2-furia-mouz-2026-10-04-total-games-2pt5&slug=cs2-g2-1win-2026-10-04&slug=cs2-g2-1win-2026-10-04-game1&slug=cs2-g2-1win-2026-10-04-game1-round-handicap-g2-3pt5&slug=cs2-g2-1win-2026-10-04-game1-round-total-21pt5&slug=cs2-g2-1win-2026-10-04-game2&slug=cs2-g2-1win-2026-10-04-game2-round-handicap-g2-3pt5&slug=cs2-g2-1win-2026-10-04-game2-round-total-21pt5&slug=cs2-g2-1win-2026-10-04-game3-round-handicap-g2-3pt5&slug=cs2-g2-1win-2026-10-04-game3-round-total-21pt5",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:30.501430+00:00",
+  "http_status": 200,
+  "response_sha256": "23977965d85361217913c813ce9ea57450c2bb72ccf813071508cd2b0b96e4ee",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:30 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:30 GMT"
+  }
+}

@@ -1,0 +1,16 @@
+Package: polywallet
+Type: Package
+Title: Wallet-Level Polymarket Trading and Profitability Data
+Version: 0.2.0
+Authors@R: person("Zhiru", "Guoli", email = "zguoli3@g.ucla.edu", role = c("aut", "cre"))
+Description: One row per Polymarket wallet for the week of 2026-09-29 to
+    2026-10-05: trading-activity features computed from 6.8 million raw fills,
+    plus conditional gross profit outcomes computed on every one of the 13,794
+    markets with a recorded final outcome. Columns restricted to the 2,661
+    blockchain-confirmed markets are included for robustness checks. Also
+    ships the wallet-by-market pair table, column dictionaries, and helpers
+    for modelling and insider-trading screening.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats, utils

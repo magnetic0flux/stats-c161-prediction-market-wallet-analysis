@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=lowest-temperature-in-wuhan-on-october-4-2026-17c&slug=lowest-temperature-in-wuhan-on-october-4-2026-19c&slug=lowest-temperature-in-wuhan-on-october-4-2026-20c&slug=lowest-temperature-in-wuhan-on-october-4-2026-21c&slug=lowest-temperature-in-wuhan-on-october-4-2026-22c&slug=mlb-atl-lad-2026-10-04-inning-1-winner-draw&slug=mlb-atl-lad-2026-10-04-inning-3-winner-draw&slug=mlb-bos-nyy-2026-09-29-tb-ben-rice-1pt5&slug=mlb-bos-nyy-2026-09-30-hr-adley-rutschman-0pt5&slug=mlb-bos-nyy-2026-09-30-hr-ben-rice-0pt5&slug=mlb-bos-nyy-2026-09-30-hr-ceddanne-rafaela-0pt5&slug=mlb-bos-nyy-2026-09-30-hr-cody-bellinger-0pt5&slug=mlb-bos-nyy-2026-09-30-hr-jahmai-jones-0pt5&slug=mlb-bos-nyy-2026-09-30-hr-luis-garcia-jr-0pt5&slug=mlb-bos-nyy-2026-09-30-hr-ryan-mcmahon-0pt5&slug=mlb-bos-nyy-2026-09-30-hr-spencer-jones-0pt5&slug=mlb-bos-nyy-2026-09-30-k-max-fried-11pt5&slug=mlb-bos-nyy-2026-09-30-k-max-fried-5pt5&slug=mlb-bos-nyy-2026-09-30-k-max-fried-6pt5&slug=mlb-bos-nyy-2026-09-30-k-sonny-gray-5pt5&slug=mlb-bos-nyy-2026-09-30-tb-ben-rice-1pt5&slug=mlb-bos-nyy-2026-09-30-tb-ben-rice-5pt5&slug=mlb-bos-nyy-2026-09-30-tb-cody-bellinger-1pt5&slug=mlb-bos-nyy-2026-09-30-tb-luis-garcia-jr-1pt5&slug=mlb-chc-sd-2026-09-29-hr-austin-hays-1pt5&slug=mlb-chc-sd-2026-09-30-f5-total-4pt5&slug=mlb-chc-sd-2026-09-30-f5-total-6pt5&slug=mlb-chc-sd-2026-09-30-first-five-winner-draw&slug=mlb-chc-sd-2026-09-30-hr-fernando-tatis-jr-0pt5&slug=mlb-chc-sd-2026-09-30-hr-jackson-merrill-0pt5&slug=mlb-chc-sd-2026-09-30-hr-nico-hoerner-0pt5&slug=mlb-chc-sd-2026-09-30-hr-pete-crow-armstrong-0pt5&slug=mlb-chc-sd-2026-09-30-hrr-fernando-tatis-jr-1pt5&slug=mlb-chc-sd-2026-09-30-inning-1-winner-away&slug=mlb-chc-sd-2026-09-30-k-nick-pivetta-4pt5&slug=mlb-chc-sd-2026-09-30-total-6pt5&slug=mlb-chc-sd-2026-09-30-total-8pt5&slug=mlb-cws-cle-2026-10-03-spread-away-2pt5&slug=mlb-cws-cle-2026-10-03-spread-home-2pt5&slug=mlb-cws-cle-2026-10-03-total-7pt5",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:47.859917+00:00",
+  "http_status": 200,
+  "response_sha256": "c8fbbe4b747016cf747a36ab4d9d7416b9a00f4a0093416caf68a8c3c3c483d0",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:47 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:47 GMT"
+  }
+}

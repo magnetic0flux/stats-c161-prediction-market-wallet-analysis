@@ -1,0 +1,4 @@
+weighting,log_loss_baseline_minus_history,brier_baseline_minus_history,interpretation
+primary_row_weighted_unchanged,6.198179546412774e-05,-4.0169591289607176e-05,Positive means the frozen full-history model has lower loss; no new CI/p-value or model selection.
+posthoc_equal_event_mean,0.000299566706290999,-0.00012652005911512054,Positive means the frozen full-history model has lower loss; no new CI/p-value or model selection.
+posthoc_exclude_largest_event,0.00025459502969615855,4.553582605534845e-05,Positive means the frozen full-history model has lower loss; no new CI/p-value or model selection.

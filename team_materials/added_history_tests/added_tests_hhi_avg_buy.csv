@@ -1,0 +1,5 @@
+lookback,hypothesis,p_raw,coefficient,missing_rows,status,p_holm_4_added
+expanding,single_buy_hhi,0.8577918521220034,0.0007080310067350576,720,estimable,1.0
+expanding,single_log_avg_buy_ticket,0.07327371338965812,0.006815237601306962,720,estimable,0.29309485355863246
+fixed24h,single_buy_hhi,0.5126891580109164,-0.0022325433201427617,1588,estimable,1.0
+fixed24h,single_log_avg_buy_ticket,0.14912490915587365,0.005550316017860114,1588,estimable,0.44737472746762097

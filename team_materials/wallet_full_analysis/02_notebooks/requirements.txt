@@ -1,0 +1,15 @@
+# Python 3.10–3.12 recommended. Compatible with the original sklearn 1.5.2/pandas 2.2.3 setup.
+numpy>=1.26.4,<3
+pandas>=2.2.3,<3
+scikit-learn>=1.5.2,<1.9
+pyarrow>=17,<27
+scipy>=1.13.1,<2
+matplotlib>=3.9,<4
+joblib>=1.4,<2
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8
+# Needed only for the optional original raw-data preparation route:
+duckdb>=1.2.2,<2
+statsmodels>=0.14.4,<0.15
+threadpoolctl>=3.5,<4

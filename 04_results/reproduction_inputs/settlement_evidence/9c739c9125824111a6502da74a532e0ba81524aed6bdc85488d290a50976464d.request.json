@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=afcq-zam-tog-2026-09-29-exact-score-0-0&slug=afcq-zam-tog-2026-09-29-halftime-result-away&slug=afcq-zam-tog-2026-09-29-halftime-result-draw&slug=afcq-zam-tog-2026-09-29-halftime-result-home&slug=afcq-zam-tog-2026-09-29-second-half-total-3pt5&slug=amzn-close-above-235-on-october-1-2026&slug=amzn-close-above-235-on-september-30-2026&slug=amzn-close-above-240-on-october-1-2026&slug=amzn-close-above-240-on-september-30-2026&slug=amzn-close-above-245-on-october-1-2026&slug=amzn-close-above-245-on-september-30-2026&slug=amzn-close-above-250-on-october-1-2026&slug=amzn-close-above-250-on-september-30-2026&slug=amzn-close-above-255-on-october-1-2026&slug=amzn-up-or-down-on-october-2-2026&slug=amzn-up-or-down-on-september-30-2026&slug=argpn-aca-ciu-2026-10-03-aca&slug=argpn-aca-ciu-2026-10-03-ciu&slug=argpn-aca-ciu-2026-10-03-draw&slug=argpn-aca-ciu-2026-10-03-halftime-result-draw&slug=argpn-aca-ciu-2026-10-03-halftime-result-home&slug=argpn-cfe-ddb-2026-10-04-exact-score-2-2&slug=argpn-cfe-ddb-2026-10-04-first-half-team-total-away-3pt5&slug=argpn-god-ala-2026-10-04-ala&slug=argpn-god-ala-2026-10-04-draw&slug=argpn-god-ala-2026-10-04-exact-score-0-2&slug=argpn-god-ala-2026-10-04-exact-score-0-4&slug=argpn-god-ala-2026-10-04-exact-score-2-0&slug=argpn-god-ala-2026-10-04-exact-score-2-2&slug=argpn-god-ala-2026-10-04-exact-score-2-4&slug=argpn-god-ala-2026-10-04-exact-score-3-2&slug=argpn-god-ala-2026-10-04-first-half-total-4pt5&slug=argpn-god-ala-2026-10-04-god&slug=argpn-god-ala-2026-10-04-halftime-result-draw&slug=argpn-god-ala-2026-10-04-halftime-result-home&slug=argpn-god-ala-2026-10-04-spread-home-1pt5&slug=argpn-god-ala-2026-10-04-spread-home-2pt5&slug=argpn-god-ala-2026-10-04-team-total-away-4pt5&slug=argpn-god-ala-2026-10-04-team-total-away-5pt5&slug=argpn-god-ala-2026-10-04-team-total-home-0pt5",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:26.257779+00:00",
+  "http_status": 200,
+  "response_sha256": "90943d35bc45b56dfc582058db80e398019f057eb5c4af1260ce4e1ff96485b1",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:26 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:26 GMT"
+  }
+}

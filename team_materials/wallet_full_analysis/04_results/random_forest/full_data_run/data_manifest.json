@@ -1,0 +1,97 @@
+{
+  "inputs": {
+    "candidate": {
+      "path": "/workspace/scratch/2f27ad4cbed5/output/wallet_full_analysis/04_results/01_data_preparation/wallet_market_candidates_full_week.parquet",
+      "sha256": "bc78b648ef682055c01955c22eabddb8a94762dce1af08b66acac2fa6b7dbcac"
+    },
+    "fixed24h_history_features.parquet": {
+      "path": "/workspace/scratch/2f27ad4cbed5/output/wallet_full_analysis/04_results/03_history_validation/fixed24h_history_features.parquet",
+      "sha256": "416b7a2fe816ccdac130ea675ab6f2e1790c823e86302aa70567a71b30d764e8"
+    },
+    "row_split_audit.csv": {
+      "path": "/workspace/scratch/2f27ad4cbed5/output/wallet_full_analysis/04_results/03_history_validation/row_split_audit.csv",
+      "sha256": "917018220f71f4bae21734f93d651e56f5c8eae9ff89ce7d2eea2be9c0b126d0"
+    },
+    "official_event_connected_mapping.csv": {
+      "path": "/workspace/scratch/2f27ad4cbed5/output/wallet_full_analysis/04_results/03_history_validation/official_event_connected_mapping.csv",
+      "sha256": "2b77a3a01eb1ceab438993ee898f27f72000a3ff4e7cae5aaa086b369b4d8f41"
+    }
+  },
+  "prepared_files": {
+    "train.parquet": "db24310ba8cfcc529774ba998ed8e25f93919345d958021400751ecaf5db90c2",
+    "validation.parquet": "b4342fa901fecc6a693511131b2acd3a0a46937ea1a378e5c093201dbb81c2a1",
+    "test.parquet": "5c7a6163bdb46328309210caf7c619773baabf92809efa50c36be19bb2a913a3",
+    "refit.parquet": "f0ce657b6b18fd20cc262b45e43d5e86594349312f2eac5ad52f3ec8e6a805e1",
+    "all_entry_keys.parquet": "56b1b7cb22e05b6f9f2038ad8f42896d8cc6ab5bae05012c0959848edf99a098",
+    "event_mapping.csv": "2b77a3a01eb1ceab438993ee898f27f72000a3ff4e7cae5aaa086b369b4d8f41"
+  },
+  "source_bundle": "/workspace/scratch/2f27ad4cbed5/output/wallet_full_analysis/04_results/03_history_validation",
+  "candidate_rows": 96184,
+  "candidate_known_conditional_labels": 89736,
+  "complete_24h_only": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "26.0.0",
+    "joblib": "1.5.3"
+  },
+  "cohorts": [
+    {
+      "cohort": "train",
+      "rows": 39659,
+      "wallets": 10582,
+      "markets": 1188,
+      "event_groups": 266,
+      "positive_rate": 0.6481504828664364,
+      "first_entry": "2026-09-30 00:00:06+00:00",
+      "last_entry": "2026-10-02 22:56:54+00:00",
+      "ordered_keys_sha256": "b02bbd743b187024751cdc6739f5e1cdc5274136406e3d2755c777429768d788",
+      "sorted_keys_sha256": "b02bbd743b187024751cdc6739f5e1cdc5274136406e3d2755c777429768d788"
+    },
+    {
+      "cohort": "validation",
+      "rows": 6956,
+      "wallets": 4091,
+      "markets": 260,
+      "event_groups": 81,
+      "positive_rate": 0.6700690051753881,
+      "first_entry": "2026-10-03 00:00:11+00:00",
+      "last_entry": "2026-10-03 22:19:14+00:00",
+      "ordered_keys_sha256": "4fe65ac6e4e8ca4a8f3dc96c38c9a155c6b2479ccbef3046dbbe15bb9a7cf95d",
+      "sorted_keys_sha256": "4fe65ac6e4e8ca4a8f3dc96c38c9a155c6b2479ccbef3046dbbe15bb9a7cf95d"
+    },
+    {
+      "cohort": "test",
+      "rows": 26507,
+      "wallets": 8239,
+      "markets": 682,
+      "event_groups": 141,
+      "positive_rate": 0.59112687214698,
+      "first_entry": "2026-10-04 00:00:04+00:00",
+      "last_entry": "2026-10-05 01:19:23+00:00",
+      "ordered_keys_sha256": "8d139fc40610e3860ea5f2c670ba28cf8d18f95770252e092918490488001b22",
+      "sorted_keys_sha256": "8d139fc40610e3860ea5f2c670ba28cf8d18f95770252e092918490488001b22"
+    },
+    {
+      "cohort": "refit",
+      "rows": 52888,
+      "wallets": 12297,
+      "markets": 1595,
+      "event_groups": 354,
+      "positive_rate": 0.6517546513386779,
+      "first_entry": "2026-09-30 00:00:06+00:00",
+      "last_entry": "2026-10-03 22:19:14+00:00",
+      "ordered_keys_sha256": "8fe82d475113167faee5b77dcb3349fea9b3272905afb3569fb9b82d894f58c2",
+      "sorted_keys_sha256": "8fe82d475113167faee5b77dcb3349fea9b3272905afb3569fb9b82d894f58c2"
+    }
+  ],
+  "limitations": [
+    "Conditional gross-profit labels, not verified net-profit labels.",
+    "Recorded resolution timestamps are not verified result-publication timestamps.",
+    "Event groups use original conservative unions and matched official IDs.",
+    "Repeated wallets may occur in different event groups.",
+    "The final test dates have already been inspected in the original project."
+  ]
+}

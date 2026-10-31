@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=ethereum-above-2700-on-october-4-2026-9pm-et&slug=ethereum-above-2710-on-october-2-2026-12pm-et&slug=ethereum-above-2710-on-october-4-2026-12pm-et&slug=ethereum-above-2710-on-october-4-2026-3pm-et&slug=ethereum-above-2710-on-october-4-2026-4pm-et&slug=ethereum-above-2710-on-october-4-2026-5pm-et&slug=ethereum-above-2710-on-october-4-2026-7am-et&slug=ethereum-above-2710-on-october-4-2026-9pm-et&slug=ethereum-above-2720-on-october-2-2026-12pm-et&slug=ethereum-above-2720-on-october-4-2026-12pm-et&slug=ethereum-above-2720-on-october-4-2026-5pm-et&slug=ethereum-above-2720-on-october-4-2026-7am-et&slug=ethereum-above-2720-on-october-4-2026-9pm-et&slug=ethereum-above-2730-on-october-1-2026-2pm-et&slug=ethereum-above-2740-on-october-2-2026-12pm-et&slug=ethereum-above-2740-on-october-4-2026-3pm-et&slug=ethereum-above-2740-on-october-4-2026-5pm-et&slug=ethereum-above-2740-on-october-4-2026-9pm-et&slug=ethereum-above-2750-on-october-4-2026-12pm-et&slug=ethereum-above-2750-on-october-4-2026-2am-et&slug=ethereum-above-2750-on-october-4-2026-9pm-et&slug=ethereum-above-2760-on-october-1-2026-2pm-et&slug=ethereum-above-2760-on-october-4-2026-12pm-et&slug=ethereum-above-2760-on-october-4-2026-4pm-et&slug=ethereum-above-2760-on-october-4-2026-5pm-et&slug=ethereum-above-2760-on-october-4-2026-7am-et&slug=ethereum-above-2760-on-october-4-2026-9pm-et&slug=ethereum-above-2770-on-october-4-2026-5pm-et&slug=ethereum-above-2780-on-october-4-2026-12pm-et&slug=ethereum-above-2780-on-october-4-2026-5pm-et&slug=ethereum-up-or-down-october-1-2026-11pm-et&slug=ethereum-up-or-down-october-1-2026-1am-et&slug=ethereum-up-or-down-october-1-2026-1pm-et&slug=ethereum-up-or-down-october-1-2026-4pm-et&slug=ethereum-up-or-down-october-1-2026-5pm-et&slug=ethereum-up-or-down-october-1-2026-6pm-et&slug=ethereum-up-or-down-october-1-2026-7pm-et&slug=ethereum-up-or-down-october-1-2026-8pm-et&slug=ethereum-up-or-down-october-1-2026-9pm-et&slug=ethereum-up-or-down-october-2-2026-4pm-et",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:32.478036+00:00",
+  "http_status": 200,
+  "response_sha256": "cda663812a58a1a501253621004331c7d94b86989318b9b02f727596730223b4",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:32 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:32 GMT"
+  }
+}

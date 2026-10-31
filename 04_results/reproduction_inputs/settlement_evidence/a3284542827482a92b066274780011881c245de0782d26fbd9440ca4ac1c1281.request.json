@@ -1,0 +1,24 @@
+{
+  "url": "https://polygon-bor-rpc.publicnode.com",
+  "request_json": [
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "eth_blockNumber",
+      "params": []
+    }
+  ],
+  "retrieved_at_utc": "2026-10-20T07:13:52.269030+00:00",
+  "http_status": 200,
+  "response_sha256": "92f20e25c76f4b31278cc20e033395b7de17d9ae8f34ad605500c1d64fa1424e",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:52 GMT",
+    "Content-Type": "application/json"
+  }
+}

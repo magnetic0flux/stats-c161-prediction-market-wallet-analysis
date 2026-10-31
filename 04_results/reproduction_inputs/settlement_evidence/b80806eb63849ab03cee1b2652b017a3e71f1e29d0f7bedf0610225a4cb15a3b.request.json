@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=hype-updown-4h-1790985600&slug=hype-updown-5m-1790726100&slug=hype-updown-5m-1790801700&slug=hype-updown-5m-1790812500&slug=hype-updown-5m-1790812800&slug=hype-updown-5m-1790819700&slug=hype-updown-5m-1790820000&slug=hype-updown-5m-1790910900&slug=hype-updown-5m-1791028500&slug=hype-updown-5m-1791064800&slug=hype-updown-5m-1791136800&slug=hype-updown-5m-1791144300&slug=hype-updown-5m-1791144900&slug=hype-updown-5m-1791148500&slug=hype-updown-5m-1791150000&slug=hype-updown-5m-1791150300&slug=hype-updown-5m-1791155100&slug=hype-updown-5m-1791162900&slug=idn2-pso-tor-2026-10-03-btts&slug=idn2-pso-tor-2026-10-03-exact-score-1-0&slug=idn2-pso-tor-2026-10-03-exact-score-2-0&slug=idn2-pso-tor-2026-10-03-exact-score-2-1&slug=idn2-pso-tor-2026-10-03-exact-score-2-2&slug=idn2-pso-tor-2026-10-03-first-half-total-1pt5&slug=idn2-pso-tor-2026-10-03-halftime-result-away&slug=idn2-pso-tor-2026-10-03-halftime-result-home&slug=idn2-pso-tor-2026-10-03-team-total-away-0pt5&slug=idn2-pso-tor-2026-10-03-team-total-away-4pt5&slug=idn2-pso-tor-2026-10-03-team-total-home-5pt5&slug=idn2-pso-tor-2026-10-03-total-0pt5&slug=idn2-pso-tor-2026-10-03-total-1pt5&slug=idn2-pso-tor-2026-10-03-total-3pt5&slug=idn2-pso-tor-2026-10-03-total-4pt5&slug=idn2-pso-tor-2026-10-03-total-7pt5&slug=idn2-sem-adb-2026-10-03-total-2pt5&slug=idn2-spf-pek-2026-10-04-draw&slug=idn2-spf-pek-2026-10-04-exact-score-1-0&slug=idn2-spf-pek-2026-10-04-exact-score-2-0&slug=idn2-spf-pek-2026-10-04-pek&slug=idn2-spf-pek-2026-10-04-spf",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:39.882562+00:00",
+  "http_status": 200,
+  "response_sha256": "169c93541a2805413456244c8442ff0c80751259126c0152d52b93747ce7c2b7",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:39 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:39 GMT"
+  }
+}

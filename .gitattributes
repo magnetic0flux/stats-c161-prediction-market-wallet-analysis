@@ -1,0 +1,2 @@
+# Preserve exact file bytes across operating systems for the SHA-256 manifest.
+* -text

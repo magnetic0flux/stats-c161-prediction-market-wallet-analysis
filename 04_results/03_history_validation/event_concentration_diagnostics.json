@@ -1,0 +1,7 @@
+{
+  "event_proxy_groups": 141,
+  "effective_inverse_hhi": 4.193378830508604,
+  "largest_group_share": 0.4753838608669408,
+  "largest_group": "crypto-day-20730",
+  "bootstrap_limitation": "Event-only resampling does not resample cross-event repeated-wallet dependence; highly concentrated groups make intervals unstable/descriptive."
+}

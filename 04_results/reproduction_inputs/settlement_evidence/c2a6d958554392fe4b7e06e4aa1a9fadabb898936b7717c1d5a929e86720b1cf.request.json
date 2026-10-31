@@ -1,0 +1,19 @@
+{
+  "url": "https://polygon.drpc.org",
+  "request_json": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "0x5b68e06",
+      false
+    ]
+  },
+  "retrieved_at_utc": "2026-10-20T07:30:55.892168+00:00",
+  "http_status": 200,
+  "response_sha256": "42b3887a0f226630c1c05e3cfa1013389a949ac020e55ace4a8f7b752b72334f",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:30:55 GMT",
+    "Content-Type": "application/json"
+  }
+}

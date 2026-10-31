@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "dataset": "synthetic only; no actual wallet model fitted",
+  "execution_mode": "notebook_code_cells_in_separate_namespaces",
+  "executed_notebooks": 4,
+  "fitted_saved_models": 10,
+  "evaluated_model_and_reference_rows": 12,
+  "forward_folds": 2,
+  "original_feature_design_match": "all five variants",
+  "original_logistic_probability_match": "within 2e-6 on synthetic fixture",
+  "individual_importance_rows": 170,
+  "coefficient_mapping": "exported named coefficients reconstruct all five logistic decision functions",
+  "importance_only_update": "saved model and test prediction hashes unchanged",
+  "guards": [
+    "event overlap rejected",
+    "immature training label rejected",
+    "original test groups purged",
+    "inner CV groups purged"
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "26.0.0",
+    "joblib": "1.5.3"
+  }
+}

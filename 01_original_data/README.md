@@ -1,0 +1,1 @@
+The seven supplied daily trade files are included uncompressed under ../04_results/reproduction_inputs/weekly_trades/. Market metadata and settlement evidence are in the parent reproduction_inputs directory. Original ZIP containers are omitted to avoid duplicate data.

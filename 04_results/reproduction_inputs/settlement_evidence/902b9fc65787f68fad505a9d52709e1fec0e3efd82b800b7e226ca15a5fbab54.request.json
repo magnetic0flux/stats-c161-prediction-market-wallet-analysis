@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=xrp-updown-15m-1790742600&slug=xrp-updown-15m-1790801100&slug=xrp-updown-15m-1790811900&slug=xrp-updown-15m-1790812800&slug=xrp-updown-15m-1790820000&slug=xrp-updown-15m-1790823600&slug=xrp-updown-15m-1790903700&slug=xrp-updown-15m-1790910900&slug=xrp-updown-15m-1790964900&slug=xrp-updown-15m-1791026100&slug=xrp-updown-15m-1791062100&slug=xrp-updown-15m-1791064800&slug=xrp-updown-15m-1791091800&slug=xrp-updown-15m-1791092700&slug=xrp-updown-15m-1791114300&slug=xrp-updown-15m-1791115200&slug=xrp-updown-15m-1791122400&slug=xrp-updown-15m-1791137700&slug=xrp-updown-15m-1791144000&slug=xrp-updown-15m-1791144900&slug=xrp-updown-15m-1791148500&slug=xrp-updown-4h-1790798400&slug=xrp-updown-4h-1790899200&slug=xrp-updown-5m-1790726100&slug=xrp-updown-5m-1790733300&slug=xrp-updown-5m-1790794800&slug=xrp-updown-5m-1790801700&slug=xrp-updown-5m-1790812500&slug=xrp-updown-5m-1790812800&slug=xrp-updown-5m-1790819700&slug=xrp-updown-5m-1790820000&slug=xrp-updown-5m-1790904000&slug=xrp-updown-5m-1790910900&slug=xrp-updown-5m-1790965500&slug=xrp-updown-5m-1791028500&slug=xrp-updown-5m-1791036600&slug=xrp-updown-5m-1791064500&slug=xrp-updown-5m-1791064800&slug=xrp-updown-5m-1791074700&slug=xrp-updown-5m-1791136800",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:51.666628+00:00",
+  "http_status": 200,
+  "response_sha256": "67eb1a2f0e6240eb6752f0792f6ccb800c0daeb90e858615c05bc9d9b7b88242",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:51 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:51 GMT"
+  }
+}

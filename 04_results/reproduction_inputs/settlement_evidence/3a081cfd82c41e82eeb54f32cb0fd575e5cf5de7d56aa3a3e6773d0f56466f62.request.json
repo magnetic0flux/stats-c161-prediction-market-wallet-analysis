@@ -1,0 +1,12 @@
+{
+  "url": "https://gamma-api.polymarket.com/markets?closed=true&limit=100&slug=cs2-rustec-enjoy-2026-10-04-game2&slug=cs2-sashi-voc-2026-10-02&slug=cs2-saw2-fh1-2026-10-01&slug=cs2-saw2-fh1-2026-10-01-game1-round-total-18pt5&slug=cs2-saw2-navij1-2026-10-02-map-handicap-away-1pt5&slug=cs2-sinqu-saw2-2026-10-01&slug=cs2-spo-sng2-2026-10-02&slug=cs2-tsa-mellre-2026-10-01&slug=cs2-tsa-mellre-2026-10-01-game1&slug=cs2-tsa-mellre-2026-10-01-game2&slug=cs2-unity-nicetr-2026-10-04-map-handicap-away-1pt5&slug=cs2-vit-navi-2026-10-04-game1&slug=cs2-vit-navi-2026-10-04-game2&slug=cs2-wraith-vita-2026-10-03-game1&slug=cs2-wraith-vita-2026-10-03-game2&slug=doge-updown-15m-1790801100&slug=doge-updown-15m-1790811900&slug=doge-updown-15m-1790812800&slug=doge-updown-15m-1790819100&slug=doge-updown-15m-1790820000&slug=doge-updown-15m-1790823600&slug=doge-updown-15m-1790903700&slug=doge-updown-15m-1790910900&slug=doge-updown-15m-1790964900&slug=doge-updown-15m-1791026100&slug=doge-updown-15m-1791064800&slug=doge-updown-15m-1791091800&slug=doge-updown-15m-1791092700&slug=doge-updown-15m-1791114300&slug=doge-updown-15m-1791115200&slug=doge-updown-15m-1791144000&slug=doge-updown-15m-1791144900&slug=doge-updown-15m-1791146700&slug=doge-updown-15m-1791148500&slug=doge-updown-4h-1790812800&slug=doge-updown-5m-1790726100&slug=doge-updown-5m-1790733300&slug=doge-updown-5m-1790801700&slug=doge-updown-5m-1790812500&slug=doge-updown-5m-1790812800",
+  "request_json": null,
+  "retrieved_at_utc": "2026-10-20T07:13:31.294384+00:00",
+  "http_status": 200,
+  "response_sha256": "c325e6f922757ea3cee7ce8bd5ee91d1de7fd0d7ec2bc257d80d7a89bff3746b",
+  "response_headers": {
+    "Date": "Tue, 20 Oct 2026 07:13:31 GMT",
+    "Content-Type": "application/json",
+    "last-modified": "Tue, 20 Oct 2026 07:13:31 GMT"
+  }
+}

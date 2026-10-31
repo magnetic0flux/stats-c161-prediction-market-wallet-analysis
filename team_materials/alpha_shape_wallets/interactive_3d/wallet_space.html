@@ -1,0 +1,332 @@
+<title>Wallet Behaviour Space</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a working instrument. View switch on top, controls rail beside a large 3D view, evidence underneath. */
+:root{
+  --bg:#f5f6f8; --panel:#ffffff; --fg:#18202c; --muted:#5b6677; --line:#d9dee6;
+  --shape:#4a6fb5; --dot:#9aa4b2; --outlier:#c8264b; --good:#2f7d5b;
+  --heat-0:#ffffff; --heat-1:#5b6677;
+  --display:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12161d; --panel:#1a2029; --fg:#e7ebf1; --muted:#9aa5b5; --line:#2c3440;
+  --shape:#7c9be0; --dot:#5d6878; --outlier:#ff5d7d; --good:#5fc49a; --heat-0:#1a2029; --heat-1:#aab4c4; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161d; --panel:#1a2029; --fg:#e7ebf1; --muted:#9aa5b5; --line:#2c3440;
+  --shape:#7c9be0; --dot:#5d6878; --outlier:#ff5d7d; --good:#5fc49a; --heat-0:#1a2029; --heat-1:#aab4c4; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:28px}
+header{display:grid;gap:8px}
+.eyebrow{font:500 12px/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(30px,4.4vw,46px)/1.05 var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h2{font:600 22px/1.2 var(--display);margin:0 0 4px;text-wrap:balance}
+.lede{max-width:70ch;color:var(--muted);margin:0}
+.lede b{color:var(--fg);font-weight:600}
+.switch{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:6px;overflow:hidden;width:fit-content;max-width:100%;background:var(--panel)}
+.switch button{font:500 14px var(--body);color:var(--muted);background:transparent;border:0;padding:9px 16px;cursor:pointer}
+.switch button{border-right:1px solid var(--line)!important}
+.switch button:last-child{border-right:0!important}
+.switch button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.viewnote{font-size:13px;color:var(--muted);max-width:80ch;margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:10px 28px;font:400 13px/1.3 var(--mono);color:var(--muted)}
+.stats span b{font:600 20px/1 var(--display);color:var(--fg);display:block;margin-bottom:2px}
+.stats .o b{color:var(--outlier)}
+
+.viewer{display:grid;grid-template-columns:260px minmax(0,1fr);background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.rail{padding:18px;display:grid;gap:18px;align-content:start;border-right:1px solid var(--line)}
+.ctl{display:grid;gap:7px}
+.ctl > label:not(.check),.ctl legend{font:500 11px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);padding:0}
+fieldset{border:0;margin:0;padding:0;display:grid;gap:6px}
+select{font:inherit;font-size:14px;padding:7px 8px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--fg);width:100%}
+.check{display:flex;gap:9px;align-items:center;font-size:14px;cursor:pointer}
+.check input{accent-color:var(--outlier);width:16px;height:16px}
+.axes{display:grid;gap:8px;font-size:13px;color:var(--muted)}
+.axes b{font:600 13px var(--mono);color:var(--fg)}
+.legend{display:grid;gap:6px;font-size:13px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:8px;vertical-align:-1px}
+.sw.sq{border-radius:2px;opacity:.55}
+.bar{height:8px;border-radius:2px;margin-top:4px}
+.hint{font-size:12px;color:var(--muted);margin:0}
+#plot{width:100%;height:min(76vh,720px);min-height:420px}
+.loading{display:grid;place-items:center;height:100%;color:var(--muted);font:500 13px var(--mono);padding:16px;text-align:center}
+
+.evidence{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:28px}
+.card{display:grid;gap:10px;min-width:0;align-content:start}
+.card p{margin:0;color:var(--muted);max-width:62ch;font-size:14px}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+#vs td:first-child{white-space:normal}
+thead th{font:500 11px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+td.num{font-family:var(--mono)}
+.heat td.cell{text-align:center;font-family:var(--mono);font-size:12px;line-height:1.25}
+.heat td.cell small{display:block;color:var(--muted);font-size:10.5px}
+.eff{font:500 11px var(--mono);padding:2px 6px;border-radius:3px;border:1px solid var(--line);color:var(--muted)}
+.eff.medium,.eff.large{border-color:var(--outlier);color:var(--outlier)}
+.or{display:grid;gap:7px}
+.or-row{display:grid;grid-template-columns:150px 1fr 54px;align-items:center;gap:10px;font-size:13px}
+.or-row .track{position:relative;height:14px}
+.or-row .track::before{content:"";position:absolute;left:var(--one);top:0;bottom:0;border-left:1px dashed var(--muted)}
+.or-row .ci{position:absolute;top:6px;height:2px;background:var(--fg)}
+.or-row .pt{position:absolute;top:2px;width:10px;height:10px;border-radius:50%;background:var(--fg);transform:translateX(-5px)}
+.or-row .v{font-family:var(--mono);text-align:right}
+footer{font-size:12px;color:var(--muted);max-width:90ch}
+:focus-visible{outline:2px solid var(--shape);outline-offset:2px}
+
+@media (max-width:820px){
+  .viewer{grid-template-columns:1fr}
+  .rail{border-right:0;border-bottom:1px solid var(--line);grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+  #plot{height:62vh}
+  .or-row{grid-template-columns:110px 1fr 46px}
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Polymarket · 29 Sep – 5 Oct 2026 · alpha shape, k = <span id="k">–</span></div>
+    <h1>Wallet Behaviour Space</h1>
+    <p class="lede">Each dot is one wallet, placed by the first three principal components of <span id="featLabel">its trading features</span>. The blue surface is the alpha shape: the region of behaviour that wallets actually fill. Wallets left outside it are the <b>behavioural outliers</b>. Rotate, zoom and hover to inspect them.</p>
+    <div class="switch" role="group" aria-label="Wallets analysed" id="viewSwitch"></div>
+    <p class="viewnote" id="viewNote"></p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section class="viewer" aria-label="3D view">
+    <div class="rail">
+      <div class="ctl">
+        <label for="colorBy">Colour dots by</label>
+        <select id="colorBy">
+          <option value="outlier">Outlier status</option>
+          <option value="longshot">Share of money on long shots</option>
+          <option value="bet">Average bet size</option>
+          <option value="profit">Profitable this week</option>
+          <option value="market">Market focus</option>
+        </select>
+      </div>
+      <fieldset class="ctl">
+        <legend>Show</legend>
+        <label class="check"><input type="checkbox" id="showShape" checked> Alpha shape surface</label>
+        <label class="check"><input type="checkbox" id="showInside" checked> Wallets inside the shape</label>
+        <label class="check"><input type="checkbox" id="showOut" checked> Outliers</label>
+      </fieldset>
+      <div class="ctl">
+        <label>Legend</label>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div class="ctl">
+        <label>Axes</label>
+        <div class="axes" id="axes"></div>
+      </div>
+      <p class="hint">Drag to rotate, scroll or pinch to zoom, double-click to reset. Inside wallets are drawn smaller so the outliers stand out.</p>
+    </div>
+    <div id="plot"><div class="loading">Loading wallets…</div></div>
+  </section>
+
+  <section class="evidence">
+    <div class="card">
+      <h2>Where the outliers come from</h2>
+      <p>Wallets grouped by <span id="gridRow">average bet size</span> and by <span id="gridCol">long-shot share</span> (long shot = price below 0.20). Each cell shows how many times more likely its wallets are to be outliers than the overall rate.</p>
+      <div class="tbl"><table class="heat" id="grid"></table></div>
+    </div>
+    <div class="card">
+      <h2>What predicts being an outlier</h2>
+      <p>Logistic regression of outlier status on standardised features. Odds ratio per one standard deviation, holding the other features fixed; the line is the 95% interval, the dashed line is no effect.</p>
+      <div class="or" id="model"></div>
+    </div>
+    <div class="card">
+      <h2>Outliers vs everyone else</h2>
+      <p>Medians for each group. Cliff's delta measures how often an outlier wallet is higher than an inside wallet, from −1 to +1.</p>
+      <div class="tbl"><table id="cmp"></table></div>
+    </div>
+    <div class="card" id="vsCard">
+      <h2 id="vsTitle">Same outliers elsewhere?</h2>
+      <p id="vsText"></p>
+      <div class="tbl"><table id="vs"></table></div>
+    </div>
+    <div class="card" id="robCard">
+      <h2>Does it depend on k?</h2>
+      <p>The same profile for wallets dropped by the MST rule at other Tukey multipliers. If the outliers were an artefact of one k, these rows would disagree.</p>
+      <div class="tbl"><table id="rob"></table></div>
+    </div>
+  </section>
+
+  <footer>Profit is conditional gross profit (no fees, no holdings before the week). Outlier status means unusual behaviour, not evidence of insider trading. The first four views share one set of PCA axes (5 balanced trading features, fitted on all 43,472 labelled wallets). The confirmed-market views use only the 2,661 blockchain-confirmed markets of the profitability study for the profit label. The two study-feature views are aligned with the profitability model: the same wallets and markets, and the model's 5 wallet-history features as the behaviour space, with their own PCA axes (fitted on the 16,511 confirmed-market wallets). Each view rebuilds the alpha shape from its own wallets. Built from polymarket_wallets.csv (v0.2) with AlphaRichness; MST computed from Delaunay edges. Axis names are read from the PCA loadings.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<script src="wallet_data.js"></script>
+<script>
+(function(){
+const D = window.WALLET_DATA;
+const $ = id => document.getElementById(id);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt$ = v => v >= 1e6 ? "$" + (v/1e6).toFixed(1) + "M" : v >= 1e3 ? "$" + (v/1e3).toFixed(1) + "k" : "$" + Math.round(v);
+const pct = v => (100*v).toFixed(0) + "%";
+const med = a => { const s = a.slice().sort((x,y)=>x-y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m-1]+s[m])/2; };
+const pick = (arr, idx) => idx.map(i => arr[i]);
+
+
+// ---------- per-view axes (views can use different features) ----------
+function renderAxes(){
+  const ve = S.variance || D.variance, at = S.axis_text || D.axis_text;
+  $("featLabel").textContent = S.feature_label || D.feature_label;
+  $("axes").innerHTML = ["PC1","PC2","PC3"].map((pc,j) =>
+    `<div><b>${pc} · ${pct(ve[j].variance_explained)}</b><br>− ${at[pc][0]}<br>+ ${at[pc][1]}</div>`).join("");
+}
+
+// ---------- view state ----------
+let view = D.view_order[0], S, P, idxOut, idxIn, hoverOut, hoverIn;
+$("viewSwitch").innerHTML = D.view_order.map(v => `<button type="button" data-view="${v}" aria-pressed="false">${D.sets[v].title}</button>`).join("");
+$("viewSwitch").addEventListener("click", e => { const b = e.target.closest("button"); if (b && b.dataset.view !== view){ view = b.dataset.view; loadView(); } });
+
+function hover(i){
+  const st = P.study ? `confirmed markets: ${P.study.tr[i]} trades · ${P.study.mk[i]} markets<br>` +
+    `bought ${fmt$(P.study.bd[i])} · HHI ${P.study.hhi[i] == null ? "–" : P.study.hhi[i].toFixed(2)} · avg buy ${P.study.ab[i] == null ? "–" : fmt$(P.study.ab[i])}<br>` : "";
+  return `<b>${P.w[i]}…</b>${P.o[i] ? "  · outlier" : ""}<br>` + st +
+    `volume ${fmt$(P.vol[i])} · avg bet ${fmt$(P.bet[i])}<br>` +
+    `avg buy price ${P.px[i].toFixed(2)} · long shots ${pct(P.ls[i])}<br>` +
+    `${P.p[i] ? "profitable" : "not profitable"} · ROI ${(100*P.roi[i]).toFixed(0)}%<br>` +
+    `${P.pol[i] ? "mostly politics/other" : "mostly sports/crypto/weather"}`;
+}
+
+function loadView(){
+  S = D.sets[view]; P = S.points;
+  idxOut = []; idxIn = [];
+  for (let i = 0; i < P.x.length; i++) (P.o[i] ? idxOut : idxIn).push(i);
+  hoverOut = idxOut.map(hover); hoverIn = idxIn.map(hover);
+  [...$("viewSwitch").children].forEach(b => b.setAttribute("aria-pressed", b.dataset.view === view));
+  $("viewNote").textContent = S.note || "";
+  $("k").textContent = S.k;
+  // "profitable" colouring is uninformative when every wallet is profitable
+  const prof = $("colorBy").querySelector('option[value="profit"]');
+  prof.disabled = !!S.all_profitable; if (prof.disabled && $("colorBy").value === "profit") $("colorBy").value = "outlier";
+  renderAxes(); renderStats(); renderEvidence(); draw();
+}
+
+function renderStats(){
+  const share = idx => idx.filter(i => P.ls[i] > 0.5).length / idx.length;
+  $("stats").innerHTML = [
+    ["o", S.n_outliers.toLocaleString(), `outliers of ${S.n_wallets.toLocaleString()} wallets (${(100*S.n_outliers/S.n_wallets).toFixed(1)}%)`],
+    ["", fmt$(med(pick(P.vol, idxOut))) + " / " + fmt$(med(pick(P.vol, idxIn))), "median volume, outliers / rest"],
+    ["", fmt$(med(pick(P.bet, idxOut))) + " / " + fmt$(med(pick(P.bet, idxIn))), "median bet size, outliers / rest"],
+    ["", pct(share(idxOut)) + " / " + pct(share(idxIn)), "mostly long shots, outliers / rest"]
+  ].map(([c,b,t]) => `<span class="${c}"><b>${b}</b>${t}</span>`).join("");
+}
+
+// ---------- 3D ----------
+function scaleColours(){ return [[0, css("--dot")], [0.5, css("--shape")], [1, css("--outlier")]]; }
+function colourSpec(mode){
+  const out = css("--outlier"), dot = css("--dot"), good = css("--good"), shape = css("--shape");
+  if (mode === "outlier") return {color: i => P.o[i] ? out : dot, legend: [[out,"Outlier (left out of shape)"],[dot,"Inside the shape"]]};
+  if (mode === "profit")  return {color: i => P.p[i] ? good : out, legend: [[good,"Profitable"],[out,"Not profitable"]]};
+  if (mode === "market")  return {color: i => P.pol[i] ? out : shape, legend: [[out,"Mostly politics / other"],[shape,"Mostly sports / crypto / weather"]]};
+  if (mode === "longshot") return {scale: P.ls, cmin: 0, cmax: 1, title: "Long-shot share", ticks: ["0%","50%","100%"]};
+  if (mode === "bet") return {scale: P.bet.map(v => Math.log10(Math.max(v, 0.01))), cmin: -1, cmax: 4, title: "Average bet (log)", ticks: ["$0.1","$100","$10k"]};
+}
+
+function traces(){
+  const spec = colourSpec($("colorBy").value);
+  const pointTrace = (idx, txt, size, name, opacity) => {
+    const t = {type: "scatter3d", mode: "markers", name, x: pick(P.x, idx), y: pick(P.y, idx), z: pick(P.z, idx),
+      text: txt, hovertemplate: "%{text}<extra></extra>", marker: {size, opacity, line: {width: 0}}};
+    if (spec.scale){ t.marker.color = pick(spec.scale, idx); t.marker.colorscale = scaleColours(); t.marker.cmin = spec.cmin; t.marker.cmax = spec.cmax; }
+    else t.marker.color = idx.map(spec.color);
+    return t;
+  };
+  const out = [];
+  if ($("showShape").checked) out.push({type: "mesh3d", name: "Alpha shape", x: S.mesh.x, y: S.mesh.y, z: S.mesh.z,
+    i: S.mesh.i, j: S.mesh.j, k: S.mesh.k, color: css("--shape"), opacity: 0.16, flatshading: true, hoverinfo: "skip",
+    lighting: {ambient: 0.9, diffuse: 0.3, specular: 0}});
+  if ($("showInside").checked) out.push(pointTrace(idxIn, hoverIn, 1.4, "Inside the shape", 0.55));
+  if ($("showOut").checked) out.push(pointTrace(idxOut, hoverOut, 3.6, "Outliers", 1));
+  if (spec.legend) $("legend").innerHTML = spec.legend.map(([c,t]) => `<div><span class="sw" style="background:${c}"></span>${t}</div>`).join("") +
+    `<div><span class="sw sq" style="background:${css("--shape")}"></span>Alpha shape</div>`;
+  else $("legend").innerHTML = `<div>${spec.title}</div><div class="bar" style="background:linear-gradient(90deg,${scaleColours().map(c=>c[1]).join(",")})"></div>` +
+    `<div style="display:flex;justify-content:space-between;font:12px var(--mono);color:var(--muted)">${spec.ticks.map(t=>`<span>${t}</span>`).join("")}</div>`;
+  return out;
+}
+
+function layout(){
+  const fg = css("--fg"), line = css("--line"), muted = css("--muted");
+  const ax = t => ({title: {text: t, font: {color: fg, size: 13, family: "IBM Plex Mono, monospace"}}, color: muted,
+    gridcolor: line, zerolinecolor: line, showbackground: false, tickfont: {size: 10}});
+  return {paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", margin: {l: 0, r: 0, t: 0, b: 0},
+    showlegend: false, font: {family: "IBM Plex Sans, sans-serif", color: fg},
+    hoverlabel: {bgcolor: css("--panel"), bordercolor: line, font: {color: fg, size: 12, family: "IBM Plex Sans, sans-serif"}},
+    scene: {xaxis: ax("PC1"), yaxis: ax("PC2"), zaxis: ax("PC3"), aspectmode: "data",
+            camera: {eye: {x: 1.55, y: -1.55, z: 0.75}}},
+    uirevision: "keep"};
+}
+
+let drawn = false;
+function draw(){
+  if (!window.Plotly){ $("plot").innerHTML = '<div class="loading">The 3D library could not load. Check the internet connection and reload the page.</div>'; return; }
+  if (!drawn) $("plot").innerHTML = "";
+  Plotly.react("plot", traces(), layout(), {responsive: true, displaylogo: false});
+  drawn = true;
+}
+["colorBy","showShape","showInside","showOut"].forEach(id => $(id).addEventListener("change", draw));
+new MutationObserver(draw).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
+
+// ---------- evidence ----------
+const modelNames = {log_mean_bet: "Average bet size", log_trades: "Number of trades", log_markets: "Number of markets",
+  longshot_share: "Long-shot share", favourite_share: "Favourite share", hhi: "Market concentration", sell_share: "Share of sells",
+  log_avg_buy: "Avg buy size (confirmed)", log_markets_c: "Markets (confirmed)"};
+
+function renderEvidence(){
+  const G = S.grid.cells, spec = S.grid.spec, sizes = spec.row_labels, longs = spec.col_labels;
+  const maxLift = Math.log(Math.max(...G.map(g => g.lift)) + 1);
+  $("gridRow").textContent = spec.row_title.toLowerCase(); $("gridCol").textContent = spec.col_title.replace(/ \(.*\)$/, "").toLowerCase();
+  const cell = (s,l) => { const g = G.find(r => r.row === s && r.col === l); if (!g) return "<td class='cell'>–</td>";
+    const a = Math.log(g.lift + 1) / maxLift;
+    return `<td class="cell" style="background:color-mix(in srgb, var(--heat-1) ${Math.round(a*70)}%, var(--heat-0))">${g.lift.toFixed(1)}×<small>${g.outliers} / ${g.wallets.toLocaleString()}</small></td>`; };
+  const short = t => { t = t.replace(/ \(.*\)$/, "").replace(/^share of buy money spent on /i, ""); return t[0].toUpperCase() + t.slice(1); };
+  $("grid").innerHTML = `<thead><tr><th>${short(spec.row_title)} ↓ · ${short(spec.col_title)} →</th>${longs.map(l=>`<th style="text-align:center">${l}</th>`).join("")}</tr></thead>` +
+    `<tbody>${sizes.map(s => `<tr><td>${s}</td>${longs.map(l => cell(s,l)).join("")}</tr>`).join("")}</tbody>`;
+
+  const M = S.model.slice().sort((a,b) => b.odds_ratio_per_sd - a.odds_ratio_per_sd);
+  const lo = Math.log(Math.min(0.5, ...M.map(m => m.ci_low)) * 0.9), hi = Math.log(Math.max(...M.map(m => m.ci_high)) * 1.1);
+  const X = v => (Math.log(v) - lo) / (hi - lo) * 100;
+  $("model").innerHTML = M.map(m => `<div class="or-row" style="--one:${X(1)}%"><span>${modelNames[m.term] || m.term}</span>
+    <span class="track"><span class="ci" style="left:${X(m.ci_low)}%;width:${X(m.ci_high)-X(m.ci_low)}%"></span><span class="pt" style="left:${X(m.odds_ratio_per_sd)}%"></span></span>
+    <span class="v">${m.odds_ratio_per_sd.toFixed(2)}×</span></div>`).join("");
+
+  const back = (f, v) => !f.includes("log10") ? v.toFixed(2) : (f.includes("$") ? fmt$(Math.pow(10, v)) : Math.round(Math.pow(10, v)).toString());
+  $("cmp").innerHTML = `<thead><tr><th>Feature</th><th>Outliers</th><th>Rest</th><th>Cliff's δ</th></tr></thead><tbody>` +
+    S.comparison.map(c => `<tr><td>${c.feature.replace(/ \((\$, )?log10\)/, "")}</td><td class="num">${back(c.feature, c.median_outliers)}</td>
+    <td class="num">${back(c.feature, c.median_rest)}</td><td><span class="eff ${c.effect}">${c.cliffs_delta >= 0 ? "+" : ""}${c.cliffs_delta.toFixed(2)} ${c.effect}</span></td></tr>`).join("") + "</tbody>";
+
+  const V = S.versus;
+  if (V){
+    $("vsCard").hidden = false;
+    $("vsTitle").textContent = S.vs_title || "Same outliers elsewhere?";
+    $("vsText").textContent = S.vs_text || `Outliers here compared with the ${V.label}.`;
+    $("vs").innerHTML = `<tbody>
+      <tr><td>Outliers here</td><td class="num">${V.this.toLocaleString()}</td></tr>
+      <tr><td>Outliers in the ${V.label}</td><td class="num">${V.other.toLocaleString()}</td></tr>
+      <tr><td>Outliers in both</td><td class="num">${V.both.toLocaleString()}</td></tr>
+      <tr><td>Share of the ${V.label}'s outliers also flagged here</td><td class="num">${pct(V.share_of_other_kept)}</td></tr>
+      <tr><td>How much more likely those wallets are to be outliers here than a random wallet</td><td class="num">${V.lift_other_in_this.toFixed(0)}×</td></tr>
+      <tr><td>Overlap of the two lists (Jaccard, 0 to 1)</td><td class="num">${V.jaccard.toFixed(2)}</td></tr></tbody>`;
+  } else $("vsCard").hidden = true;
+
+  if (S.robustness){
+    $("robCard").hidden = false;
+    $("rob").innerHTML = `<thead><tr><th>k</th><th>Dropped</th><th>Median bet, out / rest</th><th>Mostly long shots, out / rest</th></tr></thead><tbody>` +
+      S.robustness.map(r => `<tr><td class="num">${r.k}</td><td class="num">${r.points_dropped}</td>
+        <td class="num">${fmt$(r.median_mean_bet_out)} / ${fmt$(r.median_mean_bet_rest)}</td>
+        <td class="num">${pct(r.share_mostly_longshot_out)} / ${pct(r.share_mostly_longshot_rest)}</td></tr>`).join("") + "</tbody>";
+  } else $("robCard").hidden = true;
+}
+
+loadView();
+})();
+</script>

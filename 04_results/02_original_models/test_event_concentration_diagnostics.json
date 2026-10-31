@@ -1,0 +1,10 @@
+{
+  "diagnostic_origin": "post-smoke event-distribution audit; exploratory fixed-prediction weighting sensitivity",
+  "event_proxy_groups": 146,
+  "effective_event_proxy_groups_inverse_hhi": 4.193383135139649,
+  "largest_test_event": "crypto-day-20730",
+  "largest_event_rows": 12601,
+  "largest_event_row_share": 0.4753838608669408,
+  "test_wallets_in_multiple_event_proxies": 2711,
+  "bootstrap_limitation": "Event-only resampling does not resample repeated-wallet dependence across event proxies; intervals descriptive and unstable under proxy independence."
+}
